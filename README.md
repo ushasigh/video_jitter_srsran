@@ -22,8 +22,4 @@ Support
 =======
 
 Mailing list: https://lists.srsran.com/mailman/listinfo/srsran-users
-# video_jitter_srsran
-# video_jitter_srsran_new
-# video_jitter_srsran_new
-# video_jitter_srsran_new
-# video_jitter_srsran
+
