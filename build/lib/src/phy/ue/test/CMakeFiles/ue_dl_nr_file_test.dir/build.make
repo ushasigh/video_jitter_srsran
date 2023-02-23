@@ -60,7 +60,7 @@ include lib/src/phy/ue/test/CMakeFiles/ue_dl_nr_file_test.dir/flags.make
 lib/src/phy/ue/test/CMakeFiles/ue_dl_nr_file_test.dir/ue_dl_nr_file_test.cc.o: lib/src/phy/ue/test/CMakeFiles/ue_dl_nr_file_test.dir/flags.make
 lib/src/phy/ue/test/CMakeFiles/ue_dl_nr_file_test.dir/ue_dl_nr_file_test.cc.o: ../lib/src/phy/ue/test/ue_dl_nr_file_test.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lib/src/phy/ue/test/CMakeFiles/ue_dl_nr_file_test.dir/ue_dl_nr_file_test.cc.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/phy/ue/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ue_dl_nr_file_test.dir/ue_dl_nr_file_test.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/phy/ue/test/ue_dl_nr_file_test.cc
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/phy/ue/test && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ue_dl_nr_file_test.dir/ue_dl_nr_file_test.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/phy/ue/test/ue_dl_nr_file_test.cc
 
 lib/src/phy/ue/test/CMakeFiles/ue_dl_nr_file_test.dir/ue_dl_nr_file_test.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ue_dl_nr_file_test.dir/ue_dl_nr_file_test.cc.i"

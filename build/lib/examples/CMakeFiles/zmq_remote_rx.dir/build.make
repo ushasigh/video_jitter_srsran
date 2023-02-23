@@ -60,7 +60,7 @@ include lib/examples/CMakeFiles/zmq_remote_rx.dir/flags.make
 lib/examples/CMakeFiles/zmq_remote_rx.dir/zmq_remote_rx.c.o: lib/examples/CMakeFiles/zmq_remote_rx.dir/flags.make
 lib/examples/CMakeFiles/zmq_remote_rx.dir/zmq_remote_rx.c.o: ../lib/examples/zmq_remote_rx.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object lib/examples/CMakeFiles/zmq_remote_rx.dir/zmq_remote_rx.c.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/examples && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/zmq_remote_rx.dir/zmq_remote_rx.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/examples/zmq_remote_rx.c
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/examples && /usr/bin/ccache /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/zmq_remote_rx.dir/zmq_remote_rx.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/examples/zmq_remote_rx.c
 
 lib/examples/CMakeFiles/zmq_remote_rx.dir/zmq_remote_rx.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zmq_remote_rx.dir/zmq_remote_rx.c.i"

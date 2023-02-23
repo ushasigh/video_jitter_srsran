@@ -60,7 +60,7 @@ include srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/flags.make
 srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/mac_nr.cc.o: srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/flags.make
 srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/mac_nr.cc.o: ../srsgnb/src/stack/mac/mac_nr.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/mac_nr.cc.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsgnb/src/stack/mac && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsgnb_mac.dir/mac_nr.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsgnb/src/stack/mac/mac_nr.cc
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsgnb/src/stack/mac && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsgnb_mac.dir/mac_nr.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsgnb/src/stack/mac/mac_nr.cc
 
 srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/mac_nr.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srsgnb_mac.dir/mac_nr.cc.i"
@@ -73,7 +73,7 @@ srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/mac_nr.cc.s: cmake_force
 srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/ue_nr.cc.o: srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/flags.make
 srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/ue_nr.cc.o: ../srsgnb/src/stack/mac/ue_nr.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/ue_nr.cc.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsgnb/src/stack/mac && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsgnb_mac.dir/ue_nr.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsgnb/src/stack/mac/ue_nr.cc
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsgnb/src/stack/mac && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsgnb_mac.dir/ue_nr.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsgnb/src/stack/mac/ue_nr.cc
 
 srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/ue_nr.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srsgnb_mac.dir/ue_nr.cc.i"
@@ -86,7 +86,7 @@ srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/ue_nr.cc.s: cmake_force
 srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr.cc.o: srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/flags.make
 srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr.cc.o: ../srsgnb/src/stack/mac/sched_nr.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr.cc.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsgnb/src/stack/mac && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsgnb_mac.dir/sched_nr.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsgnb/src/stack/mac/sched_nr.cc
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsgnb/src/stack/mac && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsgnb_mac.dir/sched_nr.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsgnb/src/stack/mac/sched_nr.cc
 
 srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srsgnb_mac.dir/sched_nr.cc.i"
@@ -99,7 +99,7 @@ srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr.cc.s: cmake_force
 srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr_ue.cc.o: srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/flags.make
 srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr_ue.cc.o: ../srsgnb/src/stack/mac/sched_nr_ue.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr_ue.cc.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsgnb/src/stack/mac && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsgnb_mac.dir/sched_nr_ue.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsgnb/src/stack/mac/sched_nr_ue.cc
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsgnb/src/stack/mac && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsgnb_mac.dir/sched_nr_ue.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsgnb/src/stack/mac/sched_nr_ue.cc
 
 srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr_ue.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srsgnb_mac.dir/sched_nr_ue.cc.i"
@@ -112,7 +112,7 @@ srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr_ue.cc.s: cmake_force
 srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_ue/ue_cfg_manager.cc.o: srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/flags.make
 srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_ue/ue_cfg_manager.cc.o: ../srsgnb/src/stack/mac/sched_ue/ue_cfg_manager.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_ue/ue_cfg_manager.cc.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsgnb/src/stack/mac && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsgnb_mac.dir/sched_ue/ue_cfg_manager.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsgnb/src/stack/mac/sched_ue/ue_cfg_manager.cc
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsgnb/src/stack/mac && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsgnb_mac.dir/sched_ue/ue_cfg_manager.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsgnb/src/stack/mac/sched_ue/ue_cfg_manager.cc
 
 srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_ue/ue_cfg_manager.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srsgnb_mac.dir/sched_ue/ue_cfg_manager.cc.i"
@@ -125,7 +125,7 @@ srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_ue/ue_cfg_manager.cc.s: cma
 srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr_worker.cc.o: srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/flags.make
 srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr_worker.cc.o: ../srsgnb/src/stack/mac/sched_nr_worker.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr_worker.cc.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsgnb/src/stack/mac && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsgnb_mac.dir/sched_nr_worker.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsgnb/src/stack/mac/sched_nr_worker.cc
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsgnb/src/stack/mac && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsgnb_mac.dir/sched_nr_worker.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsgnb/src/stack/mac/sched_nr_worker.cc
 
 srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr_worker.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srsgnb_mac.dir/sched_nr_worker.cc.i"
@@ -138,7 +138,7 @@ srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr_worker.cc.s: cmake_force
 srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr_grant_allocator.cc.o: srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/flags.make
 srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr_grant_allocator.cc.o: ../srsgnb/src/stack/mac/sched_nr_grant_allocator.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr_grant_allocator.cc.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsgnb/src/stack/mac && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsgnb_mac.dir/sched_nr_grant_allocator.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsgnb/src/stack/mac/sched_nr_grant_allocator.cc
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsgnb/src/stack/mac && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsgnb_mac.dir/sched_nr_grant_allocator.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsgnb/src/stack/mac/sched_nr_grant_allocator.cc
 
 srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr_grant_allocator.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srsgnb_mac.dir/sched_nr_grant_allocator.cc.i"
@@ -151,7 +151,7 @@ srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr_grant_allocator.cc.s: cm
 srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr_harq.cc.o: srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/flags.make
 srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr_harq.cc.o: ../srsgnb/src/stack/mac/sched_nr_harq.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr_harq.cc.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsgnb/src/stack/mac && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsgnb_mac.dir/sched_nr_harq.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsgnb/src/stack/mac/sched_nr_harq.cc
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsgnb/src/stack/mac && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsgnb_mac.dir/sched_nr_harq.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsgnb/src/stack/mac/sched_nr_harq.cc
 
 srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr_harq.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srsgnb_mac.dir/sched_nr_harq.cc.i"
@@ -164,7 +164,7 @@ srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr_harq.cc.s: cmake_force
 srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr_pdcch.cc.o: srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/flags.make
 srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr_pdcch.cc.o: ../srsgnb/src/stack/mac/sched_nr_pdcch.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr_pdcch.cc.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsgnb/src/stack/mac && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsgnb_mac.dir/sched_nr_pdcch.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsgnb/src/stack/mac/sched_nr_pdcch.cc
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsgnb/src/stack/mac && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsgnb_mac.dir/sched_nr_pdcch.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsgnb/src/stack/mac/sched_nr_pdcch.cc
 
 srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr_pdcch.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srsgnb_mac.dir/sched_nr_pdcch.cc.i"
@@ -177,7 +177,7 @@ srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr_pdcch.cc.s: cmake_force
 srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr_sch.cc.o: srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/flags.make
 srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr_sch.cc.o: ../srsgnb/src/stack/mac/sched_nr_sch.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr_sch.cc.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsgnb/src/stack/mac && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsgnb_mac.dir/sched_nr_sch.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsgnb/src/stack/mac/sched_nr_sch.cc
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsgnb/src/stack/mac && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsgnb_mac.dir/sched_nr_sch.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsgnb/src/stack/mac/sched_nr_sch.cc
 
 srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr_sch.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srsgnb_mac.dir/sched_nr_sch.cc.i"
@@ -190,7 +190,7 @@ srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr_sch.cc.s: cmake_force
 srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr_cfg.cc.o: srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/flags.make
 srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr_cfg.cc.o: ../srsgnb/src/stack/mac/sched_nr_cfg.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr_cfg.cc.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsgnb/src/stack/mac && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsgnb_mac.dir/sched_nr_cfg.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsgnb/src/stack/mac/sched_nr_cfg.cc
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsgnb/src/stack/mac && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsgnb_mac.dir/sched_nr_cfg.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsgnb/src/stack/mac/sched_nr_cfg.cc
 
 srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr_cfg.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srsgnb_mac.dir/sched_nr_cfg.cc.i"
@@ -203,7 +203,7 @@ srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr_cfg.cc.s: cmake_force
 srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr_helpers.cc.o: srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/flags.make
 srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr_helpers.cc.o: ../srsgnb/src/stack/mac/sched_nr_helpers.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr_helpers.cc.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsgnb/src/stack/mac && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsgnb_mac.dir/sched_nr_helpers.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsgnb/src/stack/mac/sched_nr_helpers.cc
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsgnb/src/stack/mac && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsgnb_mac.dir/sched_nr_helpers.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsgnb/src/stack/mac/sched_nr_helpers.cc
 
 srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr_helpers.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srsgnb_mac.dir/sched_nr_helpers.cc.i"
@@ -216,7 +216,7 @@ srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr_helpers.cc.s: cmake_forc
 srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr_bwp.cc.o: srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/flags.make
 srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr_bwp.cc.o: ../srsgnb/src/stack/mac/sched_nr_bwp.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr_bwp.cc.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsgnb/src/stack/mac && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsgnb_mac.dir/sched_nr_bwp.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsgnb/src/stack/mac/sched_nr_bwp.cc
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsgnb/src/stack/mac && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsgnb_mac.dir/sched_nr_bwp.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsgnb/src/stack/mac/sched_nr_bwp.cc
 
 srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr_bwp.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srsgnb_mac.dir/sched_nr_bwp.cc.i"
@@ -229,7 +229,7 @@ srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr_bwp.cc.s: cmake_force
 srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr_rb.cc.o: srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/flags.make
 srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr_rb.cc.o: ../srsgnb/src/stack/mac/sched_nr_rb.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr_rb.cc.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsgnb/src/stack/mac && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsgnb_mac.dir/sched_nr_rb.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsgnb/src/stack/mac/sched_nr_rb.cc
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsgnb/src/stack/mac && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsgnb_mac.dir/sched_nr_rb.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsgnb/src/stack/mac/sched_nr_rb.cc
 
 srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr_rb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srsgnb_mac.dir/sched_nr_rb.cc.i"
@@ -242,7 +242,7 @@ srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr_rb.cc.s: cmake_force
 srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr_time_rr.cc.o: srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/flags.make
 srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr_time_rr.cc.o: ../srsgnb/src/stack/mac/sched_nr_time_rr.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr_time_rr.cc.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsgnb/src/stack/mac && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsgnb_mac.dir/sched_nr_time_rr.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsgnb/src/stack/mac/sched_nr_time_rr.cc
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsgnb/src/stack/mac && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsgnb_mac.dir/sched_nr_time_rr.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsgnb/src/stack/mac/sched_nr_time_rr.cc
 
 srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr_time_rr.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srsgnb_mac.dir/sched_nr_time_rr.cc.i"
@@ -255,7 +255,7 @@ srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr_time_rr.cc.s: cmake_forc
 srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/harq_softbuffer.cc.o: srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/flags.make
 srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/harq_softbuffer.cc.o: ../srsgnb/src/stack/mac/harq_softbuffer.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/harq_softbuffer.cc.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsgnb/src/stack/mac && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsgnb_mac.dir/harq_softbuffer.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsgnb/src/stack/mac/harq_softbuffer.cc
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsgnb/src/stack/mac && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsgnb_mac.dir/harq_softbuffer.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsgnb/src/stack/mac/harq_softbuffer.cc
 
 srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/harq_softbuffer.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srsgnb_mac.dir/harq_softbuffer.cc.i"
@@ -268,7 +268,7 @@ srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/harq_softbuffer.cc.s: cmake_force
 srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr_signalling.cc.o: srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/flags.make
 srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr_signalling.cc.o: ../srsgnb/src/stack/mac/sched_nr_signalling.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr_signalling.cc.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsgnb/src/stack/mac && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsgnb_mac.dir/sched_nr_signalling.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsgnb/src/stack/mac/sched_nr_signalling.cc
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsgnb/src/stack/mac && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsgnb_mac.dir/sched_nr_signalling.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsgnb/src/stack/mac/sched_nr_signalling.cc
 
 srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr_signalling.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srsgnb_mac.dir/sched_nr_signalling.cc.i"
@@ -281,7 +281,7 @@ srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr_signalling.cc.s: cmake_f
 srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr_interface_utils.cc.o: srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/flags.make
 srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr_interface_utils.cc.o: ../srsgnb/src/stack/mac/sched_nr_interface_utils.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr_interface_utils.cc.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsgnb/src/stack/mac && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsgnb_mac.dir/sched_nr_interface_utils.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsgnb/src/stack/mac/sched_nr_interface_utils.cc
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsgnb/src/stack/mac && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsgnb_mac.dir/sched_nr_interface_utils.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsgnb/src/stack/mac/sched_nr_interface_utils.cc
 
 srsgnb/src/stack/mac/CMakeFiles/srsgnb_mac.dir/sched_nr_interface_utils.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srsgnb_mac.dir/sched_nr_interface_utils.cc.i"

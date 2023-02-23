@@ -60,7 +60,7 @@ include srsue/src/phy/CMakeFiles/srsue_phy.dir/flags.make
 srsue/src/phy/CMakeFiles/srsue_phy.dir/lte/cc_worker.cc.o: srsue/src/phy/CMakeFiles/srsue_phy.dir/flags.make
 srsue/src/phy/CMakeFiles/srsue_phy.dir/lte/cc_worker.cc.o: ../srsue/src/phy/lte/cc_worker.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object srsue/src/phy/CMakeFiles/srsue_phy.dir/lte/cc_worker.cc.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsue/src/phy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsue_phy.dir/lte/cc_worker.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsue/src/phy/lte/cc_worker.cc
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsue/src/phy && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsue_phy.dir/lte/cc_worker.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsue/src/phy/lte/cc_worker.cc
 
 srsue/src/phy/CMakeFiles/srsue_phy.dir/lte/cc_worker.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srsue_phy.dir/lte/cc_worker.cc.i"
@@ -73,7 +73,7 @@ srsue/src/phy/CMakeFiles/srsue_phy.dir/lte/cc_worker.cc.s: cmake_force
 srsue/src/phy/CMakeFiles/srsue_phy.dir/lte/sf_worker.cc.o: srsue/src/phy/CMakeFiles/srsue_phy.dir/flags.make
 srsue/src/phy/CMakeFiles/srsue_phy.dir/lte/sf_worker.cc.o: ../srsue/src/phy/lte/sf_worker.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object srsue/src/phy/CMakeFiles/srsue_phy.dir/lte/sf_worker.cc.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsue/src/phy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsue_phy.dir/lte/sf_worker.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsue/src/phy/lte/sf_worker.cc
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsue/src/phy && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsue_phy.dir/lte/sf_worker.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsue/src/phy/lte/sf_worker.cc
 
 srsue/src/phy/CMakeFiles/srsue_phy.dir/lte/sf_worker.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srsue_phy.dir/lte/sf_worker.cc.i"
@@ -86,7 +86,7 @@ srsue/src/phy/CMakeFiles/srsue_phy.dir/lte/sf_worker.cc.s: cmake_force
 srsue/src/phy/CMakeFiles/srsue_phy.dir/lte/worker_pool.cc.o: srsue/src/phy/CMakeFiles/srsue_phy.dir/flags.make
 srsue/src/phy/CMakeFiles/srsue_phy.dir/lte/worker_pool.cc.o: ../srsue/src/phy/lte/worker_pool.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object srsue/src/phy/CMakeFiles/srsue_phy.dir/lte/worker_pool.cc.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsue/src/phy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsue_phy.dir/lte/worker_pool.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsue/src/phy/lte/worker_pool.cc
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsue/src/phy && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsue_phy.dir/lte/worker_pool.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsue/src/phy/lte/worker_pool.cc
 
 srsue/src/phy/CMakeFiles/srsue_phy.dir/lte/worker_pool.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srsue_phy.dir/lte/worker_pool.cc.i"
@@ -99,7 +99,7 @@ srsue/src/phy/CMakeFiles/srsue_phy.dir/lte/worker_pool.cc.s: cmake_force
 srsue/src/phy/CMakeFiles/srsue_phy.dir/nr/cc_worker.cc.o: srsue/src/phy/CMakeFiles/srsue_phy.dir/flags.make
 srsue/src/phy/CMakeFiles/srsue_phy.dir/nr/cc_worker.cc.o: ../srsue/src/phy/nr/cc_worker.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object srsue/src/phy/CMakeFiles/srsue_phy.dir/nr/cc_worker.cc.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsue/src/phy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsue_phy.dir/nr/cc_worker.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsue/src/phy/nr/cc_worker.cc
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsue/src/phy && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsue_phy.dir/nr/cc_worker.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsue/src/phy/nr/cc_worker.cc
 
 srsue/src/phy/CMakeFiles/srsue_phy.dir/nr/cc_worker.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srsue_phy.dir/nr/cc_worker.cc.i"
@@ -112,7 +112,7 @@ srsue/src/phy/CMakeFiles/srsue_phy.dir/nr/cc_worker.cc.s: cmake_force
 srsue/src/phy/CMakeFiles/srsue_phy.dir/nr/cell_search.cc.o: srsue/src/phy/CMakeFiles/srsue_phy.dir/flags.make
 srsue/src/phy/CMakeFiles/srsue_phy.dir/nr/cell_search.cc.o: ../srsue/src/phy/nr/cell_search.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object srsue/src/phy/CMakeFiles/srsue_phy.dir/nr/cell_search.cc.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsue/src/phy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsue_phy.dir/nr/cell_search.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsue/src/phy/nr/cell_search.cc
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsue/src/phy && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsue_phy.dir/nr/cell_search.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsue/src/phy/nr/cell_search.cc
 
 srsue/src/phy/CMakeFiles/srsue_phy.dir/nr/cell_search.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srsue_phy.dir/nr/cell_search.cc.i"
@@ -125,7 +125,7 @@ srsue/src/phy/CMakeFiles/srsue_phy.dir/nr/cell_search.cc.s: cmake_force
 srsue/src/phy/CMakeFiles/srsue_phy.dir/nr/sf_worker.cc.o: srsue/src/phy/CMakeFiles/srsue_phy.dir/flags.make
 srsue/src/phy/CMakeFiles/srsue_phy.dir/nr/sf_worker.cc.o: ../srsue/src/phy/nr/sf_worker.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object srsue/src/phy/CMakeFiles/srsue_phy.dir/nr/sf_worker.cc.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsue/src/phy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsue_phy.dir/nr/sf_worker.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsue/src/phy/nr/sf_worker.cc
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsue/src/phy && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsue_phy.dir/nr/sf_worker.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsue/src/phy/nr/sf_worker.cc
 
 srsue/src/phy/CMakeFiles/srsue_phy.dir/nr/sf_worker.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srsue_phy.dir/nr/sf_worker.cc.i"
@@ -138,7 +138,7 @@ srsue/src/phy/CMakeFiles/srsue_phy.dir/nr/sf_worker.cc.s: cmake_force
 srsue/src/phy/CMakeFiles/srsue_phy.dir/nr/slot_sync.cc.o: srsue/src/phy/CMakeFiles/srsue_phy.dir/flags.make
 srsue/src/phy/CMakeFiles/srsue_phy.dir/nr/slot_sync.cc.o: ../srsue/src/phy/nr/slot_sync.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object srsue/src/phy/CMakeFiles/srsue_phy.dir/nr/slot_sync.cc.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsue/src/phy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsue_phy.dir/nr/slot_sync.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsue/src/phy/nr/slot_sync.cc
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsue/src/phy && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsue_phy.dir/nr/slot_sync.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsue/src/phy/nr/slot_sync.cc
 
 srsue/src/phy/CMakeFiles/srsue_phy.dir/nr/slot_sync.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srsue_phy.dir/nr/slot_sync.cc.i"
@@ -151,7 +151,7 @@ srsue/src/phy/CMakeFiles/srsue_phy.dir/nr/slot_sync.cc.s: cmake_force
 srsue/src/phy/CMakeFiles/srsue_phy.dir/nr/worker_pool.cc.o: srsue/src/phy/CMakeFiles/srsue_phy.dir/flags.make
 srsue/src/phy/CMakeFiles/srsue_phy.dir/nr/worker_pool.cc.o: ../srsue/src/phy/nr/worker_pool.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object srsue/src/phy/CMakeFiles/srsue_phy.dir/nr/worker_pool.cc.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsue/src/phy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsue_phy.dir/nr/worker_pool.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsue/src/phy/nr/worker_pool.cc
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsue/src/phy && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsue_phy.dir/nr/worker_pool.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsue/src/phy/nr/worker_pool.cc
 
 srsue/src/phy/CMakeFiles/srsue_phy.dir/nr/worker_pool.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srsue_phy.dir/nr/worker_pool.cc.i"
@@ -164,7 +164,7 @@ srsue/src/phy/CMakeFiles/srsue_phy.dir/nr/worker_pool.cc.s: cmake_force
 srsue/src/phy/CMakeFiles/srsue_phy.dir/phy.cc.o: srsue/src/phy/CMakeFiles/srsue_phy.dir/flags.make
 srsue/src/phy/CMakeFiles/srsue_phy.dir/phy.cc.o: ../srsue/src/phy/phy.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object srsue/src/phy/CMakeFiles/srsue_phy.dir/phy.cc.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsue/src/phy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsue_phy.dir/phy.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsue/src/phy/phy.cc
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsue/src/phy && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsue_phy.dir/phy.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsue/src/phy/phy.cc
 
 srsue/src/phy/CMakeFiles/srsue_phy.dir/phy.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srsue_phy.dir/phy.cc.i"
@@ -177,7 +177,7 @@ srsue/src/phy/CMakeFiles/srsue_phy.dir/phy.cc.s: cmake_force
 srsue/src/phy/CMakeFiles/srsue_phy.dir/phy_common.cc.o: srsue/src/phy/CMakeFiles/srsue_phy.dir/flags.make
 srsue/src/phy/CMakeFiles/srsue_phy.dir/phy_common.cc.o: ../srsue/src/phy/phy_common.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object srsue/src/phy/CMakeFiles/srsue_phy.dir/phy_common.cc.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsue/src/phy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsue_phy.dir/phy_common.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsue/src/phy/phy_common.cc
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsue/src/phy && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsue_phy.dir/phy_common.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsue/src/phy/phy_common.cc
 
 srsue/src/phy/CMakeFiles/srsue_phy.dir/phy_common.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srsue_phy.dir/phy_common.cc.i"
@@ -190,7 +190,7 @@ srsue/src/phy/CMakeFiles/srsue_phy.dir/phy_common.cc.s: cmake_force
 srsue/src/phy/CMakeFiles/srsue_phy.dir/phy_nr_sa.cc.o: srsue/src/phy/CMakeFiles/srsue_phy.dir/flags.make
 srsue/src/phy/CMakeFiles/srsue_phy.dir/phy_nr_sa.cc.o: ../srsue/src/phy/phy_nr_sa.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object srsue/src/phy/CMakeFiles/srsue_phy.dir/phy_nr_sa.cc.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsue/src/phy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsue_phy.dir/phy_nr_sa.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsue/src/phy/phy_nr_sa.cc
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsue/src/phy && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsue_phy.dir/phy_nr_sa.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsue/src/phy/phy_nr_sa.cc
 
 srsue/src/phy/CMakeFiles/srsue_phy.dir/phy_nr_sa.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srsue_phy.dir/phy_nr_sa.cc.i"
@@ -203,7 +203,7 @@ srsue/src/phy/CMakeFiles/srsue_phy.dir/phy_nr_sa.cc.s: cmake_force
 srsue/src/phy/CMakeFiles/srsue_phy.dir/prach.cc.o: srsue/src/phy/CMakeFiles/srsue_phy.dir/flags.make
 srsue/src/phy/CMakeFiles/srsue_phy.dir/prach.cc.o: ../srsue/src/phy/prach.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object srsue/src/phy/CMakeFiles/srsue_phy.dir/prach.cc.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsue/src/phy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsue_phy.dir/prach.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsue/src/phy/prach.cc
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsue/src/phy && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsue_phy.dir/prach.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsue/src/phy/prach.cc
 
 srsue/src/phy/CMakeFiles/srsue_phy.dir/prach.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srsue_phy.dir/prach.cc.i"
@@ -216,7 +216,7 @@ srsue/src/phy/CMakeFiles/srsue_phy.dir/prach.cc.s: cmake_force
 srsue/src/phy/CMakeFiles/srsue_phy.dir/scell/intra_measure_base.cc.o: srsue/src/phy/CMakeFiles/srsue_phy.dir/flags.make
 srsue/src/phy/CMakeFiles/srsue_phy.dir/scell/intra_measure_base.cc.o: ../srsue/src/phy/scell/intra_measure_base.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object srsue/src/phy/CMakeFiles/srsue_phy.dir/scell/intra_measure_base.cc.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsue/src/phy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsue_phy.dir/scell/intra_measure_base.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsue/src/phy/scell/intra_measure_base.cc
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsue/src/phy && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsue_phy.dir/scell/intra_measure_base.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsue/src/phy/scell/intra_measure_base.cc
 
 srsue/src/phy/CMakeFiles/srsue_phy.dir/scell/intra_measure_base.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srsue_phy.dir/scell/intra_measure_base.cc.i"
@@ -229,7 +229,7 @@ srsue/src/phy/CMakeFiles/srsue_phy.dir/scell/intra_measure_base.cc.s: cmake_forc
 srsue/src/phy/CMakeFiles/srsue_phy.dir/scell/intra_measure_lte.cc.o: srsue/src/phy/CMakeFiles/srsue_phy.dir/flags.make
 srsue/src/phy/CMakeFiles/srsue_phy.dir/scell/intra_measure_lte.cc.o: ../srsue/src/phy/scell/intra_measure_lte.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object srsue/src/phy/CMakeFiles/srsue_phy.dir/scell/intra_measure_lte.cc.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsue/src/phy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsue_phy.dir/scell/intra_measure_lte.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsue/src/phy/scell/intra_measure_lte.cc
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsue/src/phy && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsue_phy.dir/scell/intra_measure_lte.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsue/src/phy/scell/intra_measure_lte.cc
 
 srsue/src/phy/CMakeFiles/srsue_phy.dir/scell/intra_measure_lte.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srsue_phy.dir/scell/intra_measure_lte.cc.i"
@@ -242,7 +242,7 @@ srsue/src/phy/CMakeFiles/srsue_phy.dir/scell/intra_measure_lte.cc.s: cmake_force
 srsue/src/phy/CMakeFiles/srsue_phy.dir/scell/intra_measure_nr.cc.o: srsue/src/phy/CMakeFiles/srsue_phy.dir/flags.make
 srsue/src/phy/CMakeFiles/srsue_phy.dir/scell/intra_measure_nr.cc.o: ../srsue/src/phy/scell/intra_measure_nr.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object srsue/src/phy/CMakeFiles/srsue_phy.dir/scell/intra_measure_nr.cc.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsue/src/phy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsue_phy.dir/scell/intra_measure_nr.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsue/src/phy/scell/intra_measure_nr.cc
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsue/src/phy && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsue_phy.dir/scell/intra_measure_nr.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsue/src/phy/scell/intra_measure_nr.cc
 
 srsue/src/phy/CMakeFiles/srsue_phy.dir/scell/intra_measure_nr.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srsue_phy.dir/scell/intra_measure_nr.cc.i"
@@ -255,7 +255,7 @@ srsue/src/phy/CMakeFiles/srsue_phy.dir/scell/intra_measure_nr.cc.s: cmake_force
 srsue/src/phy/CMakeFiles/srsue_phy.dir/scell/scell_recv.cc.o: srsue/src/phy/CMakeFiles/srsue_phy.dir/flags.make
 srsue/src/phy/CMakeFiles/srsue_phy.dir/scell/scell_recv.cc.o: ../srsue/src/phy/scell/scell_recv.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object srsue/src/phy/CMakeFiles/srsue_phy.dir/scell/scell_recv.cc.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsue/src/phy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsue_phy.dir/scell/scell_recv.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsue/src/phy/scell/scell_recv.cc
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsue/src/phy && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsue_phy.dir/scell/scell_recv.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsue/src/phy/scell/scell_recv.cc
 
 srsue/src/phy/CMakeFiles/srsue_phy.dir/scell/scell_recv.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srsue_phy.dir/scell/scell_recv.cc.i"
@@ -268,7 +268,7 @@ srsue/src/phy/CMakeFiles/srsue_phy.dir/scell/scell_recv.cc.s: cmake_force
 srsue/src/phy/CMakeFiles/srsue_phy.dir/search.cc.o: srsue/src/phy/CMakeFiles/srsue_phy.dir/flags.make
 srsue/src/phy/CMakeFiles/srsue_phy.dir/search.cc.o: ../srsue/src/phy/search.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object srsue/src/phy/CMakeFiles/srsue_phy.dir/search.cc.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsue/src/phy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsue_phy.dir/search.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsue/src/phy/search.cc
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsue/src/phy && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsue_phy.dir/search.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsue/src/phy/search.cc
 
 srsue/src/phy/CMakeFiles/srsue_phy.dir/search.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srsue_phy.dir/search.cc.i"
@@ -281,7 +281,7 @@ srsue/src/phy/CMakeFiles/srsue_phy.dir/search.cc.s: cmake_force
 srsue/src/phy/CMakeFiles/srsue_phy.dir/sfn_sync.cc.o: srsue/src/phy/CMakeFiles/srsue_phy.dir/flags.make
 srsue/src/phy/CMakeFiles/srsue_phy.dir/sfn_sync.cc.o: ../srsue/src/phy/sfn_sync.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object srsue/src/phy/CMakeFiles/srsue_phy.dir/sfn_sync.cc.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsue/src/phy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsue_phy.dir/sfn_sync.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsue/src/phy/sfn_sync.cc
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsue/src/phy && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsue_phy.dir/sfn_sync.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsue/src/phy/sfn_sync.cc
 
 srsue/src/phy/CMakeFiles/srsue_phy.dir/sfn_sync.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srsue_phy.dir/sfn_sync.cc.i"
@@ -294,7 +294,7 @@ srsue/src/phy/CMakeFiles/srsue_phy.dir/sfn_sync.cc.s: cmake_force
 srsue/src/phy/CMakeFiles/srsue_phy.dir/sync.cc.o: srsue/src/phy/CMakeFiles/srsue_phy.dir/flags.make
 srsue/src/phy/CMakeFiles/srsue_phy.dir/sync.cc.o: ../srsue/src/phy/sync.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object srsue/src/phy/CMakeFiles/srsue_phy.dir/sync.cc.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsue/src/phy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsue_phy.dir/sync.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsue/src/phy/sync.cc
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsue/src/phy && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsue_phy.dir/sync.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsue/src/phy/sync.cc
 
 srsue/src/phy/CMakeFiles/srsue_phy.dir/sync.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srsue_phy.dir/sync.cc.i"
@@ -307,7 +307,7 @@ srsue/src/phy/CMakeFiles/srsue_phy.dir/sync.cc.s: cmake_force
 srsue/src/phy/CMakeFiles/srsue_phy.dir/sync_sa.cc.o: srsue/src/phy/CMakeFiles/srsue_phy.dir/flags.make
 srsue/src/phy/CMakeFiles/srsue_phy.dir/sync_sa.cc.o: ../srsue/src/phy/sync_sa.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object srsue/src/phy/CMakeFiles/srsue_phy.dir/sync_sa.cc.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsue/src/phy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsue_phy.dir/sync_sa.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsue/src/phy/sync_sa.cc
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsue/src/phy && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsue_phy.dir/sync_sa.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsue/src/phy/sync_sa.cc
 
 srsue/src/phy/CMakeFiles/srsue_phy.dir/sync_sa.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srsue_phy.dir/sync_sa.cc.i"
@@ -320,7 +320,7 @@ srsue/src/phy/CMakeFiles/srsue_phy.dir/sync_sa.cc.s: cmake_force
 srsue/src/phy/CMakeFiles/srsue_phy.dir/test/nr_cell_search_rf.cc.o: srsue/src/phy/CMakeFiles/srsue_phy.dir/flags.make
 srsue/src/phy/CMakeFiles/srsue_phy.dir/test/nr_cell_search_rf.cc.o: ../srsue/src/phy/test/nr_cell_search_rf.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object srsue/src/phy/CMakeFiles/srsue_phy.dir/test/nr_cell_search_rf.cc.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsue/src/phy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsue_phy.dir/test/nr_cell_search_rf.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsue/src/phy/test/nr_cell_search_rf.cc
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsue/src/phy && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsue_phy.dir/test/nr_cell_search_rf.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsue/src/phy/test/nr_cell_search_rf.cc
 
 srsue/src/phy/CMakeFiles/srsue_phy.dir/test/nr_cell_search_rf.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srsue_phy.dir/test/nr_cell_search_rf.cc.i"
@@ -333,7 +333,7 @@ srsue/src/phy/CMakeFiles/srsue_phy.dir/test/nr_cell_search_rf.cc.s: cmake_force
 srsue/src/phy/CMakeFiles/srsue_phy.dir/test/nr_cell_search_test.cc.o: srsue/src/phy/CMakeFiles/srsue_phy.dir/flags.make
 srsue/src/phy/CMakeFiles/srsue_phy.dir/test/nr_cell_search_test.cc.o: ../srsue/src/phy/test/nr_cell_search_test.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object srsue/src/phy/CMakeFiles/srsue_phy.dir/test/nr_cell_search_test.cc.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsue/src/phy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsue_phy.dir/test/nr_cell_search_test.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsue/src/phy/test/nr_cell_search_test.cc
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsue/src/phy && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsue_phy.dir/test/nr_cell_search_test.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsue/src/phy/test/nr_cell_search_test.cc
 
 srsue/src/phy/CMakeFiles/srsue_phy.dir/test/nr_cell_search_test.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srsue_phy.dir/test/nr_cell_search_test.cc.i"
@@ -346,7 +346,7 @@ srsue/src/phy/CMakeFiles/srsue_phy.dir/test/nr_cell_search_test.cc.s: cmake_forc
 srsue/src/phy/CMakeFiles/srsue_phy.dir/test/nr_sa_cell_search_test.cc.o: srsue/src/phy/CMakeFiles/srsue_phy.dir/flags.make
 srsue/src/phy/CMakeFiles/srsue_phy.dir/test/nr_sa_cell_search_test.cc.o: ../srsue/src/phy/test/nr_sa_cell_search_test.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object srsue/src/phy/CMakeFiles/srsue_phy.dir/test/nr_sa_cell_search_test.cc.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsue/src/phy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsue_phy.dir/test/nr_sa_cell_search_test.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsue/src/phy/test/nr_sa_cell_search_test.cc
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsue/src/phy && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsue_phy.dir/test/nr_sa_cell_search_test.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsue/src/phy/test/nr_sa_cell_search_test.cc
 
 srsue/src/phy/CMakeFiles/srsue_phy.dir/test/nr_sa_cell_search_test.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srsue_phy.dir/test/nr_sa_cell_search_test.cc.i"
@@ -359,7 +359,7 @@ srsue/src/phy/CMakeFiles/srsue_phy.dir/test/nr_sa_cell_search_test.cc.s: cmake_f
 srsue/src/phy/CMakeFiles/srsue_phy.dir/test/scell_search_test.cc.o: srsue/src/phy/CMakeFiles/srsue_phy.dir/flags.make
 srsue/src/phy/CMakeFiles/srsue_phy.dir/test/scell_search_test.cc.o: ../srsue/src/phy/test/scell_search_test.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object srsue/src/phy/CMakeFiles/srsue_phy.dir/test/scell_search_test.cc.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsue/src/phy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsue_phy.dir/test/scell_search_test.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsue/src/phy/test/scell_search_test.cc
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsue/src/phy && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsue_phy.dir/test/scell_search_test.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsue/src/phy/test/scell_search_test.cc
 
 srsue/src/phy/CMakeFiles/srsue_phy.dir/test/scell_search_test.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srsue_phy.dir/test/scell_search_test.cc.i"
@@ -372,7 +372,7 @@ srsue/src/phy/CMakeFiles/srsue_phy.dir/test/scell_search_test.cc.s: cmake_force
 srsue/src/phy/CMakeFiles/srsue_phy.dir/test/ue_phy_test.cc.o: srsue/src/phy/CMakeFiles/srsue_phy.dir/flags.make
 srsue/src/phy/CMakeFiles/srsue_phy.dir/test/ue_phy_test.cc.o: ../srsue/src/phy/test/ue_phy_test.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object srsue/src/phy/CMakeFiles/srsue_phy.dir/test/ue_phy_test.cc.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsue/src/phy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsue_phy.dir/test/ue_phy_test.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsue/src/phy/test/ue_phy_test.cc
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsue/src/phy && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsue_phy.dir/test/ue_phy_test.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsue/src/phy/test/ue_phy_test.cc
 
 srsue/src/phy/CMakeFiles/srsue_phy.dir/test/ue_phy_test.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srsue_phy.dir/test/ue_phy_test.cc.i"

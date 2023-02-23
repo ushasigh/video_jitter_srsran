@@ -60,7 +60,7 @@ include lib/src/phy/dft/CMakeFiles/srsran_dft.dir/flags.make
 lib/src/phy/dft/CMakeFiles/srsran_dft.dir/dft_fftw.c.o: lib/src/phy/dft/CMakeFiles/srsran_dft.dir/flags.make
 lib/src/phy/dft/CMakeFiles/srsran_dft.dir/dft_fftw.c.o: ../lib/src/phy/dft/dft_fftw.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object lib/src/phy/dft/CMakeFiles/srsran_dft.dir/dft_fftw.c.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/phy/dft && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srsran_dft.dir/dft_fftw.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/phy/dft/dft_fftw.c
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/phy/dft && /usr/bin/ccache /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srsran_dft.dir/dft_fftw.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/phy/dft/dft_fftw.c
 
 lib/src/phy/dft/CMakeFiles/srsran_dft.dir/dft_fftw.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/srsran_dft.dir/dft_fftw.c.i"
@@ -73,7 +73,7 @@ lib/src/phy/dft/CMakeFiles/srsran_dft.dir/dft_fftw.c.s: cmake_force
 lib/src/phy/dft/CMakeFiles/srsran_dft.dir/dft_precoding.c.o: lib/src/phy/dft/CMakeFiles/srsran_dft.dir/flags.make
 lib/src/phy/dft/CMakeFiles/srsran_dft.dir/dft_precoding.c.o: ../lib/src/phy/dft/dft_precoding.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object lib/src/phy/dft/CMakeFiles/srsran_dft.dir/dft_precoding.c.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/phy/dft && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srsran_dft.dir/dft_precoding.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/phy/dft/dft_precoding.c
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/phy/dft && /usr/bin/ccache /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srsran_dft.dir/dft_precoding.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/phy/dft/dft_precoding.c
 
 lib/src/phy/dft/CMakeFiles/srsran_dft.dir/dft_precoding.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/srsran_dft.dir/dft_precoding.c.i"
@@ -86,7 +86,7 @@ lib/src/phy/dft/CMakeFiles/srsran_dft.dir/dft_precoding.c.s: cmake_force
 lib/src/phy/dft/CMakeFiles/srsran_dft.dir/ofdm.c.o: lib/src/phy/dft/CMakeFiles/srsran_dft.dir/flags.make
 lib/src/phy/dft/CMakeFiles/srsran_dft.dir/ofdm.c.o: ../lib/src/phy/dft/ofdm.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object lib/src/phy/dft/CMakeFiles/srsran_dft.dir/ofdm.c.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/phy/dft && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srsran_dft.dir/ofdm.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/phy/dft/ofdm.c
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/phy/dft && /usr/bin/ccache /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srsran_dft.dir/ofdm.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/phy/dft/ofdm.c
 
 lib/src/phy/dft/CMakeFiles/srsran_dft.dir/ofdm.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/srsran_dft.dir/ofdm.c.i"

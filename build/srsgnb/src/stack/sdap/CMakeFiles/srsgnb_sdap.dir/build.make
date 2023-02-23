@@ -60,7 +60,7 @@ include srsgnb/src/stack/sdap/CMakeFiles/srsgnb_sdap.dir/flags.make
 srsgnb/src/stack/sdap/CMakeFiles/srsgnb_sdap.dir/sdap.cc.o: srsgnb/src/stack/sdap/CMakeFiles/srsgnb_sdap.dir/flags.make
 srsgnb/src/stack/sdap/CMakeFiles/srsgnb_sdap.dir/sdap.cc.o: ../srsgnb/src/stack/sdap/sdap.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object srsgnb/src/stack/sdap/CMakeFiles/srsgnb_sdap.dir/sdap.cc.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsgnb/src/stack/sdap && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsgnb_sdap.dir/sdap.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsgnb/src/stack/sdap/sdap.cc
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsgnb/src/stack/sdap && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsgnb_sdap.dir/sdap.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsgnb/src/stack/sdap/sdap.cc
 
 srsgnb/src/stack/sdap/CMakeFiles/srsgnb_sdap.dir/sdap.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srsgnb_sdap.dir/sdap.cc.i"

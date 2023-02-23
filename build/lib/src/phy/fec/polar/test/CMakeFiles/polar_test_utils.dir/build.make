@@ -60,7 +60,7 @@ include lib/src/phy/fec/polar/test/CMakeFiles/polar_test_utils.dir/flags.make
 lib/src/phy/fec/polar/test/CMakeFiles/polar_test_utils.dir/polar_sets.c.o: lib/src/phy/fec/polar/test/CMakeFiles/polar_test_utils.dir/flags.make
 lib/src/phy/fec/polar/test/CMakeFiles/polar_test_utils.dir/polar_sets.c.o: ../lib/src/phy/fec/polar/test/polar_sets.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object lib/src/phy/fec/polar/test/CMakeFiles/polar_test_utils.dir/polar_sets.c.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/phy/fec/polar/test && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/polar_test_utils.dir/polar_sets.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/phy/fec/polar/test/polar_sets.c
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/phy/fec/polar/test && /usr/bin/ccache /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/polar_test_utils.dir/polar_sets.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/phy/fec/polar/test/polar_sets.c
 
 lib/src/phy/fec/polar/test/CMakeFiles/polar_test_utils.dir/polar_sets.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/polar_test_utils.dir/polar_sets.c.i"
@@ -73,7 +73,7 @@ lib/src/phy/fec/polar/test/CMakeFiles/polar_test_utils.dir/polar_sets.c.s: cmake
 lib/src/phy/fec/polar/test/CMakeFiles/polar_test_utils.dir/subchannel_allocation.c.o: lib/src/phy/fec/polar/test/CMakeFiles/polar_test_utils.dir/flags.make
 lib/src/phy/fec/polar/test/CMakeFiles/polar_test_utils.dir/subchannel_allocation.c.o: ../lib/src/phy/fec/polar/test/subchannel_allocation.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object lib/src/phy/fec/polar/test/CMakeFiles/polar_test_utils.dir/subchannel_allocation.c.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/phy/fec/polar/test && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/polar_test_utils.dir/subchannel_allocation.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/phy/fec/polar/test/subchannel_allocation.c
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/phy/fec/polar/test && /usr/bin/ccache /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/polar_test_utils.dir/subchannel_allocation.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/phy/fec/polar/test/subchannel_allocation.c
 
 lib/src/phy/fec/polar/test/CMakeFiles/polar_test_utils.dir/subchannel_allocation.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/polar_test_utils.dir/subchannel_allocation.c.i"

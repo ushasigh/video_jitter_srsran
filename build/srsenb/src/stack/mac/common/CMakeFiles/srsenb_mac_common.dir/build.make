@@ -60,7 +60,7 @@ include srsenb/src/stack/mac/common/CMakeFiles/srsenb_mac_common.dir/flags.make
 srsenb/src/stack/mac/common/CMakeFiles/srsenb_mac_common.dir/base_ue_buffer_manager.cc.o: srsenb/src/stack/mac/common/CMakeFiles/srsenb_mac_common.dir/flags.make
 srsenb/src/stack/mac/common/CMakeFiles/srsenb_mac_common.dir/base_ue_buffer_manager.cc.o: ../srsenb/src/stack/mac/common/base_ue_buffer_manager.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object srsenb/src/stack/mac/common/CMakeFiles/srsenb_mac_common.dir/base_ue_buffer_manager.cc.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsenb/src/stack/mac/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsenb_mac_common.dir/base_ue_buffer_manager.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsenb/src/stack/mac/common/base_ue_buffer_manager.cc
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsenb/src/stack/mac/common && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsenb_mac_common.dir/base_ue_buffer_manager.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsenb/src/stack/mac/common/base_ue_buffer_manager.cc
 
 srsenb/src/stack/mac/common/CMakeFiles/srsenb_mac_common.dir/base_ue_buffer_manager.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srsenb_mac_common.dir/base_ue_buffer_manager.cc.i"

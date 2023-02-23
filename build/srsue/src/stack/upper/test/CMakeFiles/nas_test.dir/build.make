@@ -60,7 +60,7 @@ include srsue/src/stack/upper/test/CMakeFiles/nas_test.dir/flags.make
 srsue/src/stack/upper/test/CMakeFiles/nas_test.dir/nas_test.cc.o: srsue/src/stack/upper/test/CMakeFiles/nas_test.dir/flags.make
 srsue/src/stack/upper/test/CMakeFiles/nas_test.dir/nas_test.cc.o: ../srsue/src/stack/upper/test/nas_test.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object srsue/src/stack/upper/test/CMakeFiles/nas_test.dir/nas_test.cc.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsue/src/stack/upper/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nas_test.dir/nas_test.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsue/src/stack/upper/test/nas_test.cc
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsue/src/stack/upper/test && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nas_test.dir/nas_test.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsue/src/stack/upper/test/nas_test.cc
 
 srsue/src/stack/upper/test/CMakeFiles/nas_test.dir/nas_test.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nas_test.dir/nas_test.cc.i"

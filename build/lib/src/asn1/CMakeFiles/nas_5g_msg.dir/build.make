@@ -60,7 +60,7 @@ include lib/src/asn1/CMakeFiles/nas_5g_msg.dir/flags.make
 lib/src/asn1/CMakeFiles/nas_5g_msg.dir/nas_5g_msg.cc.o: lib/src/asn1/CMakeFiles/nas_5g_msg.dir/flags.make
 lib/src/asn1/CMakeFiles/nas_5g_msg.dir/nas_5g_msg.cc.o: ../lib/src/asn1/nas_5g_msg.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lib/src/asn1/CMakeFiles/nas_5g_msg.dir/nas_5g_msg.cc.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/asn1 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nas_5g_msg.dir/nas_5g_msg.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/asn1/nas_5g_msg.cc
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/asn1 && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nas_5g_msg.dir/nas_5g_msg.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/asn1/nas_5g_msg.cc
 
 lib/src/asn1/CMakeFiles/nas_5g_msg.dir/nas_5g_msg.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nas_5g_msg.dir/nas_5g_msg.cc.i"
@@ -73,7 +73,7 @@ lib/src/asn1/CMakeFiles/nas_5g_msg.dir/nas_5g_msg.cc.s: cmake_force
 lib/src/asn1/CMakeFiles/nas_5g_msg.dir/nas_5g_ies.cc.o: lib/src/asn1/CMakeFiles/nas_5g_msg.dir/flags.make
 lib/src/asn1/CMakeFiles/nas_5g_msg.dir/nas_5g_ies.cc.o: ../lib/src/asn1/nas_5g_ies.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object lib/src/asn1/CMakeFiles/nas_5g_msg.dir/nas_5g_ies.cc.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/asn1 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nas_5g_msg.dir/nas_5g_ies.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/asn1/nas_5g_ies.cc
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/asn1 && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nas_5g_msg.dir/nas_5g_ies.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/asn1/nas_5g_ies.cc
 
 lib/src/asn1/CMakeFiles/nas_5g_msg.dir/nas_5g_ies.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nas_5g_msg.dir/nas_5g_ies.cc.i"
@@ -86,7 +86,7 @@ lib/src/asn1/CMakeFiles/nas_5g_msg.dir/nas_5g_ies.cc.s: cmake_force
 lib/src/asn1/CMakeFiles/nas_5g_msg.dir/nas_5g_utils.cc.o: lib/src/asn1/CMakeFiles/nas_5g_msg.dir/flags.make
 lib/src/asn1/CMakeFiles/nas_5g_msg.dir/nas_5g_utils.cc.o: ../lib/src/asn1/nas_5g_utils.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object lib/src/asn1/CMakeFiles/nas_5g_msg.dir/nas_5g_utils.cc.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/asn1 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nas_5g_msg.dir/nas_5g_utils.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/asn1/nas_5g_utils.cc
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/asn1 && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nas_5g_msg.dir/nas_5g_utils.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/asn1/nas_5g_utils.cc
 
 lib/src/asn1/CMakeFiles/nas_5g_msg.dir/nas_5g_utils.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nas_5g_msg.dir/nas_5g_utils.cc.i"

@@ -60,7 +60,7 @@ include srsgnb/src/stack/ngap/CMakeFiles/srsgnb_ngap.dir/flags.make
 srsgnb/src/stack/ngap/CMakeFiles/srsgnb_ngap.dir/ngap.cc.o: srsgnb/src/stack/ngap/CMakeFiles/srsgnb_ngap.dir/flags.make
 srsgnb/src/stack/ngap/CMakeFiles/srsgnb_ngap.dir/ngap.cc.o: ../srsgnb/src/stack/ngap/ngap.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object srsgnb/src/stack/ngap/CMakeFiles/srsgnb_ngap.dir/ngap.cc.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsgnb/src/stack/ngap && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsgnb_ngap.dir/ngap.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsgnb/src/stack/ngap/ngap.cc
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsgnb/src/stack/ngap && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsgnb_ngap.dir/ngap.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsgnb/src/stack/ngap/ngap.cc
 
 srsgnb/src/stack/ngap/CMakeFiles/srsgnb_ngap.dir/ngap.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srsgnb_ngap.dir/ngap.cc.i"
@@ -73,7 +73,7 @@ srsgnb/src/stack/ngap/CMakeFiles/srsgnb_ngap.dir/ngap.cc.s: cmake_force
 srsgnb/src/stack/ngap/CMakeFiles/srsgnb_ngap.dir/ngap_ue.cc.o: srsgnb/src/stack/ngap/CMakeFiles/srsgnb_ngap.dir/flags.make
 srsgnb/src/stack/ngap/CMakeFiles/srsgnb_ngap.dir/ngap_ue.cc.o: ../srsgnb/src/stack/ngap/ngap_ue.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object srsgnb/src/stack/ngap/CMakeFiles/srsgnb_ngap.dir/ngap_ue.cc.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsgnb/src/stack/ngap && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsgnb_ngap.dir/ngap_ue.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsgnb/src/stack/ngap/ngap_ue.cc
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsgnb/src/stack/ngap && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsgnb_ngap.dir/ngap_ue.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsgnb/src/stack/ngap/ngap_ue.cc
 
 srsgnb/src/stack/ngap/CMakeFiles/srsgnb_ngap.dir/ngap_ue.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srsgnb_ngap.dir/ngap_ue.cc.i"
@@ -86,7 +86,7 @@ srsgnb/src/stack/ngap/CMakeFiles/srsgnb_ngap.dir/ngap_ue.cc.s: cmake_force
 srsgnb/src/stack/ngap/CMakeFiles/srsgnb_ngap.dir/ngap_ue_proc.cc.o: srsgnb/src/stack/ngap/CMakeFiles/srsgnb_ngap.dir/flags.make
 srsgnb/src/stack/ngap/CMakeFiles/srsgnb_ngap.dir/ngap_ue_proc.cc.o: ../srsgnb/src/stack/ngap/ngap_ue_proc.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object srsgnb/src/stack/ngap/CMakeFiles/srsgnb_ngap.dir/ngap_ue_proc.cc.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsgnb/src/stack/ngap && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsgnb_ngap.dir/ngap_ue_proc.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsgnb/src/stack/ngap/ngap_ue_proc.cc
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsgnb/src/stack/ngap && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsgnb_ngap.dir/ngap_ue_proc.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsgnb/src/stack/ngap/ngap_ue_proc.cc
 
 srsgnb/src/stack/ngap/CMakeFiles/srsgnb_ngap.dir/ngap_ue_proc.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srsgnb_ngap.dir/ngap_ue_proc.cc.i"
@@ -99,7 +99,7 @@ srsgnb/src/stack/ngap/CMakeFiles/srsgnb_ngap.dir/ngap_ue_proc.cc.s: cmake_force
 srsgnb/src/stack/ngap/CMakeFiles/srsgnb_ngap.dir/ngap_ue_bearer_manager.cc.o: srsgnb/src/stack/ngap/CMakeFiles/srsgnb_ngap.dir/flags.make
 srsgnb/src/stack/ngap/CMakeFiles/srsgnb_ngap.dir/ngap_ue_bearer_manager.cc.o: ../srsgnb/src/stack/ngap/ngap_ue_bearer_manager.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object srsgnb/src/stack/ngap/CMakeFiles/srsgnb_ngap.dir/ngap_ue_bearer_manager.cc.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsgnb/src/stack/ngap && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsgnb_ngap.dir/ngap_ue_bearer_manager.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsgnb/src/stack/ngap/ngap_ue_bearer_manager.cc
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsgnb/src/stack/ngap && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsgnb_ngap.dir/ngap_ue_bearer_manager.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsgnb/src/stack/ngap/ngap_ue_bearer_manager.cc
 
 srsgnb/src/stack/ngap/CMakeFiles/srsgnb_ngap.dir/ngap_ue_bearer_manager.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srsgnb_ngap.dir/ngap_ue_bearer_manager.cc.i"

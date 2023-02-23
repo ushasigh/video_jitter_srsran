@@ -60,7 +60,7 @@ include srsenb/src/stack/upper/CMakeFiles/srsenb_upper.dir/flags.make
 srsenb/src/stack/upper/CMakeFiles/srsenb_upper.dir/gtpu.cc.o: srsenb/src/stack/upper/CMakeFiles/srsenb_upper.dir/flags.make
 srsenb/src/stack/upper/CMakeFiles/srsenb_upper.dir/gtpu.cc.o: ../srsenb/src/stack/upper/gtpu.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object srsenb/src/stack/upper/CMakeFiles/srsenb_upper.dir/gtpu.cc.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsenb/src/stack/upper && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsenb_upper.dir/gtpu.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsenb/src/stack/upper/gtpu.cc
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsenb/src/stack/upper && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsenb_upper.dir/gtpu.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsenb/src/stack/upper/gtpu.cc
 
 srsenb/src/stack/upper/CMakeFiles/srsenb_upper.dir/gtpu.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srsenb_upper.dir/gtpu.cc.i"
@@ -73,7 +73,7 @@ srsenb/src/stack/upper/CMakeFiles/srsenb_upper.dir/gtpu.cc.s: cmake_force
 srsenb/src/stack/upper/CMakeFiles/srsenb_upper.dir/pdcp.cc.o: srsenb/src/stack/upper/CMakeFiles/srsenb_upper.dir/flags.make
 srsenb/src/stack/upper/CMakeFiles/srsenb_upper.dir/pdcp.cc.o: ../srsenb/src/stack/upper/pdcp.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object srsenb/src/stack/upper/CMakeFiles/srsenb_upper.dir/pdcp.cc.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsenb/src/stack/upper && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsenb_upper.dir/pdcp.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsenb/src/stack/upper/pdcp.cc
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsenb/src/stack/upper && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsenb_upper.dir/pdcp.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsenb/src/stack/upper/pdcp.cc
 
 srsenb/src/stack/upper/CMakeFiles/srsenb_upper.dir/pdcp.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srsenb_upper.dir/pdcp.cc.i"
@@ -86,7 +86,7 @@ srsenb/src/stack/upper/CMakeFiles/srsenb_upper.dir/pdcp.cc.s: cmake_force
 srsenb/src/stack/upper/CMakeFiles/srsenb_upper.dir/rlc.cc.o: srsenb/src/stack/upper/CMakeFiles/srsenb_upper.dir/flags.make
 srsenb/src/stack/upper/CMakeFiles/srsenb_upper.dir/rlc.cc.o: ../srsenb/src/stack/upper/rlc.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object srsenb/src/stack/upper/CMakeFiles/srsenb_upper.dir/rlc.cc.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsenb/src/stack/upper && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsenb_upper.dir/rlc.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsenb/src/stack/upper/rlc.cc
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsenb/src/stack/upper && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsenb_upper.dir/rlc.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsenb/src/stack/upper/rlc.cc
 
 srsenb/src/stack/upper/CMakeFiles/srsenb_upper.dir/rlc.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srsenb_upper.dir/rlc.cc.i"

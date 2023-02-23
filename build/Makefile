@@ -1932,6 +1932,19 @@ srsran_rf_zmq/fast:
 .PHONY : srsran_rf_zmq/fast
 
 #=============================================================================
+# Target rules for targets named srsran_rf_soapy
+
+# Build rule for target.
+srsran_rf_soapy: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 srsran_rf_soapy
+.PHONY : srsran_rf_soapy
+
+# fast build rule for target.
+srsran_rf_soapy/fast:
+	$(MAKE) -f lib/src/phy/rf/CMakeFiles/srsran_rf_soapy.dir/build.make lib/src/phy/rf/CMakeFiles/srsran_rf_soapy.dir/build
+.PHONY : srsran_rf_soapy/fast
+
+#=============================================================================
 # Target rules for targets named srsran_rf_object
 
 # Build rule for target.
@@ -5304,6 +5317,7 @@ help:
 	@echo "... srsran_rf_utils"
 	@echo "... srsran_rf_uhd"
 	@echo "... srsran_rf_zmq"
+	@echo "... srsran_rf_soapy"
 	@echo "... srsran_rf_object"
 	@echo "... srsran_rf"
 	@echo "... rf_zmq_test"

@@ -60,7 +60,7 @@ include lib/src/phy/resampling/test/CMakeFiles/resampler_test.dir/flags.make
 lib/src/phy/resampling/test/CMakeFiles/resampler_test.dir/resampler_test.c.o: lib/src/phy/resampling/test/CMakeFiles/resampler_test.dir/flags.make
 lib/src/phy/resampling/test/CMakeFiles/resampler_test.dir/resampler_test.c.o: ../lib/src/phy/resampling/test/resampler_test.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object lib/src/phy/resampling/test/CMakeFiles/resampler_test.dir/resampler_test.c.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/phy/resampling/test && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/resampler_test.dir/resampler_test.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/phy/resampling/test/resampler_test.c
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/phy/resampling/test && /usr/bin/ccache /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/resampler_test.dir/resampler_test.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/phy/resampling/test/resampler_test.c
 
 lib/src/phy/resampling/test/CMakeFiles/resampler_test.dir/resampler_test.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/resampler_test.dir/resampler_test.c.i"

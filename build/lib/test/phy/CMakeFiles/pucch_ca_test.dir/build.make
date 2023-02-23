@@ -60,7 +60,7 @@ include lib/test/phy/CMakeFiles/pucch_ca_test.dir/flags.make
 lib/test/phy/CMakeFiles/pucch_ca_test.dir/pucch_ca_test.c.o: lib/test/phy/CMakeFiles/pucch_ca_test.dir/flags.make
 lib/test/phy/CMakeFiles/pucch_ca_test.dir/pucch_ca_test.c.o: ../lib/test/phy/pucch_ca_test.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object lib/test/phy/CMakeFiles/pucch_ca_test.dir/pucch_ca_test.c.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/test/phy && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pucch_ca_test.dir/pucch_ca_test.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/test/phy/pucch_ca_test.c
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/test/phy && /usr/bin/ccache /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pucch_ca_test.dir/pucch_ca_test.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/test/phy/pucch_ca_test.c
 
 lib/test/phy/CMakeFiles/pucch_ca_test.dir/pucch_ca_test.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pucch_ca_test.dir/pucch_ca_test.c.i"

@@ -60,7 +60,7 @@ include srsenb/src/stack/CMakeFiles/srsenb_stack.dir/flags.make
 srsenb/src/stack/CMakeFiles/srsenb_stack.dir/enb_stack_lte.cc.o: srsenb/src/stack/CMakeFiles/srsenb_stack.dir/flags.make
 srsenb/src/stack/CMakeFiles/srsenb_stack.dir/enb_stack_lte.cc.o: ../srsenb/src/stack/enb_stack_lte.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object srsenb/src/stack/CMakeFiles/srsenb_stack.dir/enb_stack_lte.cc.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsenb/src/stack && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsenb_stack.dir/enb_stack_lte.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsenb/src/stack/enb_stack_lte.cc
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsenb/src/stack && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsenb_stack.dir/enb_stack_lte.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsenb/src/stack/enb_stack_lte.cc
 
 srsenb/src/stack/CMakeFiles/srsenb_stack.dir/enb_stack_lte.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srsenb_stack.dir/enb_stack_lte.cc.i"

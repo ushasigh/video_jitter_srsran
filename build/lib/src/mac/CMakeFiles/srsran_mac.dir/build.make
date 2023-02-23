@@ -60,7 +60,7 @@ include lib/src/mac/CMakeFiles/srsran_mac.dir/flags.make
 lib/src/mac/CMakeFiles/srsran_mac.dir/pdu.cc.o: lib/src/mac/CMakeFiles/srsran_mac.dir/flags.make
 lib/src/mac/CMakeFiles/srsran_mac.dir/pdu.cc.o: ../lib/src/mac/pdu.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lib/src/mac/CMakeFiles/srsran_mac.dir/pdu.cc.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/mac && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsran_mac.dir/pdu.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/mac/pdu.cc
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/mac && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsran_mac.dir/pdu.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/mac/pdu.cc
 
 lib/src/mac/CMakeFiles/srsran_mac.dir/pdu.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srsran_mac.dir/pdu.cc.i"
@@ -73,7 +73,7 @@ lib/src/mac/CMakeFiles/srsran_mac.dir/pdu.cc.s: cmake_force
 lib/src/mac/CMakeFiles/srsran_mac.dir/pdu_queue.cc.o: lib/src/mac/CMakeFiles/srsran_mac.dir/flags.make
 lib/src/mac/CMakeFiles/srsran_mac.dir/pdu_queue.cc.o: ../lib/src/mac/pdu_queue.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object lib/src/mac/CMakeFiles/srsran_mac.dir/pdu_queue.cc.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/mac && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsran_mac.dir/pdu_queue.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/mac/pdu_queue.cc
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/mac && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsran_mac.dir/pdu_queue.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/mac/pdu_queue.cc
 
 lib/src/mac/CMakeFiles/srsran_mac.dir/pdu_queue.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srsran_mac.dir/pdu_queue.cc.i"
@@ -86,7 +86,7 @@ lib/src/mac/CMakeFiles/srsran_mac.dir/pdu_queue.cc.s: cmake_force
 lib/src/mac/CMakeFiles/srsran_mac.dir/mac_sch_pdu_nr.cc.o: lib/src/mac/CMakeFiles/srsran_mac.dir/flags.make
 lib/src/mac/CMakeFiles/srsran_mac.dir/mac_sch_pdu_nr.cc.o: ../lib/src/mac/mac_sch_pdu_nr.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object lib/src/mac/CMakeFiles/srsran_mac.dir/mac_sch_pdu_nr.cc.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/mac && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsran_mac.dir/mac_sch_pdu_nr.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/mac/mac_sch_pdu_nr.cc
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/mac && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsran_mac.dir/mac_sch_pdu_nr.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/mac/mac_sch_pdu_nr.cc
 
 lib/src/mac/CMakeFiles/srsran_mac.dir/mac_sch_pdu_nr.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srsran_mac.dir/mac_sch_pdu_nr.cc.i"
@@ -99,7 +99,7 @@ lib/src/mac/CMakeFiles/srsran_mac.dir/mac_sch_pdu_nr.cc.s: cmake_force
 lib/src/mac/CMakeFiles/srsran_mac.dir/mac_rar_pdu_nr.cc.o: lib/src/mac/CMakeFiles/srsran_mac.dir/flags.make
 lib/src/mac/CMakeFiles/srsran_mac.dir/mac_rar_pdu_nr.cc.o: ../lib/src/mac/mac_rar_pdu_nr.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object lib/src/mac/CMakeFiles/srsran_mac.dir/mac_rar_pdu_nr.cc.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/mac && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsran_mac.dir/mac_rar_pdu_nr.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/mac/mac_rar_pdu_nr.cc
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/mac && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsran_mac.dir/mac_rar_pdu_nr.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/mac/mac_rar_pdu_nr.cc
 
 lib/src/mac/CMakeFiles/srsran_mac.dir/mac_rar_pdu_nr.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srsran_mac.dir/mac_rar_pdu_nr.cc.i"

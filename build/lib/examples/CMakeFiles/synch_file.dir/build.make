@@ -60,7 +60,7 @@ include lib/examples/CMakeFiles/synch_file.dir/flags.make
 lib/examples/CMakeFiles/synch_file.dir/synch_file.c.o: lib/examples/CMakeFiles/synch_file.dir/flags.make
 lib/examples/CMakeFiles/synch_file.dir/synch_file.c.o: ../lib/examples/synch_file.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object lib/examples/CMakeFiles/synch_file.dir/synch_file.c.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/examples && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/synch_file.dir/synch_file.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/examples/synch_file.c
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/examples && /usr/bin/ccache /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/synch_file.dir/synch_file.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/examples/synch_file.c
 
 lib/examples/CMakeFiles/synch_file.dir/synch_file.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/synch_file.dir/synch_file.c.i"

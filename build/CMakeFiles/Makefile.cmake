@@ -560,6 +560,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "lib/src/phy/rf/CMakeFiles/srsran_rf_utils.dir/DependInfo.cmake"
   "lib/src/phy/rf/CMakeFiles/srsran_rf_uhd.dir/DependInfo.cmake"
   "lib/src/phy/rf/CMakeFiles/srsran_rf_zmq.dir/DependInfo.cmake"
+  "lib/src/phy/rf/CMakeFiles/srsran_rf_soapy.dir/DependInfo.cmake"
   "lib/src/phy/rf/CMakeFiles/srsran_rf_object.dir/DependInfo.cmake"
   "lib/src/phy/rf/CMakeFiles/srsran_rf.dir/DependInfo.cmake"
   "lib/src/phy/rf/CMakeFiles/rf_zmq_test.dir/DependInfo.cmake"

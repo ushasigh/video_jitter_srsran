@@ -60,7 +60,7 @@ include srsue/src/test/CMakeFiles/metrics_test.dir/flags.make
 srsue/src/test/CMakeFiles/metrics_test.dir/metrics_test.cc.o: srsue/src/test/CMakeFiles/metrics_test.dir/flags.make
 srsue/src/test/CMakeFiles/metrics_test.dir/metrics_test.cc.o: ../srsue/src/test/metrics_test.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object srsue/src/test/CMakeFiles/metrics_test.dir/metrics_test.cc.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsue/src/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/metrics_test.dir/metrics_test.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsue/src/test/metrics_test.cc
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsue/src/test && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/metrics_test.dir/metrics_test.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsue/src/test/metrics_test.cc
 
 srsue/src/test/CMakeFiles/metrics_test.dir/metrics_test.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/metrics_test.dir/metrics_test.cc.i"
@@ -73,7 +73,7 @@ srsue/src/test/CMakeFiles/metrics_test.dir/metrics_test.cc.s: cmake_force
 srsue/src/test/CMakeFiles/metrics_test.dir/__/metrics_stdout.cc.o: srsue/src/test/CMakeFiles/metrics_test.dir/flags.make
 srsue/src/test/CMakeFiles/metrics_test.dir/__/metrics_stdout.cc.o: ../srsue/src/metrics_stdout.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object srsue/src/test/CMakeFiles/metrics_test.dir/__/metrics_stdout.cc.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsue/src/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/metrics_test.dir/__/metrics_stdout.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsue/src/metrics_stdout.cc
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsue/src/test && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/metrics_test.dir/__/metrics_stdout.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsue/src/metrics_stdout.cc
 
 srsue/src/test/CMakeFiles/metrics_test.dir/__/metrics_stdout.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/metrics_test.dir/__/metrics_stdout.cc.i"
@@ -86,7 +86,7 @@ srsue/src/test/CMakeFiles/metrics_test.dir/__/metrics_stdout.cc.s: cmake_force
 srsue/src/test/CMakeFiles/metrics_test.dir/__/metrics_csv.cc.o: srsue/src/test/CMakeFiles/metrics_test.dir/flags.make
 srsue/src/test/CMakeFiles/metrics_test.dir/__/metrics_csv.cc.o: ../srsue/src/metrics_csv.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object srsue/src/test/CMakeFiles/metrics_test.dir/__/metrics_csv.cc.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsue/src/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/metrics_test.dir/__/metrics_csv.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsue/src/metrics_csv.cc
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsue/src/test && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/metrics_test.dir/__/metrics_csv.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsue/src/metrics_csv.cc
 
 srsue/src/test/CMakeFiles/metrics_test.dir/__/metrics_csv.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/metrics_test.dir/__/metrics_csv.cc.i"

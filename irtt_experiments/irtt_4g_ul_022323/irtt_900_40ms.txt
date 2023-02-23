@@ -1,0 +1,202 @@
+[Connecting] connecting to 172.16.0.2
+[Connecting] connecting to 172.16.0.2
+[Connecting] connecting to 172.16.0.2
+[172.16.0.2:2112] [Connected] connection established
+[172.16.0.2:2112] [WaitForPackets] waiting 596.9ms for final packets
+
+                         Min     Mean   Median      Max  Stddev
+                         ---     ----   ------      ---  ------
+                RTT  21.76ms  35.63ms  37.35ms    199ms  8.15ms
+         send delay  10.77ms  12.31ms  11.82ms  61.41ms  2.35ms
+      receive delay   9.95ms  23.32ms  25.52ms    187ms  7.97ms
+                                                               
+      IPDV (jitter)    805ns   7.45ms   7.04ms  161.1ms  7.83ms
+          send IPDV    137ns   1.22ms    190µs   39.9ms  2.77ms
+       receive IPDV    592ns   8.17ms   7.26ms  161.1ms  7.37ms
+                                                               
+     send call time   24.1µs   44.9µs            60.8µs  2.32µs
+        timer error      1ns   4.28µs             149µs  12.5µs
+  server proc. time   3.36µs      8µs            10.8µs   206ns
+
+                duration: 1m1s (wait 596.9ms)
+   packets sent/received: 1492/1489 (0.20% loss)
+ server packets received: 1489/1492 (0.20%/0.00% loss up/down)
+     bytes sent/received: 1342800/1340100
+       send/receive rate: 179.2 Kbps / 178.8 Kbps
+           packet length: 900 bytes
+             timer stats: 8/1500 (0.53%) missed, 0.01% error
+[Connecting] connecting to 172.16.0.2
+[172.16.0.2:2112] [Connected] connection established
+[172.16.0.2:2112] [WaitForPackets] waiting 182.3ms for final packets
+
+                         Min     Mean   Median      Max   Stddev
+                         ---     ----   ------      ---   ------
+                RTT  13.52ms  35.45ms  44.47ms  60.78ms  11.81ms
+         send delay  10.24ms  11.97ms  11.49ms  19.48ms   1.99ms
+      receive delay   1.93ms  23.48ms  26.21ms  50.21ms  11.55ms
+                                                                
+      IPDV (jitter)   3.12µs  21.52ms  22.29ms     40ms   5.81ms
+          send IPDV      1ns   1.14ms    247µs   8.99ms   2.37ms
+       receive IPDV   34.5µs   21.4ms  22.34ms  39.95ms   5.39ms
+                                                                
+     send call time   36.8µs     44µs            60.8µs   2.71µs
+        timer error      6ns   4.86µs             141µs   10.6µs
+  server proc. time   7.45µs   8.06µs            8.96µs    103ns
+
+                duration: 1m0s (wait 182.3ms)
+   packets sent/received: 1497/1497 (0.00% loss)
+ server packets received: 1497/1497 (0.00%/0.00% loss up/down)
+     bytes sent/received: 1347300/1347300
+       send/receive rate: 179.8 Kbps / 179.8 Kbps
+           packet length: 900 bytes
+             timer stats: 3/1500 (0.20%) missed, 0.01% error
+[Connecting] connecting to 172.16.0.2
+[172.16.0.2:2112] [Connected] connection established
+[172.16.0.2:2112] [WaitForPackets] waiting 181.3ms for final packets
+
+                         Min     Mean   Median      Max   Stddev
+                         ---     ----   ------      ---   ------
+                RTT  13.31ms  34.15ms  44.11ms  60.42ms  11.46ms
+         send delay  10.78ms  11.59ms  11.25ms  19.27ms   1.63ms
+      receive delay   1.68ms  22.56ms  26.01ms  49.46ms  11.22ms
+                                                                
+      IPDV (jitter)   12.1µs  21.66ms  22.29ms  39.26ms   4.99ms
+          send IPDV    273ns    726µs    216µs   8.19ms   1.89ms
+       receive IPDV   15.8µs  21.52ms  22.34ms  39.79ms   4.38ms
+                                                                
+     send call time   21.9µs     44µs             125µs   3.94µs
+        timer error      2ns   5.04µs             192µs   12.2µs
+  server proc. time   2.73µs   8.28µs            17.1µs   1.92µs
+
+                duration: 1m0s (wait 181.3ms)
+   packets sent/received: 1496/1496 (0.00% loss)
+ server packets received: 1496/1496 (0.00%/0.00% loss up/down)
+     bytes sent/received: 1346400/1346400
+       send/receive rate: 179.6 Kbps / 179.6 Kbps
+           packet length: 900 bytes
+             timer stats: 4/1500 (0.27%) missed, 0.01% error
+[Connecting] connecting to 172.16.0.2
+[172.16.0.2:2112] [Connected] connection established
+[172.16.0.2:2112] [WaitForPackets] waiting 157.4ms for final packets
+
+                         Min     Mean   Median      Max  Stddev
+                         ---     ----   ------      ---  ------
+                RTT  21.54ms  35.27ms  37.22ms  52.48ms  5.21ms
+         send delay  11.37ms  13.35ms  11.99ms  20.16ms  3.03ms
+      receive delay   9.67ms  21.92ms  24.78ms   40.7ms  5.32ms
+                                                               
+      IPDV (jitter)    202ns   4.64ms      1ms  29.92ms  6.07ms
+          send IPDV    688ns   2.76ms    229µs   8.42ms  3.64ms
+       receive IPDV    465ns   6.78ms   6.96ms  29.88ms   5.4ms
+                                                               
+     send call time   26.2µs   40.7µs            61.8µs  2.91µs
+        timer error      3ns   30.3µs             208µs  30.7µs
+  server proc. time   7.46µs   8.17µs            10.2µs   147ns
+
+                duration: 1m0s (wait 157.4ms)
+   packets sent/received: 1438/1438 (0.00% loss)
+ server packets received: 1438/1438 (0.00%/0.00% loss up/down)
+     bytes sent/received: 1294200/1294200
+       send/receive rate: 172.7 Kbps / 172.7 Kbps
+           packet length: 900 bytes
+             timer stats: 62/1500 (4.13%) missed, 0.08% error
+[Connecting] connecting to 172.16.0.2
+[172.16.0.2:2112] [Connected] connection established
+[172.16.0.2:2112] [WaitForPackets] waiting 182.7ms for final packets
+
+                         Min     Mean   Median      Max   Stddev
+                         ---     ----   ------      ---   ------
+                RTT   13.6ms  36.31ms  44.62ms  60.89ms  12.48ms
+         send delay  10.87ms  12.27ms  12.19ms  20.39ms   1.55ms
+      receive delay   1.05ms  24.05ms  25.84ms   49.7ms  12.41ms
+                                                                
+      IPDV (jitter)   11.2µs  22.97ms  22.31ms  39.16ms   5.44ms
+          send IPDV    533ns   1.06ms    560µs   8.91ms   1.96ms
+       receive IPDV   5.24µs  22.86ms  22.94ms  39.55ms    5.4ms
+                                                                
+     send call time   18.1µs   41.9µs            61.6µs   3.73µs
+        timer error      5ns   13.3µs             180µs   21.4µs
+  server proc. time   3.19µs      6µs            28.1µs   2.59µs
+
+                duration: 1m0s (wait 182.7ms)
+   packets sent/received: 1479/1479 (0.00% loss)
+ server packets received: 1479/1479 (0.00%/0.00% loss up/down)
+     bytes sent/received: 1331100/1331100
+       send/receive rate: 177.6 Kbps / 177.5 Kbps
+           packet length: 900 bytes
+             timer stats: 21/1500 (1.40%) missed, 0.03% error
+[Connecting] connecting to 172.16.0.2
+[172.16.0.2:2112] [Connected] connection established
+[172.16.0.2:2112] [WaitForPackets] waiting 182.4ms for final packets
+
+                         Min     Mean   Median      Max   Stddev
+                         ---     ----   ------      ---   ------
+                RTT  13.47ms  35.73ms  44.61ms  60.81ms  12.06ms
+         send delay  10.77ms  12.38ms  12.24ms  20.43ms   1.65ms
+      receive delay   1.06ms  23.35ms  25.51ms  49.39ms  11.94ms
+                                                                
+      IPDV (jitter)   32.6µs  22.45ms  22.31ms  39.17ms   5.57ms
+          send IPDV   1.76µs   1.12ms    369µs   9.27ms   2.03ms
+       receive IPDV   40.2µs  22.31ms  22.61ms  40.06ms    5.3ms
+                                                                
+     send call time     37µs   41.6µs            57.9µs   1.59µs
+        timer error      2ns   17.5µs             189µs   26.5µs
+  server proc. time   3.98µs   8.51µs            26.3µs    930ns
+
+                duration: 1m0s (wait 182.4ms)
+   packets sent/received: 1455/1455 (0.00% loss)
+ server packets received: 1455/1455 (0.00%/0.00% loss up/down)
+     bytes sent/received: 1309500/1309500
+       send/receive rate: 174.7 Kbps / 174.7 Kbps
+           packet length: 900 bytes
+             timer stats: 45/1500 (3.00%) missed, 0.04% error
+[Connecting] connecting to 172.16.0.2
+[172.16.0.2:2112] [Connected] connection established
+[172.16.0.2:2112] [WaitForPackets] waiting 180.7ms for final packets
+
+                         Min     Mean   Median      Max   Stddev
+                         ---     ----   ------      ---   ------
+                RTT   12.9ms  34.07ms  43.87ms  60.24ms  11.89ms
+         send delay  10.92ms  12.31ms  11.61ms  20.76ms   1.77ms
+      receive delay   -665µs  21.76ms  25.19ms  48.84ms  11.73ms
+                                                                
+      IPDV (jitter)   7.65µs  22.14ms  22.35ms  40.12ms   5.48ms
+          send IPDV    2.1µs   1.47ms   1.22ms   9.49ms   1.95ms
+       receive IPDV    111µs  21.88ms  22.35ms  41.57ms   5.35ms
+                                                                
+     send call time   13.2µs   39.3µs            69.7µs   4.58µs
+        timer error      6ns   15.6µs             194µs   24.4µs
+  server proc. time   7.47µs   8.36µs            15.5µs    710ns
+
+                duration: 1m0s (wait 180.7ms)
+   packets sent/received: 1472/1472 (0.00% loss)
+ server packets received: 1472/1472 (0.00%/0.00% loss up/down)
+     bytes sent/received: 1324800/1324800
+       send/receive rate: 176.8 Kbps / 176.7 Kbps
+           packet length: 900 bytes
+             timer stats: 28/1500 (1.87%) missed, 0.04% error
+[Connecting] connecting to 172.16.0.2
+[172.16.0.2:2112] [Connected] connection established
+[172.16.0.2:2112] [WaitForPackets] waiting 181.5ms for final packets
+
+                         Min     Mean   Median      Max   Stddev
+                         ---     ----   ------      ---   ------
+                RTT  13.29ms  34.76ms  44.36ms  60.51ms  11.89ms
+         send delay  10.85ms  12.33ms  12.04ms  20.17ms    1.6ms
+      receive delay   1.01ms  22.42ms  25.45ms  48.53ms  11.67ms
+                                                                
+      IPDV (jitter)   2.51µs  22.12ms  22.37ms  39.26ms   5.62ms
+          send IPDV     92ns    799µs    204µs   8.78ms   2.01ms
+       receive IPDV    490ns   21.9ms  22.46ms  39.36ms   5.02ms
+                                                                
+     send call time   20.5µs   41.3µs            92.8µs    5.6µs
+        timer error       0s   21.6µs             201µs   25.2µs
+  server proc. time   7.82µs   8.34µs            16.6µs    480ns
+
+                duration: 1m0s (wait 181.5ms)
+   packets sent/received: 1474/1474 (0.00% loss)
+ server packets received: 1474/1474 (0.00%/0.00% loss up/down)
+     bytes sent/received: 1326600/1326600
+       send/receive rate: 177.0 Kbps / 177.0 Kbps
+           packet length: 900 bytes
+             timer stats: 26/1500 (1.73%) missed, 0.05% error

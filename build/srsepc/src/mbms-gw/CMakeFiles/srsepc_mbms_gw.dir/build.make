@@ -60,7 +60,7 @@ include srsepc/src/mbms-gw/CMakeFiles/srsepc_mbms_gw.dir/flags.make
 srsepc/src/mbms-gw/CMakeFiles/srsepc_mbms_gw.dir/main.cc.o: srsepc/src/mbms-gw/CMakeFiles/srsepc_mbms_gw.dir/flags.make
 srsepc/src/mbms-gw/CMakeFiles/srsepc_mbms_gw.dir/main.cc.o: ../srsepc/src/mbms-gw/main.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object srsepc/src/mbms-gw/CMakeFiles/srsepc_mbms_gw.dir/main.cc.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsepc/src/mbms-gw && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsepc_mbms_gw.dir/main.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsepc/src/mbms-gw/main.cc
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsepc/src/mbms-gw && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsepc_mbms_gw.dir/main.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsepc/src/mbms-gw/main.cc
 
 srsepc/src/mbms-gw/CMakeFiles/srsepc_mbms_gw.dir/main.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srsepc_mbms_gw.dir/main.cc.i"
@@ -73,7 +73,7 @@ srsepc/src/mbms-gw/CMakeFiles/srsepc_mbms_gw.dir/main.cc.s: cmake_force
 srsepc/src/mbms-gw/CMakeFiles/srsepc_mbms_gw.dir/mbms-gw.cc.o: srsepc/src/mbms-gw/CMakeFiles/srsepc_mbms_gw.dir/flags.make
 srsepc/src/mbms-gw/CMakeFiles/srsepc_mbms_gw.dir/mbms-gw.cc.o: ../srsepc/src/mbms-gw/mbms-gw.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object srsepc/src/mbms-gw/CMakeFiles/srsepc_mbms_gw.dir/mbms-gw.cc.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsepc/src/mbms-gw && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsepc_mbms_gw.dir/mbms-gw.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsepc/src/mbms-gw/mbms-gw.cc
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsepc/src/mbms-gw && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsepc_mbms_gw.dir/mbms-gw.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsepc/src/mbms-gw/mbms-gw.cc
 
 srsepc/src/mbms-gw/CMakeFiles/srsepc_mbms_gw.dir/mbms-gw.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srsepc_mbms_gw.dir/mbms-gw.cc.i"

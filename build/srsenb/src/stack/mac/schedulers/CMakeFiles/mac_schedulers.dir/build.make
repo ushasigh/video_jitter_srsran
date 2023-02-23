@@ -60,7 +60,7 @@ include srsenb/src/stack/mac/schedulers/CMakeFiles/mac_schedulers.dir/flags.make
 srsenb/src/stack/mac/schedulers/CMakeFiles/mac_schedulers.dir/sched_base.cc.o: srsenb/src/stack/mac/schedulers/CMakeFiles/mac_schedulers.dir/flags.make
 srsenb/src/stack/mac/schedulers/CMakeFiles/mac_schedulers.dir/sched_base.cc.o: ../srsenb/src/stack/mac/schedulers/sched_base.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object srsenb/src/stack/mac/schedulers/CMakeFiles/mac_schedulers.dir/sched_base.cc.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsenb/src/stack/mac/schedulers && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mac_schedulers.dir/sched_base.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsenb/src/stack/mac/schedulers/sched_base.cc
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsenb/src/stack/mac/schedulers && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mac_schedulers.dir/sched_base.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsenb/src/stack/mac/schedulers/sched_base.cc
 
 srsenb/src/stack/mac/schedulers/CMakeFiles/mac_schedulers.dir/sched_base.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mac_schedulers.dir/sched_base.cc.i"
@@ -73,7 +73,7 @@ srsenb/src/stack/mac/schedulers/CMakeFiles/mac_schedulers.dir/sched_base.cc.s: c
 srsenb/src/stack/mac/schedulers/CMakeFiles/mac_schedulers.dir/sched_time_rr.cc.o: srsenb/src/stack/mac/schedulers/CMakeFiles/mac_schedulers.dir/flags.make
 srsenb/src/stack/mac/schedulers/CMakeFiles/mac_schedulers.dir/sched_time_rr.cc.o: ../srsenb/src/stack/mac/schedulers/sched_time_rr.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object srsenb/src/stack/mac/schedulers/CMakeFiles/mac_schedulers.dir/sched_time_rr.cc.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsenb/src/stack/mac/schedulers && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mac_schedulers.dir/sched_time_rr.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsenb/src/stack/mac/schedulers/sched_time_rr.cc
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsenb/src/stack/mac/schedulers && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mac_schedulers.dir/sched_time_rr.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsenb/src/stack/mac/schedulers/sched_time_rr.cc
 
 srsenb/src/stack/mac/schedulers/CMakeFiles/mac_schedulers.dir/sched_time_rr.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mac_schedulers.dir/sched_time_rr.cc.i"
@@ -86,7 +86,7 @@ srsenb/src/stack/mac/schedulers/CMakeFiles/mac_schedulers.dir/sched_time_rr.cc.s
 srsenb/src/stack/mac/schedulers/CMakeFiles/mac_schedulers.dir/sched_time_pf.cc.o: srsenb/src/stack/mac/schedulers/CMakeFiles/mac_schedulers.dir/flags.make
 srsenb/src/stack/mac/schedulers/CMakeFiles/mac_schedulers.dir/sched_time_pf.cc.o: ../srsenb/src/stack/mac/schedulers/sched_time_pf.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object srsenb/src/stack/mac/schedulers/CMakeFiles/mac_schedulers.dir/sched_time_pf.cc.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsenb/src/stack/mac/schedulers && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mac_schedulers.dir/sched_time_pf.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsenb/src/stack/mac/schedulers/sched_time_pf.cc
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsenb/src/stack/mac/schedulers && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mac_schedulers.dir/sched_time_pf.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsenb/src/stack/mac/schedulers/sched_time_pf.cc
 
 srsenb/src/stack/mac/schedulers/CMakeFiles/mac_schedulers.dir/sched_time_pf.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mac_schedulers.dir/sched_time_pf.cc.i"

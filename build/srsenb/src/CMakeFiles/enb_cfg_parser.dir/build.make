@@ -60,7 +60,7 @@ include srsenb/src/CMakeFiles/enb_cfg_parser.dir/flags.make
 srsenb/src/CMakeFiles/enb_cfg_parser.dir/parser.cc.o: srsenb/src/CMakeFiles/enb_cfg_parser.dir/flags.make
 srsenb/src/CMakeFiles/enb_cfg_parser.dir/parser.cc.o: ../srsenb/src/parser.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object srsenb/src/CMakeFiles/enb_cfg_parser.dir/parser.cc.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsenb/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/enb_cfg_parser.dir/parser.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsenb/src/parser.cc
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsenb/src && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/enb_cfg_parser.dir/parser.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsenb/src/parser.cc
 
 srsenb/src/CMakeFiles/enb_cfg_parser.dir/parser.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/enb_cfg_parser.dir/parser.cc.i"
@@ -73,7 +73,7 @@ srsenb/src/CMakeFiles/enb_cfg_parser.dir/parser.cc.s: cmake_force
 srsenb/src/CMakeFiles/enb_cfg_parser.dir/enb_cfg_parser.cc.o: srsenb/src/CMakeFiles/enb_cfg_parser.dir/flags.make
 srsenb/src/CMakeFiles/enb_cfg_parser.dir/enb_cfg_parser.cc.o: ../srsenb/src/enb_cfg_parser.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object srsenb/src/CMakeFiles/enb_cfg_parser.dir/enb_cfg_parser.cc.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsenb/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/enb_cfg_parser.dir/enb_cfg_parser.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsenb/src/enb_cfg_parser.cc
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsenb/src && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/enb_cfg_parser.dir/enb_cfg_parser.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsenb/src/enb_cfg_parser.cc
 
 srsenb/src/CMakeFiles/enb_cfg_parser.dir/enb_cfg_parser.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/enb_cfg_parser.dir/enb_cfg_parser.cc.i"

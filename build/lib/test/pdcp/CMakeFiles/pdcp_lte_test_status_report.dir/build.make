@@ -60,7 +60,7 @@ include lib/test/pdcp/CMakeFiles/pdcp_lte_test_status_report.dir/flags.make
 lib/test/pdcp/CMakeFiles/pdcp_lte_test_status_report.dir/pdcp_lte_test_status_report.cc.o: lib/test/pdcp/CMakeFiles/pdcp_lte_test_status_report.dir/flags.make
 lib/test/pdcp/CMakeFiles/pdcp_lte_test_status_report.dir/pdcp_lte_test_status_report.cc.o: ../lib/test/pdcp/pdcp_lte_test_status_report.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lib/test/pdcp/CMakeFiles/pdcp_lte_test_status_report.dir/pdcp_lte_test_status_report.cc.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/test/pdcp && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pdcp_lte_test_status_report.dir/pdcp_lte_test_status_report.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/test/pdcp/pdcp_lte_test_status_report.cc
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/test/pdcp && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pdcp_lte_test_status_report.dir/pdcp_lte_test_status_report.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/test/pdcp/pdcp_lte_test_status_report.cc
 
 lib/test/pdcp/CMakeFiles/pdcp_lte_test_status_report.dir/pdcp_lte_test_status_report.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pdcp_lte_test_status_report.dir/pdcp_lte_test_status_report.cc.i"

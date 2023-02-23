@@ -60,7 +60,7 @@ include srsue/src/stack/rrc_nr/CMakeFiles/srsue_rrc_nr.dir/flags.make
 srsue/src/stack/rrc_nr/CMakeFiles/srsue_rrc_nr.dir/rrc_nr.cc.o: srsue/src/stack/rrc_nr/CMakeFiles/srsue_rrc_nr.dir/flags.make
 srsue/src/stack/rrc_nr/CMakeFiles/srsue_rrc_nr.dir/rrc_nr.cc.o: ../srsue/src/stack/rrc_nr/rrc_nr.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object srsue/src/stack/rrc_nr/CMakeFiles/srsue_rrc_nr.dir/rrc_nr.cc.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsue/src/stack/rrc_nr && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsue_rrc_nr.dir/rrc_nr.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsue/src/stack/rrc_nr/rrc_nr.cc
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsue/src/stack/rrc_nr && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsue_rrc_nr.dir/rrc_nr.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsue/src/stack/rrc_nr/rrc_nr.cc
 
 srsue/src/stack/rrc_nr/CMakeFiles/srsue_rrc_nr.dir/rrc_nr.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srsue_rrc_nr.dir/rrc_nr.cc.i"
@@ -73,7 +73,7 @@ srsue/src/stack/rrc_nr/CMakeFiles/srsue_rrc_nr.dir/rrc_nr.cc.s: cmake_force
 srsue/src/stack/rrc_nr/CMakeFiles/srsue_rrc_nr.dir/rrc_nr_procedures.cc.o: srsue/src/stack/rrc_nr/CMakeFiles/srsue_rrc_nr.dir/flags.make
 srsue/src/stack/rrc_nr/CMakeFiles/srsue_rrc_nr.dir/rrc_nr_procedures.cc.o: ../srsue/src/stack/rrc_nr/rrc_nr_procedures.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object srsue/src/stack/rrc_nr/CMakeFiles/srsue_rrc_nr.dir/rrc_nr_procedures.cc.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsue/src/stack/rrc_nr && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsue_rrc_nr.dir/rrc_nr_procedures.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsue/src/stack/rrc_nr/rrc_nr_procedures.cc
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsue/src/stack/rrc_nr && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsue_rrc_nr.dir/rrc_nr_procedures.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsue/src/stack/rrc_nr/rrc_nr_procedures.cc
 
 srsue/src/stack/rrc_nr/CMakeFiles/srsue_rrc_nr.dir/rrc_nr_procedures.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srsue_rrc_nr.dir/rrc_nr_procedures.cc.i"
@@ -86,7 +86,7 @@ srsue/src/stack/rrc_nr/CMakeFiles/srsue_rrc_nr.dir/rrc_nr_procedures.cc.s: cmake
 srsue/src/stack/rrc_nr/CMakeFiles/srsue_rrc_nr.dir/__/rrc/rrc_cell.cc.o: srsue/src/stack/rrc_nr/CMakeFiles/srsue_rrc_nr.dir/flags.make
 srsue/src/stack/rrc_nr/CMakeFiles/srsue_rrc_nr.dir/__/rrc/rrc_cell.cc.o: ../srsue/src/stack/rrc/rrc_cell.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object srsue/src/stack/rrc_nr/CMakeFiles/srsue_rrc_nr.dir/__/rrc/rrc_cell.cc.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsue/src/stack/rrc_nr && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsue_rrc_nr.dir/__/rrc/rrc_cell.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsue/src/stack/rrc/rrc_cell.cc
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsue/src/stack/rrc_nr && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsue_rrc_nr.dir/__/rrc/rrc_cell.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsue/src/stack/rrc/rrc_cell.cc
 
 srsue/src/stack/rrc_nr/CMakeFiles/srsue_rrc_nr.dir/__/rrc/rrc_cell.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srsue_rrc_nr.dir/__/rrc/rrc_cell.cc.i"

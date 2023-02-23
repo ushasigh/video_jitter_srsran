@@ -60,7 +60,7 @@ include lib/src/phy/sync/CMakeFiles/srsran_sync.dir/flags.make
 lib/src/phy/sync/CMakeFiles/srsran_sync.dir/cfo.c.o: lib/src/phy/sync/CMakeFiles/srsran_sync.dir/flags.make
 lib/src/phy/sync/CMakeFiles/srsran_sync.dir/cfo.c.o: ../lib/src/phy/sync/cfo.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object lib/src/phy/sync/CMakeFiles/srsran_sync.dir/cfo.c.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/phy/sync && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srsran_sync.dir/cfo.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/phy/sync/cfo.c
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/phy/sync && /usr/bin/ccache /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srsran_sync.dir/cfo.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/phy/sync/cfo.c
 
 lib/src/phy/sync/CMakeFiles/srsran_sync.dir/cfo.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/srsran_sync.dir/cfo.c.i"
@@ -73,7 +73,7 @@ lib/src/phy/sync/CMakeFiles/srsran_sync.dir/cfo.c.s: cmake_force
 lib/src/phy/sync/CMakeFiles/srsran_sync.dir/cp.c.o: lib/src/phy/sync/CMakeFiles/srsran_sync.dir/flags.make
 lib/src/phy/sync/CMakeFiles/srsran_sync.dir/cp.c.o: ../lib/src/phy/sync/cp.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object lib/src/phy/sync/CMakeFiles/srsran_sync.dir/cp.c.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/phy/sync && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srsran_sync.dir/cp.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/phy/sync/cp.c
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/phy/sync && /usr/bin/ccache /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srsran_sync.dir/cp.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/phy/sync/cp.c
 
 lib/src/phy/sync/CMakeFiles/srsran_sync.dir/cp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/srsran_sync.dir/cp.c.i"
@@ -86,7 +86,7 @@ lib/src/phy/sync/CMakeFiles/srsran_sync.dir/cp.c.s: cmake_force
 lib/src/phy/sync/CMakeFiles/srsran_sync.dir/find_sss.c.o: lib/src/phy/sync/CMakeFiles/srsran_sync.dir/flags.make
 lib/src/phy/sync/CMakeFiles/srsran_sync.dir/find_sss.c.o: ../lib/src/phy/sync/find_sss.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object lib/src/phy/sync/CMakeFiles/srsran_sync.dir/find_sss.c.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/phy/sync && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srsran_sync.dir/find_sss.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/phy/sync/find_sss.c
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/phy/sync && /usr/bin/ccache /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srsran_sync.dir/find_sss.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/phy/sync/find_sss.c
 
 lib/src/phy/sync/CMakeFiles/srsran_sync.dir/find_sss.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/srsran_sync.dir/find_sss.c.i"
@@ -99,7 +99,7 @@ lib/src/phy/sync/CMakeFiles/srsran_sync.dir/find_sss.c.s: cmake_force
 lib/src/phy/sync/CMakeFiles/srsran_sync.dir/gen_sss.c.o: lib/src/phy/sync/CMakeFiles/srsran_sync.dir/flags.make
 lib/src/phy/sync/CMakeFiles/srsran_sync.dir/gen_sss.c.o: ../lib/src/phy/sync/gen_sss.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object lib/src/phy/sync/CMakeFiles/srsran_sync.dir/gen_sss.c.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/phy/sync && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srsran_sync.dir/gen_sss.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/phy/sync/gen_sss.c
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/phy/sync && /usr/bin/ccache /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srsran_sync.dir/gen_sss.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/phy/sync/gen_sss.c
 
 lib/src/phy/sync/CMakeFiles/srsran_sync.dir/gen_sss.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/srsran_sync.dir/gen_sss.c.i"
@@ -112,7 +112,7 @@ lib/src/phy/sync/CMakeFiles/srsran_sync.dir/gen_sss.c.s: cmake_force
 lib/src/phy/sync/CMakeFiles/srsran_sync.dir/npss.c.o: lib/src/phy/sync/CMakeFiles/srsran_sync.dir/flags.make
 lib/src/phy/sync/CMakeFiles/srsran_sync.dir/npss.c.o: ../lib/src/phy/sync/npss.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object lib/src/phy/sync/CMakeFiles/srsran_sync.dir/npss.c.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/phy/sync && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srsran_sync.dir/npss.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/phy/sync/npss.c
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/phy/sync && /usr/bin/ccache /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srsran_sync.dir/npss.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/phy/sync/npss.c
 
 lib/src/phy/sync/CMakeFiles/srsran_sync.dir/npss.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/srsran_sync.dir/npss.c.i"
@@ -125,7 +125,7 @@ lib/src/phy/sync/CMakeFiles/srsran_sync.dir/npss.c.s: cmake_force
 lib/src/phy/sync/CMakeFiles/srsran_sync.dir/nsss.c.o: lib/src/phy/sync/CMakeFiles/srsran_sync.dir/flags.make
 lib/src/phy/sync/CMakeFiles/srsran_sync.dir/nsss.c.o: ../lib/src/phy/sync/nsss.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object lib/src/phy/sync/CMakeFiles/srsran_sync.dir/nsss.c.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/phy/sync && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srsran_sync.dir/nsss.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/phy/sync/nsss.c
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/phy/sync && /usr/bin/ccache /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srsran_sync.dir/nsss.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/phy/sync/nsss.c
 
 lib/src/phy/sync/CMakeFiles/srsran_sync.dir/nsss.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/srsran_sync.dir/nsss.c.i"
@@ -138,7 +138,7 @@ lib/src/phy/sync/CMakeFiles/srsran_sync.dir/nsss.c.s: cmake_force
 lib/src/phy/sync/CMakeFiles/srsran_sync.dir/pss.c.o: lib/src/phy/sync/CMakeFiles/srsran_sync.dir/flags.make
 lib/src/phy/sync/CMakeFiles/srsran_sync.dir/pss.c.o: ../lib/src/phy/sync/pss.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object lib/src/phy/sync/CMakeFiles/srsran_sync.dir/pss.c.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/phy/sync && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srsran_sync.dir/pss.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/phy/sync/pss.c
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/phy/sync && /usr/bin/ccache /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srsran_sync.dir/pss.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/phy/sync/pss.c
 
 lib/src/phy/sync/CMakeFiles/srsran_sync.dir/pss.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/srsran_sync.dir/pss.c.i"
@@ -151,7 +151,7 @@ lib/src/phy/sync/CMakeFiles/srsran_sync.dir/pss.c.s: cmake_force
 lib/src/phy/sync/CMakeFiles/srsran_sync.dir/pss_nr.c.o: lib/src/phy/sync/CMakeFiles/srsran_sync.dir/flags.make
 lib/src/phy/sync/CMakeFiles/srsran_sync.dir/pss_nr.c.o: ../lib/src/phy/sync/pss_nr.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object lib/src/phy/sync/CMakeFiles/srsran_sync.dir/pss_nr.c.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/phy/sync && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srsran_sync.dir/pss_nr.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/phy/sync/pss_nr.c
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/phy/sync && /usr/bin/ccache /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srsran_sync.dir/pss_nr.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/phy/sync/pss_nr.c
 
 lib/src/phy/sync/CMakeFiles/srsran_sync.dir/pss_nr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/srsran_sync.dir/pss_nr.c.i"
@@ -164,7 +164,7 @@ lib/src/phy/sync/CMakeFiles/srsran_sync.dir/pss_nr.c.s: cmake_force
 lib/src/phy/sync/CMakeFiles/srsran_sync.dir/psss.c.o: lib/src/phy/sync/CMakeFiles/srsran_sync.dir/flags.make
 lib/src/phy/sync/CMakeFiles/srsran_sync.dir/psss.c.o: ../lib/src/phy/sync/psss.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object lib/src/phy/sync/CMakeFiles/srsran_sync.dir/psss.c.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/phy/sync && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srsran_sync.dir/psss.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/phy/sync/psss.c
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/phy/sync && /usr/bin/ccache /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srsran_sync.dir/psss.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/phy/sync/psss.c
 
 lib/src/phy/sync/CMakeFiles/srsran_sync.dir/psss.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/srsran_sync.dir/psss.c.i"
@@ -177,7 +177,7 @@ lib/src/phy/sync/CMakeFiles/srsran_sync.dir/psss.c.s: cmake_force
 lib/src/phy/sync/CMakeFiles/srsran_sync.dir/refsignal_dl_sync.c.o: lib/src/phy/sync/CMakeFiles/srsran_sync.dir/flags.make
 lib/src/phy/sync/CMakeFiles/srsran_sync.dir/refsignal_dl_sync.c.o: ../lib/src/phy/sync/refsignal_dl_sync.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object lib/src/phy/sync/CMakeFiles/srsran_sync.dir/refsignal_dl_sync.c.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/phy/sync && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srsran_sync.dir/refsignal_dl_sync.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/phy/sync/refsignal_dl_sync.c
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/phy/sync && /usr/bin/ccache /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srsran_sync.dir/refsignal_dl_sync.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/phy/sync/refsignal_dl_sync.c
 
 lib/src/phy/sync/CMakeFiles/srsran_sync.dir/refsignal_dl_sync.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/srsran_sync.dir/refsignal_dl_sync.c.i"
@@ -190,7 +190,7 @@ lib/src/phy/sync/CMakeFiles/srsran_sync.dir/refsignal_dl_sync.c.s: cmake_force
 lib/src/phy/sync/CMakeFiles/srsran_sync.dir/sfo.c.o: lib/src/phy/sync/CMakeFiles/srsran_sync.dir/flags.make
 lib/src/phy/sync/CMakeFiles/srsran_sync.dir/sfo.c.o: ../lib/src/phy/sync/sfo.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object lib/src/phy/sync/CMakeFiles/srsran_sync.dir/sfo.c.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/phy/sync && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srsran_sync.dir/sfo.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/phy/sync/sfo.c
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/phy/sync && /usr/bin/ccache /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srsran_sync.dir/sfo.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/phy/sync/sfo.c
 
 lib/src/phy/sync/CMakeFiles/srsran_sync.dir/sfo.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/srsran_sync.dir/sfo.c.i"
@@ -203,7 +203,7 @@ lib/src/phy/sync/CMakeFiles/srsran_sync.dir/sfo.c.s: cmake_force
 lib/src/phy/sync/CMakeFiles/srsran_sync.dir/ssb.c.o: lib/src/phy/sync/CMakeFiles/srsran_sync.dir/flags.make
 lib/src/phy/sync/CMakeFiles/srsran_sync.dir/ssb.c.o: ../lib/src/phy/sync/ssb.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object lib/src/phy/sync/CMakeFiles/srsran_sync.dir/ssb.c.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/phy/sync && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srsran_sync.dir/ssb.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/phy/sync/ssb.c
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/phy/sync && /usr/bin/ccache /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srsran_sync.dir/ssb.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/phy/sync/ssb.c
 
 lib/src/phy/sync/CMakeFiles/srsran_sync.dir/ssb.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/srsran_sync.dir/ssb.c.i"
@@ -216,7 +216,7 @@ lib/src/phy/sync/CMakeFiles/srsran_sync.dir/ssb.c.s: cmake_force
 lib/src/phy/sync/CMakeFiles/srsran_sync.dir/sss.c.o: lib/src/phy/sync/CMakeFiles/srsran_sync.dir/flags.make
 lib/src/phy/sync/CMakeFiles/srsran_sync.dir/sss.c.o: ../lib/src/phy/sync/sss.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object lib/src/phy/sync/CMakeFiles/srsran_sync.dir/sss.c.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/phy/sync && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srsran_sync.dir/sss.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/phy/sync/sss.c
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/phy/sync && /usr/bin/ccache /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srsran_sync.dir/sss.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/phy/sync/sss.c
 
 lib/src/phy/sync/CMakeFiles/srsran_sync.dir/sss.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/srsran_sync.dir/sss.c.i"
@@ -229,7 +229,7 @@ lib/src/phy/sync/CMakeFiles/srsran_sync.dir/sss.c.s: cmake_force
 lib/src/phy/sync/CMakeFiles/srsran_sync.dir/sss_nr.c.o: lib/src/phy/sync/CMakeFiles/srsran_sync.dir/flags.make
 lib/src/phy/sync/CMakeFiles/srsran_sync.dir/sss_nr.c.o: ../lib/src/phy/sync/sss_nr.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object lib/src/phy/sync/CMakeFiles/srsran_sync.dir/sss_nr.c.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/phy/sync && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srsran_sync.dir/sss_nr.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/phy/sync/sss_nr.c
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/phy/sync && /usr/bin/ccache /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srsran_sync.dir/sss_nr.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/phy/sync/sss_nr.c
 
 lib/src/phy/sync/CMakeFiles/srsran_sync.dir/sss_nr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/srsran_sync.dir/sss_nr.c.i"
@@ -242,7 +242,7 @@ lib/src/phy/sync/CMakeFiles/srsran_sync.dir/sss_nr.c.s: cmake_force
 lib/src/phy/sync/CMakeFiles/srsran_sync.dir/ssss.c.o: lib/src/phy/sync/CMakeFiles/srsran_sync.dir/flags.make
 lib/src/phy/sync/CMakeFiles/srsran_sync.dir/ssss.c.o: ../lib/src/phy/sync/ssss.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object lib/src/phy/sync/CMakeFiles/srsran_sync.dir/ssss.c.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/phy/sync && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srsran_sync.dir/ssss.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/phy/sync/ssss.c
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/phy/sync && /usr/bin/ccache /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srsran_sync.dir/ssss.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/phy/sync/ssss.c
 
 lib/src/phy/sync/CMakeFiles/srsran_sync.dir/ssss.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/srsran_sync.dir/ssss.c.i"
@@ -255,7 +255,7 @@ lib/src/phy/sync/CMakeFiles/srsran_sync.dir/ssss.c.s: cmake_force
 lib/src/phy/sync/CMakeFiles/srsran_sync.dir/sync.c.o: lib/src/phy/sync/CMakeFiles/srsran_sync.dir/flags.make
 lib/src/phy/sync/CMakeFiles/srsran_sync.dir/sync.c.o: ../lib/src/phy/sync/sync.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object lib/src/phy/sync/CMakeFiles/srsran_sync.dir/sync.c.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/phy/sync && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srsran_sync.dir/sync.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/phy/sync/sync.c
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/phy/sync && /usr/bin/ccache /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srsran_sync.dir/sync.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/phy/sync/sync.c
 
 lib/src/phy/sync/CMakeFiles/srsran_sync.dir/sync.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/srsran_sync.dir/sync.c.i"
@@ -268,7 +268,7 @@ lib/src/phy/sync/CMakeFiles/srsran_sync.dir/sync.c.s: cmake_force
 lib/src/phy/sync/CMakeFiles/srsran_sync.dir/sync_nbiot.c.o: lib/src/phy/sync/CMakeFiles/srsran_sync.dir/flags.make
 lib/src/phy/sync/CMakeFiles/srsran_sync.dir/sync_nbiot.c.o: ../lib/src/phy/sync/sync_nbiot.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object lib/src/phy/sync/CMakeFiles/srsran_sync.dir/sync_nbiot.c.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/phy/sync && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srsran_sync.dir/sync_nbiot.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/phy/sync/sync_nbiot.c
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/phy/sync && /usr/bin/ccache /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srsran_sync.dir/sync_nbiot.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/phy/sync/sync_nbiot.c
 
 lib/src/phy/sync/CMakeFiles/srsran_sync.dir/sync_nbiot.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/srsran_sync.dir/sync_nbiot.c.i"

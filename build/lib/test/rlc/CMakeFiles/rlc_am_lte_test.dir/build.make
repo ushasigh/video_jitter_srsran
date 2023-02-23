@@ -60,7 +60,7 @@ include lib/test/rlc/CMakeFiles/rlc_am_lte_test.dir/flags.make
 lib/test/rlc/CMakeFiles/rlc_am_lte_test.dir/rlc_am_lte_test.cc.o: lib/test/rlc/CMakeFiles/rlc_am_lte_test.dir/flags.make
 lib/test/rlc/CMakeFiles/rlc_am_lte_test.dir/rlc_am_lte_test.cc.o: ../lib/test/rlc/rlc_am_lte_test.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lib/test/rlc/CMakeFiles/rlc_am_lte_test.dir/rlc_am_lte_test.cc.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/test/rlc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rlc_am_lte_test.dir/rlc_am_lte_test.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/test/rlc/rlc_am_lte_test.cc
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/test/rlc && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rlc_am_lte_test.dir/rlc_am_lte_test.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/test/rlc/rlc_am_lte_test.cc
 
 lib/test/rlc/CMakeFiles/rlc_am_lte_test.dir/rlc_am_lte_test.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rlc_am_lte_test.dir/rlc_am_lte_test.cc.i"

@@ -60,7 +60,7 @@ include lib/src/phy/agc/CMakeFiles/srsran_agc.dir/flags.make
 lib/src/phy/agc/CMakeFiles/srsran_agc.dir/agc.c.o: lib/src/phy/agc/CMakeFiles/srsran_agc.dir/flags.make
 lib/src/phy/agc/CMakeFiles/srsran_agc.dir/agc.c.o: ../lib/src/phy/agc/agc.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object lib/src/phy/agc/CMakeFiles/srsran_agc.dir/agc.c.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/phy/agc && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srsran_agc.dir/agc.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/phy/agc/agc.c
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/phy/agc && /usr/bin/ccache /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srsran_agc.dir/agc.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/phy/agc/agc.c
 
 lib/src/phy/agc/CMakeFiles/srsran_agc.dir/agc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/srsran_agc.dir/agc.c.i"

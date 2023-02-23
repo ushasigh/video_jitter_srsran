@@ -60,7 +60,7 @@ include lib/src/phy/gnb/CMakeFiles/srsran_gnb.dir/flags.make
 lib/src/phy/gnb/CMakeFiles/srsran_gnb.dir/gnb_dl.c.o: lib/src/phy/gnb/CMakeFiles/srsran_gnb.dir/flags.make
 lib/src/phy/gnb/CMakeFiles/srsran_gnb.dir/gnb_dl.c.o: ../lib/src/phy/gnb/gnb_dl.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object lib/src/phy/gnb/CMakeFiles/srsran_gnb.dir/gnb_dl.c.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/phy/gnb && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srsran_gnb.dir/gnb_dl.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/phy/gnb/gnb_dl.c
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/phy/gnb && /usr/bin/ccache /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srsran_gnb.dir/gnb_dl.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/phy/gnb/gnb_dl.c
 
 lib/src/phy/gnb/CMakeFiles/srsran_gnb.dir/gnb_dl.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/srsran_gnb.dir/gnb_dl.c.i"
@@ -73,7 +73,7 @@ lib/src/phy/gnb/CMakeFiles/srsran_gnb.dir/gnb_dl.c.s: cmake_force
 lib/src/phy/gnb/CMakeFiles/srsran_gnb.dir/gnb_ul.c.o: lib/src/phy/gnb/CMakeFiles/srsran_gnb.dir/flags.make
 lib/src/phy/gnb/CMakeFiles/srsran_gnb.dir/gnb_ul.c.o: ../lib/src/phy/gnb/gnb_ul.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object lib/src/phy/gnb/CMakeFiles/srsran_gnb.dir/gnb_ul.c.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/phy/gnb && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srsran_gnb.dir/gnb_ul.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/phy/gnb/gnb_ul.c
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/phy/gnb && /usr/bin/ccache /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srsran_gnb.dir/gnb_ul.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/phy/gnb/gnb_ul.c
 
 lib/src/phy/gnb/CMakeFiles/srsran_gnb.dir/gnb_ul.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/srsran_gnb.dir/gnb_ul.c.i"

@@ -60,7 +60,7 @@ include lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/flags.make
 lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/phy_common.c.o: lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/flags.make
 lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/phy_common.c.o: ../lib/src/phy/common/phy_common.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/phy_common.c.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/phy/common && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srsran_phy_common.dir/phy_common.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/phy/common/phy_common.c
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/phy/common && /usr/bin/ccache /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srsran_phy_common.dir/phy_common.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/phy/common/phy_common.c
 
 lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/phy_common.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/srsran_phy_common.dir/phy_common.c.i"
@@ -73,7 +73,7 @@ lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/phy_common.c.s: cmake_force
 lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/phy_common_sl.c.o: lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/flags.make
 lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/phy_common_sl.c.o: ../lib/src/phy/common/phy_common_sl.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/phy_common_sl.c.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/phy/common && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srsran_phy_common.dir/phy_common_sl.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/phy/common/phy_common_sl.c
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/phy/common && /usr/bin/ccache /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srsran_phy_common.dir/phy_common_sl.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/phy/common/phy_common_sl.c
 
 lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/phy_common_sl.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/srsran_phy_common.dir/phy_common_sl.c.i"
@@ -86,7 +86,7 @@ lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/phy_common_sl.c.s: cmake_for
 lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/phy_common_nr.c.o: lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/flags.make
 lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/phy_common_nr.c.o: ../lib/src/phy/common/phy_common_nr.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/phy_common_nr.c.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/phy/common && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srsran_phy_common.dir/phy_common_nr.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/phy/common/phy_common_nr.c
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/phy/common && /usr/bin/ccache /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srsran_phy_common.dir/phy_common_nr.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/phy/common/phy_common_nr.c
 
 lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/phy_common_nr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/srsran_phy_common.dir/phy_common_nr.c.i"
@@ -99,7 +99,7 @@ lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/phy_common_nr.c.s: cmake_for
 lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/sequence.c.o: lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/flags.make
 lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/sequence.c.o: ../lib/src/phy/common/sequence.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/sequence.c.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/phy/common && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srsran_phy_common.dir/sequence.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/phy/common/sequence.c
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/phy/common && /usr/bin/ccache /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srsran_phy_common.dir/sequence.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/phy/common/sequence.c
 
 lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/sequence.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/srsran_phy_common.dir/sequence.c.i"
@@ -112,7 +112,7 @@ lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/sequence.c.s: cmake_force
 lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/timestamp.c.o: lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/flags.make
 lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/timestamp.c.o: ../lib/src/phy/common/timestamp.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/timestamp.c.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/phy/common && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srsran_phy_common.dir/timestamp.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/phy/common/timestamp.c
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/phy/common && /usr/bin/ccache /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srsran_phy_common.dir/timestamp.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/phy/common/timestamp.c
 
 lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/timestamp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/srsran_phy_common.dir/timestamp.c.i"
@@ -125,7 +125,7 @@ lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/timestamp.c.s: cmake_force
 lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/zc_sequence.c.o: lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/flags.make
 lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/zc_sequence.c.o: ../lib/src/phy/common/zc_sequence.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/zc_sequence.c.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/phy/common && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srsran_phy_common.dir/zc_sequence.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/phy/common/zc_sequence.c
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/phy/common && /usr/bin/ccache /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srsran_phy_common.dir/zc_sequence.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/phy/common/zc_sequence.c
 
 lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/zc_sequence.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/srsran_phy_common.dir/zc_sequence.c.i"
@@ -138,7 +138,7 @@ lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/zc_sequence.c.s: cmake_force
 lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/sliv.c.o: lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/flags.make
 lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/sliv.c.o: ../lib/src/phy/common/sliv.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/sliv.c.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/phy/common && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srsran_phy_common.dir/sliv.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/phy/common/sliv.c
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/phy/common && /usr/bin/ccache /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srsran_phy_common.dir/sliv.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/phy/common/sliv.c
 
 lib/src/phy/common/CMakeFiles/srsran_phy_common.dir/sliv.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/srsran_phy_common.dir/sliv.c.i"

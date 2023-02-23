@@ -60,7 +60,7 @@ include srsenb/test/rrc/CMakeFiles/test_helpers.dir/flags.make
 srsenb/test/rrc/CMakeFiles/test_helpers.dir/test_helpers.cc.o: srsenb/test/rrc/CMakeFiles/test_helpers.dir/flags.make
 srsenb/test/rrc/CMakeFiles/test_helpers.dir/test_helpers.cc.o: ../srsenb/test/rrc/test_helpers.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object srsenb/test/rrc/CMakeFiles/test_helpers.dir/test_helpers.cc.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsenb/test/rrc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_helpers.dir/test_helpers.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsenb/test/rrc/test_helpers.cc
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsenb/test/rrc && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_helpers.dir/test_helpers.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsenb/test/rrc/test_helpers.cc
 
 srsenb/test/rrc/CMakeFiles/test_helpers.dir/test_helpers.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_helpers.dir/test_helpers.cc.i"

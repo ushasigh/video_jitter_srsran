@@ -60,7 +60,7 @@ include lib/src/srslog/CMakeFiles/srslog.dir/flags.make
 lib/src/srslog/CMakeFiles/srslog.dir/backend_worker.cpp.o: lib/src/srslog/CMakeFiles/srslog.dir/flags.make
 lib/src/srslog/CMakeFiles/srslog.dir/backend_worker.cpp.o: ../lib/src/srslog/backend_worker.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lib/src/srslog/CMakeFiles/srslog.dir/backend_worker.cpp.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/srslog && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srslog.dir/backend_worker.cpp.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/srslog/backend_worker.cpp
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/srslog && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srslog.dir/backend_worker.cpp.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/srslog/backend_worker.cpp
 
 lib/src/srslog/CMakeFiles/srslog.dir/backend_worker.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srslog.dir/backend_worker.cpp.i"
@@ -73,7 +73,7 @@ lib/src/srslog/CMakeFiles/srslog.dir/backend_worker.cpp.s: cmake_force
 lib/src/srslog/CMakeFiles/srslog.dir/srslog.cpp.o: lib/src/srslog/CMakeFiles/srslog.dir/flags.make
 lib/src/srslog/CMakeFiles/srslog.dir/srslog.cpp.o: ../lib/src/srslog/srslog.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object lib/src/srslog/CMakeFiles/srslog.dir/srslog.cpp.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/srslog && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srslog.dir/srslog.cpp.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/srslog/srslog.cpp
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/srslog && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srslog.dir/srslog.cpp.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/srslog/srslog.cpp
 
 lib/src/srslog/CMakeFiles/srslog.dir/srslog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srslog.dir/srslog.cpp.i"
@@ -86,7 +86,7 @@ lib/src/srslog/CMakeFiles/srslog.dir/srslog.cpp.s: cmake_force
 lib/src/srslog/CMakeFiles/srslog.dir/srslog_c.cpp.o: lib/src/srslog/CMakeFiles/srslog.dir/flags.make
 lib/src/srslog/CMakeFiles/srslog.dir/srslog_c.cpp.o: ../lib/src/srslog/srslog_c.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object lib/src/srslog/CMakeFiles/srslog.dir/srslog_c.cpp.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/srslog && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srslog.dir/srslog_c.cpp.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/srslog/srslog_c.cpp
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/srslog && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srslog.dir/srslog_c.cpp.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/srslog/srslog_c.cpp
 
 lib/src/srslog/CMakeFiles/srslog.dir/srslog_c.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srslog.dir/srslog_c.cpp.i"
@@ -99,7 +99,7 @@ lib/src/srslog/CMakeFiles/srslog.dir/srslog_c.cpp.s: cmake_force
 lib/src/srslog/CMakeFiles/srslog.dir/event_trace.cpp.o: lib/src/srslog/CMakeFiles/srslog.dir/flags.make
 lib/src/srslog/CMakeFiles/srslog.dir/event_trace.cpp.o: ../lib/src/srslog/event_trace.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object lib/src/srslog/CMakeFiles/srslog.dir/event_trace.cpp.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/srslog && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srslog.dir/event_trace.cpp.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/srslog/event_trace.cpp
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/srslog && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srslog.dir/event_trace.cpp.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/srslog/event_trace.cpp
 
 lib/src/srslog/CMakeFiles/srslog.dir/event_trace.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srslog.dir/event_trace.cpp.i"
@@ -112,7 +112,7 @@ lib/src/srslog/CMakeFiles/srslog.dir/event_trace.cpp.s: cmake_force
 lib/src/srslog/CMakeFiles/srslog.dir/bundled/fmt/format.cc.o: lib/src/srslog/CMakeFiles/srslog.dir/flags.make
 lib/src/srslog/CMakeFiles/srslog.dir/bundled/fmt/format.cc.o: ../lib/src/srslog/bundled/fmt/format.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object lib/src/srslog/CMakeFiles/srslog.dir/bundled/fmt/format.cc.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/srslog && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srslog.dir/bundled/fmt/format.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/srslog/bundled/fmt/format.cc
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/srslog && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srslog.dir/bundled/fmt/format.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/srslog/bundled/fmt/format.cc
 
 lib/src/srslog/CMakeFiles/srslog.dir/bundled/fmt/format.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srslog.dir/bundled/fmt/format.cc.i"
@@ -125,7 +125,7 @@ lib/src/srslog/CMakeFiles/srslog.dir/bundled/fmt/format.cc.s: cmake_force
 lib/src/srslog/CMakeFiles/srslog.dir/bundled/fmt/os.cc.o: lib/src/srslog/CMakeFiles/srslog.dir/flags.make
 lib/src/srslog/CMakeFiles/srslog.dir/bundled/fmt/os.cc.o: ../lib/src/srslog/bundled/fmt/os.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object lib/src/srslog/CMakeFiles/srslog.dir/bundled/fmt/os.cc.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/srslog && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srslog.dir/bundled/fmt/os.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/srslog/bundled/fmt/os.cc
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/srslog && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srslog.dir/bundled/fmt/os.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/srslog/bundled/fmt/os.cc
 
 lib/src/srslog/CMakeFiles/srslog.dir/bundled/fmt/os.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srslog.dir/bundled/fmt/os.cc.i"
@@ -138,7 +138,7 @@ lib/src/srslog/CMakeFiles/srslog.dir/bundled/fmt/os.cc.s: cmake_force
 lib/src/srslog/CMakeFiles/srslog.dir/formatters/json_formatter.cpp.o: lib/src/srslog/CMakeFiles/srslog.dir/flags.make
 lib/src/srslog/CMakeFiles/srslog.dir/formatters/json_formatter.cpp.o: ../lib/src/srslog/formatters/json_formatter.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object lib/src/srslog/CMakeFiles/srslog.dir/formatters/json_formatter.cpp.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/srslog && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srslog.dir/formatters/json_formatter.cpp.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/srslog/formatters/json_formatter.cpp
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/srslog && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srslog.dir/formatters/json_formatter.cpp.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/srslog/formatters/json_formatter.cpp
 
 lib/src/srslog/CMakeFiles/srslog.dir/formatters/json_formatter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srslog.dir/formatters/json_formatter.cpp.i"
@@ -151,7 +151,7 @@ lib/src/srslog/CMakeFiles/srslog.dir/formatters/json_formatter.cpp.s: cmake_forc
 lib/src/srslog/CMakeFiles/srslog.dir/formatters/text_formatter.cpp.o: lib/src/srslog/CMakeFiles/srslog.dir/flags.make
 lib/src/srslog/CMakeFiles/srslog.dir/formatters/text_formatter.cpp.o: ../lib/src/srslog/formatters/text_formatter.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object lib/src/srslog/CMakeFiles/srslog.dir/formatters/text_formatter.cpp.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/srslog && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srslog.dir/formatters/text_formatter.cpp.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/srslog/formatters/text_formatter.cpp
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/srslog && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srslog.dir/formatters/text_formatter.cpp.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/srslog/formatters/text_formatter.cpp
 
 lib/src/srslog/CMakeFiles/srslog.dir/formatters/text_formatter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srslog.dir/formatters/text_formatter.cpp.i"

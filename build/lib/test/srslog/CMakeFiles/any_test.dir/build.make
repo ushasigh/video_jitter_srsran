@@ -60,7 +60,7 @@ include lib/test/srslog/CMakeFiles/any_test.dir/flags.make
 lib/test/srslog/CMakeFiles/any_test.dir/any_test.cpp.o: lib/test/srslog/CMakeFiles/any_test.dir/flags.make
 lib/test/srslog/CMakeFiles/any_test.dir/any_test.cpp.o: ../lib/test/srslog/any_test.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lib/test/srslog/CMakeFiles/any_test.dir/any_test.cpp.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/test/srslog && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/any_test.dir/any_test.cpp.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/test/srslog/any_test.cpp
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/test/srslog && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/any_test.dir/any_test.cpp.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/test/srslog/any_test.cpp
 
 lib/test/srslog/CMakeFiles/any_test.dir/any_test.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/any_test.dir/any_test.cpp.i"

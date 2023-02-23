@@ -60,7 +60,7 @@ include srsepc/src/spgw/CMakeFiles/srsepc_sgw.dir/flags.make
 srsepc/src/spgw/CMakeFiles/srsepc_sgw.dir/gtpc.cc.o: srsepc/src/spgw/CMakeFiles/srsepc_sgw.dir/flags.make
 srsepc/src/spgw/CMakeFiles/srsepc_sgw.dir/gtpc.cc.o: ../srsepc/src/spgw/gtpc.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object srsepc/src/spgw/CMakeFiles/srsepc_sgw.dir/gtpc.cc.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsepc/src/spgw && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsepc_sgw.dir/gtpc.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsepc/src/spgw/gtpc.cc
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsepc/src/spgw && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsepc_sgw.dir/gtpc.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsepc/src/spgw/gtpc.cc
 
 srsepc/src/spgw/CMakeFiles/srsepc_sgw.dir/gtpc.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srsepc_sgw.dir/gtpc.cc.i"
@@ -73,7 +73,7 @@ srsepc/src/spgw/CMakeFiles/srsepc_sgw.dir/gtpc.cc.s: cmake_force
 srsepc/src/spgw/CMakeFiles/srsepc_sgw.dir/gtpu.cc.o: srsepc/src/spgw/CMakeFiles/srsepc_sgw.dir/flags.make
 srsepc/src/spgw/CMakeFiles/srsepc_sgw.dir/gtpu.cc.o: ../srsepc/src/spgw/gtpu.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object srsepc/src/spgw/CMakeFiles/srsepc_sgw.dir/gtpu.cc.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsepc/src/spgw && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsepc_sgw.dir/gtpu.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsepc/src/spgw/gtpu.cc
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsepc/src/spgw && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsepc_sgw.dir/gtpu.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsepc/src/spgw/gtpu.cc
 
 srsepc/src/spgw/CMakeFiles/srsepc_sgw.dir/gtpu.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srsepc_sgw.dir/gtpu.cc.i"
@@ -86,7 +86,7 @@ srsepc/src/spgw/CMakeFiles/srsepc_sgw.dir/gtpu.cc.s: cmake_force
 srsepc/src/spgw/CMakeFiles/srsepc_sgw.dir/spgw.cc.o: srsepc/src/spgw/CMakeFiles/srsepc_sgw.dir/flags.make
 srsepc/src/spgw/CMakeFiles/srsepc_sgw.dir/spgw.cc.o: ../srsepc/src/spgw/spgw.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object srsepc/src/spgw/CMakeFiles/srsepc_sgw.dir/spgw.cc.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsepc/src/spgw && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsepc_sgw.dir/spgw.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsepc/src/spgw/spgw.cc
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsepc/src/spgw && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsepc_sgw.dir/spgw.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsepc/src/spgw/spgw.cc
 
 srsepc/src/spgw/CMakeFiles/srsepc_sgw.dir/spgw.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srsepc_sgw.dir/spgw.cc.i"

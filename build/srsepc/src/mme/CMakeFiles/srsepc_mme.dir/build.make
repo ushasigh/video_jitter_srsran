@@ -60,7 +60,7 @@ include srsepc/src/mme/CMakeFiles/srsepc_mme.dir/flags.make
 srsepc/src/mme/CMakeFiles/srsepc_mme.dir/mme.cc.o: srsepc/src/mme/CMakeFiles/srsepc_mme.dir/flags.make
 srsepc/src/mme/CMakeFiles/srsepc_mme.dir/mme.cc.o: ../srsepc/src/mme/mme.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object srsepc/src/mme/CMakeFiles/srsepc_mme.dir/mme.cc.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsepc/src/mme && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsepc_mme.dir/mme.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsepc/src/mme/mme.cc
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsepc/src/mme && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsepc_mme.dir/mme.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsepc/src/mme/mme.cc
 
 srsepc/src/mme/CMakeFiles/srsepc_mme.dir/mme.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srsepc_mme.dir/mme.cc.i"
@@ -73,7 +73,7 @@ srsepc/src/mme/CMakeFiles/srsepc_mme.dir/mme.cc.s: cmake_force
 srsepc/src/mme/CMakeFiles/srsepc_mme.dir/mme_gtpc.cc.o: srsepc/src/mme/CMakeFiles/srsepc_mme.dir/flags.make
 srsepc/src/mme/CMakeFiles/srsepc_mme.dir/mme_gtpc.cc.o: ../srsepc/src/mme/mme_gtpc.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object srsepc/src/mme/CMakeFiles/srsepc_mme.dir/mme_gtpc.cc.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsepc/src/mme && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsepc_mme.dir/mme_gtpc.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsepc/src/mme/mme_gtpc.cc
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsepc/src/mme && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsepc_mme.dir/mme_gtpc.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsepc/src/mme/mme_gtpc.cc
 
 srsepc/src/mme/CMakeFiles/srsepc_mme.dir/mme_gtpc.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srsepc_mme.dir/mme_gtpc.cc.i"
@@ -86,7 +86,7 @@ srsepc/src/mme/CMakeFiles/srsepc_mme.dir/mme_gtpc.cc.s: cmake_force
 srsepc/src/mme/CMakeFiles/srsepc_mme.dir/nas.cc.o: srsepc/src/mme/CMakeFiles/srsepc_mme.dir/flags.make
 srsepc/src/mme/CMakeFiles/srsepc_mme.dir/nas.cc.o: ../srsepc/src/mme/nas.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object srsepc/src/mme/CMakeFiles/srsepc_mme.dir/nas.cc.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsepc/src/mme && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsepc_mme.dir/nas.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsepc/src/mme/nas.cc
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsepc/src/mme && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsepc_mme.dir/nas.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsepc/src/mme/nas.cc
 
 srsepc/src/mme/CMakeFiles/srsepc_mme.dir/nas.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srsepc_mme.dir/nas.cc.i"
@@ -99,7 +99,7 @@ srsepc/src/mme/CMakeFiles/srsepc_mme.dir/nas.cc.s: cmake_force
 srsepc/src/mme/CMakeFiles/srsepc_mme.dir/s1ap.cc.o: srsepc/src/mme/CMakeFiles/srsepc_mme.dir/flags.make
 srsepc/src/mme/CMakeFiles/srsepc_mme.dir/s1ap.cc.o: ../srsepc/src/mme/s1ap.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object srsepc/src/mme/CMakeFiles/srsepc_mme.dir/s1ap.cc.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsepc/src/mme && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsepc_mme.dir/s1ap.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsepc/src/mme/s1ap.cc
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsepc/src/mme && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsepc_mme.dir/s1ap.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsepc/src/mme/s1ap.cc
 
 srsepc/src/mme/CMakeFiles/srsepc_mme.dir/s1ap.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srsepc_mme.dir/s1ap.cc.i"
@@ -112,7 +112,7 @@ srsepc/src/mme/CMakeFiles/srsepc_mme.dir/s1ap.cc.s: cmake_force
 srsepc/src/mme/CMakeFiles/srsepc_mme.dir/s1ap_ctx_mngmt_proc.cc.o: srsepc/src/mme/CMakeFiles/srsepc_mme.dir/flags.make
 srsepc/src/mme/CMakeFiles/srsepc_mme.dir/s1ap_ctx_mngmt_proc.cc.o: ../srsepc/src/mme/s1ap_ctx_mngmt_proc.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object srsepc/src/mme/CMakeFiles/srsepc_mme.dir/s1ap_ctx_mngmt_proc.cc.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsepc/src/mme && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsepc_mme.dir/s1ap_ctx_mngmt_proc.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsepc/src/mme/s1ap_ctx_mngmt_proc.cc
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsepc/src/mme && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsepc_mme.dir/s1ap_ctx_mngmt_proc.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsepc/src/mme/s1ap_ctx_mngmt_proc.cc
 
 srsepc/src/mme/CMakeFiles/srsepc_mme.dir/s1ap_ctx_mngmt_proc.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srsepc_mme.dir/s1ap_ctx_mngmt_proc.cc.i"
@@ -125,7 +125,7 @@ srsepc/src/mme/CMakeFiles/srsepc_mme.dir/s1ap_ctx_mngmt_proc.cc.s: cmake_force
 srsepc/src/mme/CMakeFiles/srsepc_mme.dir/s1ap_erab_mngmt_proc.cc.o: srsepc/src/mme/CMakeFiles/srsepc_mme.dir/flags.make
 srsepc/src/mme/CMakeFiles/srsepc_mme.dir/s1ap_erab_mngmt_proc.cc.o: ../srsepc/src/mme/s1ap_erab_mngmt_proc.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object srsepc/src/mme/CMakeFiles/srsepc_mme.dir/s1ap_erab_mngmt_proc.cc.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsepc/src/mme && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsepc_mme.dir/s1ap_erab_mngmt_proc.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsepc/src/mme/s1ap_erab_mngmt_proc.cc
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsepc/src/mme && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsepc_mme.dir/s1ap_erab_mngmt_proc.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsepc/src/mme/s1ap_erab_mngmt_proc.cc
 
 srsepc/src/mme/CMakeFiles/srsepc_mme.dir/s1ap_erab_mngmt_proc.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srsepc_mme.dir/s1ap_erab_mngmt_proc.cc.i"
@@ -138,7 +138,7 @@ srsepc/src/mme/CMakeFiles/srsepc_mme.dir/s1ap_erab_mngmt_proc.cc.s: cmake_force
 srsepc/src/mme/CMakeFiles/srsepc_mme.dir/s1ap_mngmt_proc.cc.o: srsepc/src/mme/CMakeFiles/srsepc_mme.dir/flags.make
 srsepc/src/mme/CMakeFiles/srsepc_mme.dir/s1ap_mngmt_proc.cc.o: ../srsepc/src/mme/s1ap_mngmt_proc.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object srsepc/src/mme/CMakeFiles/srsepc_mme.dir/s1ap_mngmt_proc.cc.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsepc/src/mme && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsepc_mme.dir/s1ap_mngmt_proc.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsepc/src/mme/s1ap_mngmt_proc.cc
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsepc/src/mme && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsepc_mme.dir/s1ap_mngmt_proc.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsepc/src/mme/s1ap_mngmt_proc.cc
 
 srsepc/src/mme/CMakeFiles/srsepc_mme.dir/s1ap_mngmt_proc.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srsepc_mme.dir/s1ap_mngmt_proc.cc.i"
@@ -151,7 +151,7 @@ srsepc/src/mme/CMakeFiles/srsepc_mme.dir/s1ap_mngmt_proc.cc.s: cmake_force
 srsepc/src/mme/CMakeFiles/srsepc_mme.dir/s1ap_nas_transport.cc.o: srsepc/src/mme/CMakeFiles/srsepc_mme.dir/flags.make
 srsepc/src/mme/CMakeFiles/srsepc_mme.dir/s1ap_nas_transport.cc.o: ../srsepc/src/mme/s1ap_nas_transport.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object srsepc/src/mme/CMakeFiles/srsepc_mme.dir/s1ap_nas_transport.cc.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsepc/src/mme && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsepc_mme.dir/s1ap_nas_transport.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsepc/src/mme/s1ap_nas_transport.cc
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsepc/src/mme && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsepc_mme.dir/s1ap_nas_transport.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsepc/src/mme/s1ap_nas_transport.cc
 
 srsepc/src/mme/CMakeFiles/srsepc_mme.dir/s1ap_nas_transport.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srsepc_mme.dir/s1ap_nas_transport.cc.i"
@@ -164,7 +164,7 @@ srsepc/src/mme/CMakeFiles/srsepc_mme.dir/s1ap_nas_transport.cc.s: cmake_force
 srsepc/src/mme/CMakeFiles/srsepc_mme.dir/s1ap_paging.cc.o: srsepc/src/mme/CMakeFiles/srsepc_mme.dir/flags.make
 srsepc/src/mme/CMakeFiles/srsepc_mme.dir/s1ap_paging.cc.o: ../srsepc/src/mme/s1ap_paging.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object srsepc/src/mme/CMakeFiles/srsepc_mme.dir/s1ap_paging.cc.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsepc/src/mme && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsepc_mme.dir/s1ap_paging.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsepc/src/mme/s1ap_paging.cc
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsepc/src/mme && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsepc_mme.dir/s1ap_paging.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsepc/src/mme/s1ap_paging.cc
 
 srsepc/src/mme/CMakeFiles/srsepc_mme.dir/s1ap_paging.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srsepc_mme.dir/s1ap_paging.cc.i"

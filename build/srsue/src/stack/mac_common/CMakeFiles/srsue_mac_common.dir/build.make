@@ -60,7 +60,7 @@ include srsue/src/stack/mac_common/CMakeFiles/srsue_mac_common.dir/flags.make
 srsue/src/stack/mac_common/CMakeFiles/srsue_mac_common.dir/mac_common.cc.o: srsue/src/stack/mac_common/CMakeFiles/srsue_mac_common.dir/flags.make
 srsue/src/stack/mac_common/CMakeFiles/srsue_mac_common.dir/mac_common.cc.o: ../srsue/src/stack/mac_common/mac_common.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object srsue/src/stack/mac_common/CMakeFiles/srsue_mac_common.dir/mac_common.cc.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsue/src/stack/mac_common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsue_mac_common.dir/mac_common.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsue/src/stack/mac_common/mac_common.cc
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsue/src/stack/mac_common && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsue_mac_common.dir/mac_common.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsue/src/stack/mac_common/mac_common.cc
 
 srsue/src/stack/mac_common/CMakeFiles/srsue_mac_common.dir/mac_common.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srsue_mac_common.dir/mac_common.cc.i"

@@ -60,7 +60,7 @@ include lib/src/radio/CMakeFiles/srsran_radio.dir/flags.make
 lib/src/radio/CMakeFiles/srsran_radio.dir/radio.cc.o: lib/src/radio/CMakeFiles/srsran_radio.dir/flags.make
 lib/src/radio/CMakeFiles/srsran_radio.dir/radio.cc.o: ../lib/src/radio/radio.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lib/src/radio/CMakeFiles/srsran_radio.dir/radio.cc.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/radio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsran_radio.dir/radio.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/radio/radio.cc
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/radio && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsran_radio.dir/radio.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/radio/radio.cc
 
 lib/src/radio/CMakeFiles/srsran_radio.dir/radio.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srsran_radio.dir/radio.cc.i"
@@ -73,7 +73,7 @@ lib/src/radio/CMakeFiles/srsran_radio.dir/radio.cc.s: cmake_force
 lib/src/radio/CMakeFiles/srsran_radio.dir/channel_mapping.cc.o: lib/src/radio/CMakeFiles/srsran_radio.dir/flags.make
 lib/src/radio/CMakeFiles/srsran_radio.dir/channel_mapping.cc.o: ../lib/src/radio/channel_mapping.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object lib/src/radio/CMakeFiles/srsran_radio.dir/channel_mapping.cc.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/radio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsran_radio.dir/channel_mapping.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/radio/channel_mapping.cc
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/radio && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsran_radio.dir/channel_mapping.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/radio/channel_mapping.cc
 
 lib/src/radio/CMakeFiles/srsran_radio.dir/channel_mapping.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srsran_radio.dir/channel_mapping.cc.i"

@@ -60,7 +60,7 @@ include lib/src/phy/modem/test/CMakeFiles/soft_demod_test.dir/flags.make
 lib/src/phy/modem/test/CMakeFiles/soft_demod_test.dir/soft_demod_test.c.o: lib/src/phy/modem/test/CMakeFiles/soft_demod_test.dir/flags.make
 lib/src/phy/modem/test/CMakeFiles/soft_demod_test.dir/soft_demod_test.c.o: ../lib/src/phy/modem/test/soft_demod_test.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object lib/src/phy/modem/test/CMakeFiles/soft_demod_test.dir/soft_demod_test.c.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/phy/modem/test && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/soft_demod_test.dir/soft_demod_test.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/phy/modem/test/soft_demod_test.c
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/phy/modem/test && /usr/bin/ccache /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/soft_demod_test.dir/soft_demod_test.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/phy/modem/test/soft_demod_test.c
 
 lib/src/phy/modem/test/CMakeFiles/soft_demod_test.dir/soft_demod_test.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/soft_demod_test.dir/soft_demod_test.c.i"

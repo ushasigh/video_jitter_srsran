@@ -60,7 +60,7 @@ include lib/src/phy/ch_estimation/test/CMakeFiles/refsignal_ul_test_all.dir/flag
 lib/src/phy/ch_estimation/test/CMakeFiles/refsignal_ul_test_all.dir/refsignal_ul_test.c.o: lib/src/phy/ch_estimation/test/CMakeFiles/refsignal_ul_test_all.dir/flags.make
 lib/src/phy/ch_estimation/test/CMakeFiles/refsignal_ul_test_all.dir/refsignal_ul_test.c.o: ../lib/src/phy/ch_estimation/test/refsignal_ul_test.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object lib/src/phy/ch_estimation/test/CMakeFiles/refsignal_ul_test_all.dir/refsignal_ul_test.c.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/phy/ch_estimation/test && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/refsignal_ul_test_all.dir/refsignal_ul_test.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/phy/ch_estimation/test/refsignal_ul_test.c
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/phy/ch_estimation/test && /usr/bin/ccache /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/refsignal_ul_test_all.dir/refsignal_ul_test.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/phy/ch_estimation/test/refsignal_ul_test.c
 
 lib/src/phy/ch_estimation/test/CMakeFiles/refsignal_ul_test_all.dir/refsignal_ul_test.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/refsignal_ul_test_all.dir/refsignal_ul_test.c.i"

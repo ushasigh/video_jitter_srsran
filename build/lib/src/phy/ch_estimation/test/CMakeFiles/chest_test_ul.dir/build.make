@@ -60,7 +60,7 @@ include lib/src/phy/ch_estimation/test/CMakeFiles/chest_test_ul.dir/flags.make
 lib/src/phy/ch_estimation/test/CMakeFiles/chest_test_ul.dir/chest_test_ul.c.o: lib/src/phy/ch_estimation/test/CMakeFiles/chest_test_ul.dir/flags.make
 lib/src/phy/ch_estimation/test/CMakeFiles/chest_test_ul.dir/chest_test_ul.c.o: ../lib/src/phy/ch_estimation/test/chest_test_ul.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object lib/src/phy/ch_estimation/test/CMakeFiles/chest_test_ul.dir/chest_test_ul.c.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/phy/ch_estimation/test && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/chest_test_ul.dir/chest_test_ul.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/phy/ch_estimation/test/chest_test_ul.c
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/phy/ch_estimation/test && /usr/bin/ccache /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/chest_test_ul.dir/chest_test_ul.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/phy/ch_estimation/test/chest_test_ul.c
 
 lib/src/phy/ch_estimation/test/CMakeFiles/chest_test_ul.dir/chest_test_ul.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/chest_test_ul.dir/chest_test_ul.c.i"

@@ -60,7 +60,7 @@ include lib/examples/CMakeFiles/npdsch_ue.dir/flags.make
 lib/examples/CMakeFiles/npdsch_ue.dir/npdsch_ue.c.o: lib/examples/CMakeFiles/npdsch_ue.dir/flags.make
 lib/examples/CMakeFiles/npdsch_ue.dir/npdsch_ue.c.o: ../lib/examples/npdsch_ue.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object lib/examples/CMakeFiles/npdsch_ue.dir/npdsch_ue.c.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/examples && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/npdsch_ue.dir/npdsch_ue.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/examples/npdsch_ue.c
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/examples && /usr/bin/ccache /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/npdsch_ue.dir/npdsch_ue.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/examples/npdsch_ue.c
 
 lib/examples/CMakeFiles/npdsch_ue.dir/npdsch_ue.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/npdsch_ue.dir/npdsch_ue.c.i"
@@ -73,7 +73,7 @@ lib/examples/CMakeFiles/npdsch_ue.dir/npdsch_ue.c.s: cmake_force
 lib/examples/CMakeFiles/npdsch_ue.dir/npdsch_ue_helper.cc.o: lib/examples/CMakeFiles/npdsch_ue.dir/flags.make
 lib/examples/CMakeFiles/npdsch_ue.dir/npdsch_ue_helper.cc.o: ../lib/examples/npdsch_ue_helper.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object lib/examples/CMakeFiles/npdsch_ue.dir/npdsch_ue_helper.cc.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/examples && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/npdsch_ue.dir/npdsch_ue_helper.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/examples/npdsch_ue_helper.cc
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/examples && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/npdsch_ue.dir/npdsch_ue_helper.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/examples/npdsch_ue_helper.cc
 
 lib/examples/CMakeFiles/npdsch_ue.dir/npdsch_ue_helper.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/npdsch_ue.dir/npdsch_ue_helper.cc.i"

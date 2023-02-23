@@ -60,7 +60,7 @@ include lib/src/asn1/CMakeFiles/srsran_asn1.dir/flags.make
 lib/src/asn1/CMakeFiles/srsran_asn1.dir/liblte_common.cc.o: lib/src/asn1/CMakeFiles/srsran_asn1.dir/flags.make
 lib/src/asn1/CMakeFiles/srsran_asn1.dir/liblte_common.cc.o: ../lib/src/asn1/liblte_common.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lib/src/asn1/CMakeFiles/srsran_asn1.dir/liblte_common.cc.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/asn1 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsran_asn1.dir/liblte_common.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/asn1/liblte_common.cc
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/asn1 && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsran_asn1.dir/liblte_common.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/asn1/liblte_common.cc
 
 lib/src/asn1/CMakeFiles/srsran_asn1.dir/liblte_common.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srsran_asn1.dir/liblte_common.cc.i"
@@ -73,7 +73,7 @@ lib/src/asn1/CMakeFiles/srsran_asn1.dir/liblte_common.cc.s: cmake_force
 lib/src/asn1/CMakeFiles/srsran_asn1.dir/liblte_mme.cc.o: lib/src/asn1/CMakeFiles/srsran_asn1.dir/flags.make
 lib/src/asn1/CMakeFiles/srsran_asn1.dir/liblte_mme.cc.o: ../lib/src/asn1/liblte_mme.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object lib/src/asn1/CMakeFiles/srsran_asn1.dir/liblte_mme.cc.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/asn1 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsran_asn1.dir/liblte_mme.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/asn1/liblte_mme.cc
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/asn1 && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsran_asn1.dir/liblte_mme.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/asn1/liblte_mme.cc
 
 lib/src/asn1/CMakeFiles/srsran_asn1.dir/liblte_mme.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srsran_asn1.dir/liblte_mme.cc.i"
@@ -86,7 +86,7 @@ lib/src/asn1/CMakeFiles/srsran_asn1.dir/liblte_mme.cc.s: cmake_force
 lib/src/asn1/CMakeFiles/srsran_asn1.dir/gtpc.cc.o: lib/src/asn1/CMakeFiles/srsran_asn1.dir/flags.make
 lib/src/asn1/CMakeFiles/srsran_asn1.dir/gtpc.cc.o: ../lib/src/asn1/gtpc.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object lib/src/asn1/CMakeFiles/srsran_asn1.dir/gtpc.cc.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/asn1 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsran_asn1.dir/gtpc.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/asn1/gtpc.cc
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/asn1 && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsran_asn1.dir/gtpc.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/asn1/gtpc.cc
 
 lib/src/asn1/CMakeFiles/srsran_asn1.dir/gtpc.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srsran_asn1.dir/gtpc.cc.i"

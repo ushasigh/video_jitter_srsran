@@ -80,6 +80,16 @@ install/local/fast: preinstall/fast
 	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local/fast
 
+# Special rule for the target list_install_components
+list_install_components:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
+.PHONY : list_install_components
+
+# Special rule for the target list_install_components
+list_install_components/fast: list_install_components
+
+.PHONY : list_install_components/fast
+
 # Special rule for the target install
 install: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
@@ -102,16 +112,6 @@ package: preinstall
 package/fast: package
 
 .PHONY : package/fast
-
-# Special rule for the target list_install_components
-list_install_components:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
-.PHONY : list_install_components
-
-# Special rule for the target list_install_components
-list_install_components/fast: list_install_components
-
-.PHONY : list_install_components/fast
 
 # Special rule for the target package_source
 package_source:
@@ -233,6 +233,21 @@ srsran_rf_zmq: lib/src/phy/rf/CMakeFiles/srsran_rf_zmq.dir/rule
 srsran_rf_zmq/fast:
 	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build && $(MAKE) -f lib/src/phy/rf/CMakeFiles/srsran_rf_zmq.dir/build.make lib/src/phy/rf/CMakeFiles/srsran_rf_zmq.dir/build
 .PHONY : srsran_rf_zmq/fast
+
+# Convenience name for target.
+lib/src/phy/rf/CMakeFiles/srsran_rf_soapy.dir/rule:
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build && $(MAKE) -f CMakeFiles/Makefile2 lib/src/phy/rf/CMakeFiles/srsran_rf_soapy.dir/rule
+.PHONY : lib/src/phy/rf/CMakeFiles/srsran_rf_soapy.dir/rule
+
+# Convenience name for target.
+srsran_rf_soapy: lib/src/phy/rf/CMakeFiles/srsran_rf_soapy.dir/rule
+
+.PHONY : srsran_rf_soapy
+
+# fast build rule for target.
+srsran_rf_soapy/fast:
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build && $(MAKE) -f lib/src/phy/rf/CMakeFiles/srsran_rf_soapy.dir/build.make lib/src/phy/rf/CMakeFiles/srsran_rf_soapy.dir/build
+.PHONY : srsran_rf_soapy/fast
 
 # Convenience name for target.
 lib/src/phy/rf/CMakeFiles/srsran_rf_object.dir/rule:
@@ -429,6 +444,33 @@ rf_imp.c.s:
 	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build && $(MAKE) -f lib/src/phy/rf/CMakeFiles/srsran_rf_object.dir/build.make lib/src/phy/rf/CMakeFiles/srsran_rf_object.dir/rf_imp.c.s
 .PHONY : rf_imp.c.s
 
+rf_soapy_imp.o: rf_soapy_imp.c.o
+
+.PHONY : rf_soapy_imp.o
+
+# target to build an object file
+rf_soapy_imp.c.o:
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build && $(MAKE) -f lib/src/phy/rf/CMakeFiles/srsran_rf_soapy.dir/build.make lib/src/phy/rf/CMakeFiles/srsran_rf_soapy.dir/rf_soapy_imp.c.o
+.PHONY : rf_soapy_imp.c.o
+
+rf_soapy_imp.i: rf_soapy_imp.c.i
+
+.PHONY : rf_soapy_imp.i
+
+# target to preprocess a source file
+rf_soapy_imp.c.i:
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build && $(MAKE) -f lib/src/phy/rf/CMakeFiles/srsran_rf_soapy.dir/build.make lib/src/phy/rf/CMakeFiles/srsran_rf_soapy.dir/rf_soapy_imp.c.i
+.PHONY : rf_soapy_imp.c.i
+
+rf_soapy_imp.s: rf_soapy_imp.c.s
+
+.PHONY : rf_soapy_imp.s
+
+# target to generate assembly for a file
+rf_soapy_imp.c.s:
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build && $(MAKE) -f lib/src/phy/rf/CMakeFiles/srsran_rf_soapy.dir/build.make lib/src/phy/rf/CMakeFiles/srsran_rf_soapy.dir/rf_soapy_imp.c.s
+.PHONY : rf_soapy_imp.c.s
+
 rf_uhd_imp.o: rf_uhd_imp.cc.o
 
 .PHONY : rf_uhd_imp.o
@@ -599,16 +641,17 @@ help:
 	@echo "... depend"
 	@echo "... install/strip"
 	@echo "... install/local"
+	@echo "... list_install_components"
 	@echo "... srsran_rf_utils"
 	@echo "... srsran_rf_uhd"
 	@echo "... install"
 	@echo "... srsran_rf_zmq"
+	@echo "... srsran_rf_soapy"
 	@echo "... srsran_rf_object"
 	@echo "... srsran_rf"
 	@echo "... rf_zmq_test"
 	@echo "... rf_file_test"
 	@echo "... package"
-	@echo "... list_install_components"
 	@echo "... package_source"
 	@echo "... test"
 	@echo "... rebuild_cache"
@@ -628,6 +671,9 @@ help:
 	@echo "... rf_imp.o"
 	@echo "... rf_imp.i"
 	@echo "... rf_imp.s"
+	@echo "... rf_soapy_imp.o"
+	@echo "... rf_soapy_imp.i"
+	@echo "... rf_soapy_imp.s"
 	@echo "... rf_uhd_imp.o"
 	@echo "... rf_uhd_imp.i"
 	@echo "... rf_uhd_imp.s"

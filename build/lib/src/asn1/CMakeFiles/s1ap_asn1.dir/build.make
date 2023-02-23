@@ -60,7 +60,7 @@ include lib/src/asn1/CMakeFiles/s1ap_asn1.dir/flags.make
 lib/src/asn1/CMakeFiles/s1ap_asn1.dir/s1ap.cc.o: lib/src/asn1/CMakeFiles/s1ap_asn1.dir/flags.make
 lib/src/asn1/CMakeFiles/s1ap_asn1.dir/s1ap.cc.o: ../lib/src/asn1/s1ap.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lib/src/asn1/CMakeFiles/s1ap_asn1.dir/s1ap.cc.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/asn1 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/s1ap_asn1.dir/s1ap.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/asn1/s1ap.cc
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/asn1 && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/s1ap_asn1.dir/s1ap.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/asn1/s1ap.cc
 
 lib/src/asn1/CMakeFiles/s1ap_asn1.dir/s1ap.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/s1ap_asn1.dir/s1ap.cc.i"
@@ -73,7 +73,7 @@ lib/src/asn1/CMakeFiles/s1ap_asn1.dir/s1ap.cc.s: cmake_force
 lib/src/asn1/CMakeFiles/s1ap_asn1.dir/s1ap_utils.cc.o: lib/src/asn1/CMakeFiles/s1ap_asn1.dir/flags.make
 lib/src/asn1/CMakeFiles/s1ap_asn1.dir/s1ap_utils.cc.o: ../lib/src/asn1/s1ap_utils.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object lib/src/asn1/CMakeFiles/s1ap_asn1.dir/s1ap_utils.cc.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/asn1 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/s1ap_asn1.dir/s1ap_utils.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/asn1/s1ap_utils.cc
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/asn1 && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/s1ap_asn1.dir/s1ap_utils.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/asn1/s1ap_utils.cc
 
 lib/src/asn1/CMakeFiles/s1ap_asn1.dir/s1ap_utils.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/s1ap_asn1.dir/s1ap_utils.cc.i"

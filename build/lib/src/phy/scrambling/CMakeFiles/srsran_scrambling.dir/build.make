@@ -60,7 +60,7 @@ include lib/src/phy/scrambling/CMakeFiles/srsran_scrambling.dir/flags.make
 lib/src/phy/scrambling/CMakeFiles/srsran_scrambling.dir/scrambling.c.o: lib/src/phy/scrambling/CMakeFiles/srsran_scrambling.dir/flags.make
 lib/src/phy/scrambling/CMakeFiles/srsran_scrambling.dir/scrambling.c.o: ../lib/src/phy/scrambling/scrambling.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object lib/src/phy/scrambling/CMakeFiles/srsran_scrambling.dir/scrambling.c.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/phy/scrambling && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srsran_scrambling.dir/scrambling.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/phy/scrambling/scrambling.c
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/phy/scrambling && /usr/bin/ccache /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srsran_scrambling.dir/scrambling.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/phy/scrambling/scrambling.c
 
 lib/src/phy/scrambling/CMakeFiles/srsran_scrambling.dir/scrambling.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/srsran_scrambling.dir/scrambling.c.i"

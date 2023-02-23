@@ -60,7 +60,7 @@ include lib/examples/CMakeFiles/usrp_txrx.dir/flags.make
 lib/examples/CMakeFiles/usrp_txrx.dir/usrp_txrx.c.o: lib/examples/CMakeFiles/usrp_txrx.dir/flags.make
 lib/examples/CMakeFiles/usrp_txrx.dir/usrp_txrx.c.o: ../lib/examples/usrp_txrx.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object lib/examples/CMakeFiles/usrp_txrx.dir/usrp_txrx.c.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/examples && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/usrp_txrx.dir/usrp_txrx.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/examples/usrp_txrx.c
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/examples && /usr/bin/ccache /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/usrp_txrx.dir/usrp_txrx.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/examples/usrp_txrx.c
 
 lib/examples/CMakeFiles/usrp_txrx.dir/usrp_txrx.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usrp_txrx.dir/usrp_txrx.c.i"

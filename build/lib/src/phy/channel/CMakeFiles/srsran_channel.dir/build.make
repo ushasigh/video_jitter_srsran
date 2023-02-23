@@ -60,7 +60,7 @@ include lib/src/phy/channel/CMakeFiles/srsran_channel.dir/flags.make
 lib/src/phy/channel/CMakeFiles/srsran_channel.dir/ch_awgn.c.o: lib/src/phy/channel/CMakeFiles/srsran_channel.dir/flags.make
 lib/src/phy/channel/CMakeFiles/srsran_channel.dir/ch_awgn.c.o: ../lib/src/phy/channel/ch_awgn.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object lib/src/phy/channel/CMakeFiles/srsran_channel.dir/ch_awgn.c.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/phy/channel && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srsran_channel.dir/ch_awgn.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/phy/channel/ch_awgn.c
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/phy/channel && /usr/bin/ccache /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srsran_channel.dir/ch_awgn.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/phy/channel/ch_awgn.c
 
 lib/src/phy/channel/CMakeFiles/srsran_channel.dir/ch_awgn.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/srsran_channel.dir/ch_awgn.c.i"
@@ -73,7 +73,7 @@ lib/src/phy/channel/CMakeFiles/srsran_channel.dir/ch_awgn.c.s: cmake_force
 lib/src/phy/channel/CMakeFiles/srsran_channel.dir/channel.cc.o: lib/src/phy/channel/CMakeFiles/srsran_channel.dir/flags.make
 lib/src/phy/channel/CMakeFiles/srsran_channel.dir/channel.cc.o: ../lib/src/phy/channel/channel.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object lib/src/phy/channel/CMakeFiles/srsran_channel.dir/channel.cc.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/phy/channel && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsran_channel.dir/channel.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/phy/channel/channel.cc
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/phy/channel && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsran_channel.dir/channel.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/phy/channel/channel.cc
 
 lib/src/phy/channel/CMakeFiles/srsran_channel.dir/channel.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srsran_channel.dir/channel.cc.i"
@@ -86,7 +86,7 @@ lib/src/phy/channel/CMakeFiles/srsran_channel.dir/channel.cc.s: cmake_force
 lib/src/phy/channel/CMakeFiles/srsran_channel.dir/delay.c.o: lib/src/phy/channel/CMakeFiles/srsran_channel.dir/flags.make
 lib/src/phy/channel/CMakeFiles/srsran_channel.dir/delay.c.o: ../lib/src/phy/channel/delay.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object lib/src/phy/channel/CMakeFiles/srsran_channel.dir/delay.c.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/phy/channel && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srsran_channel.dir/delay.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/phy/channel/delay.c
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/phy/channel && /usr/bin/ccache /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srsran_channel.dir/delay.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/phy/channel/delay.c
 
 lib/src/phy/channel/CMakeFiles/srsran_channel.dir/delay.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/srsran_channel.dir/delay.c.i"
@@ -99,7 +99,7 @@ lib/src/phy/channel/CMakeFiles/srsran_channel.dir/delay.c.s: cmake_force
 lib/src/phy/channel/CMakeFiles/srsran_channel.dir/fading.c.o: lib/src/phy/channel/CMakeFiles/srsran_channel.dir/flags.make
 lib/src/phy/channel/CMakeFiles/srsran_channel.dir/fading.c.o: ../lib/src/phy/channel/fading.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object lib/src/phy/channel/CMakeFiles/srsran_channel.dir/fading.c.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/phy/channel && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srsran_channel.dir/fading.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/phy/channel/fading.c
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/phy/channel && /usr/bin/ccache /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srsran_channel.dir/fading.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/phy/channel/fading.c
 
 lib/src/phy/channel/CMakeFiles/srsran_channel.dir/fading.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/srsran_channel.dir/fading.c.i"
@@ -112,7 +112,7 @@ lib/src/phy/channel/CMakeFiles/srsran_channel.dir/fading.c.s: cmake_force
 lib/src/phy/channel/CMakeFiles/srsran_channel.dir/gauss.c.o: lib/src/phy/channel/CMakeFiles/srsran_channel.dir/flags.make
 lib/src/phy/channel/CMakeFiles/srsran_channel.dir/gauss.c.o: ../lib/src/phy/channel/gauss.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object lib/src/phy/channel/CMakeFiles/srsran_channel.dir/gauss.c.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/phy/channel && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srsran_channel.dir/gauss.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/phy/channel/gauss.c
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/phy/channel && /usr/bin/ccache /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srsran_channel.dir/gauss.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/phy/channel/gauss.c
 
 lib/src/phy/channel/CMakeFiles/srsran_channel.dir/gauss.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/srsran_channel.dir/gauss.c.i"
@@ -125,7 +125,7 @@ lib/src/phy/channel/CMakeFiles/srsran_channel.dir/gauss.c.s: cmake_force
 lib/src/phy/channel/CMakeFiles/srsran_channel.dir/hst.c.o: lib/src/phy/channel/CMakeFiles/srsran_channel.dir/flags.make
 lib/src/phy/channel/CMakeFiles/srsran_channel.dir/hst.c.o: ../lib/src/phy/channel/hst.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object lib/src/phy/channel/CMakeFiles/srsran_channel.dir/hst.c.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/phy/channel && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srsran_channel.dir/hst.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/phy/channel/hst.c
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/phy/channel && /usr/bin/ccache /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srsran_channel.dir/hst.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/phy/channel/hst.c
 
 lib/src/phy/channel/CMakeFiles/srsran_channel.dir/hst.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/srsran_channel.dir/hst.c.i"
@@ -138,7 +138,7 @@ lib/src/phy/channel/CMakeFiles/srsran_channel.dir/hst.c.s: cmake_force
 lib/src/phy/channel/CMakeFiles/srsran_channel.dir/rlf.c.o: lib/src/phy/channel/CMakeFiles/srsran_channel.dir/flags.make
 lib/src/phy/channel/CMakeFiles/srsran_channel.dir/rlf.c.o: ../lib/src/phy/channel/rlf.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object lib/src/phy/channel/CMakeFiles/srsran_channel.dir/rlf.c.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/phy/channel && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srsran_channel.dir/rlf.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/phy/channel/rlf.c
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/phy/channel && /usr/bin/ccache /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srsran_channel.dir/rlf.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/phy/channel/rlf.c
 
 lib/src/phy/channel/CMakeFiles/srsran_channel.dir/rlf.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/srsran_channel.dir/rlf.c.i"

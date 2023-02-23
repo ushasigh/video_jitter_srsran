@@ -60,7 +60,7 @@ include srsenb/src/CMakeFiles/srsenb.dir/flags.make
 srsenb/src/CMakeFiles/srsenb.dir/main.cc.o: srsenb/src/CMakeFiles/srsenb.dir/flags.make
 srsenb/src/CMakeFiles/srsenb.dir/main.cc.o: ../srsenb/src/main.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object srsenb/src/CMakeFiles/srsenb.dir/main.cc.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsenb/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsenb.dir/main.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsenb/src/main.cc
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsenb/src && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsenb.dir/main.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsenb/src/main.cc
 
 srsenb/src/CMakeFiles/srsenb.dir/main.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srsenb.dir/main.cc.i"
@@ -73,7 +73,7 @@ srsenb/src/CMakeFiles/srsenb.dir/main.cc.s: cmake_force
 srsenb/src/CMakeFiles/srsenb.dir/enb.cc.o: srsenb/src/CMakeFiles/srsenb.dir/flags.make
 srsenb/src/CMakeFiles/srsenb.dir/enb.cc.o: ../srsenb/src/enb.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object srsenb/src/CMakeFiles/srsenb.dir/enb.cc.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsenb/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsenb.dir/enb.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsenb/src/enb.cc
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsenb/src && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsenb.dir/enb.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsenb/src/enb.cc
 
 srsenb/src/CMakeFiles/srsenb.dir/enb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srsenb.dir/enb.cc.i"
@@ -86,7 +86,7 @@ srsenb/src/CMakeFiles/srsenb.dir/enb.cc.s: cmake_force
 srsenb/src/CMakeFiles/srsenb.dir/metrics_stdout.cc.o: srsenb/src/CMakeFiles/srsenb.dir/flags.make
 srsenb/src/CMakeFiles/srsenb.dir/metrics_stdout.cc.o: ../srsenb/src/metrics_stdout.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object srsenb/src/CMakeFiles/srsenb.dir/metrics_stdout.cc.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsenb/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsenb.dir/metrics_stdout.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsenb/src/metrics_stdout.cc
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsenb/src && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsenb.dir/metrics_stdout.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsenb/src/metrics_stdout.cc
 
 srsenb/src/CMakeFiles/srsenb.dir/metrics_stdout.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srsenb.dir/metrics_stdout.cc.i"
@@ -99,7 +99,7 @@ srsenb/src/CMakeFiles/srsenb.dir/metrics_stdout.cc.s: cmake_force
 srsenb/src/CMakeFiles/srsenb.dir/metrics_csv.cc.o: srsenb/src/CMakeFiles/srsenb.dir/flags.make
 srsenb/src/CMakeFiles/srsenb.dir/metrics_csv.cc.o: ../srsenb/src/metrics_csv.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object srsenb/src/CMakeFiles/srsenb.dir/metrics_csv.cc.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsenb/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsenb.dir/metrics_csv.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsenb/src/metrics_csv.cc
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsenb/src && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsenb.dir/metrics_csv.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsenb/src/metrics_csv.cc
 
 srsenb/src/CMakeFiles/srsenb.dir/metrics_csv.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srsenb.dir/metrics_csv.cc.i"
@@ -112,7 +112,7 @@ srsenb/src/CMakeFiles/srsenb.dir/metrics_csv.cc.s: cmake_force
 srsenb/src/CMakeFiles/srsenb.dir/metrics_json.cc.o: srsenb/src/CMakeFiles/srsenb.dir/flags.make
 srsenb/src/CMakeFiles/srsenb.dir/metrics_json.cc.o: ../srsenb/src/metrics_json.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object srsenb/src/CMakeFiles/srsenb.dir/metrics_json.cc.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsenb/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsenb.dir/metrics_json.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsenb/src/metrics_json.cc
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsenb/src && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsenb.dir/metrics_json.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsenb/src/metrics_json.cc
 
 srsenb/src/CMakeFiles/srsenb.dir/metrics_json.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srsenb.dir/metrics_json.cc.i"

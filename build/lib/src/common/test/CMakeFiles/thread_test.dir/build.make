@@ -60,7 +60,7 @@ include lib/src/common/test/CMakeFiles/thread_test.dir/flags.make
 lib/src/common/test/CMakeFiles/thread_test.dir/thread_test.cc.o: lib/src/common/test/CMakeFiles/thread_test.dir/flags.make
 lib/src/common/test/CMakeFiles/thread_test.dir/thread_test.cc.o: ../lib/src/common/test/thread_test.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lib/src/common/test/CMakeFiles/thread_test.dir/thread_test.cc.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/common/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/thread_test.dir/thread_test.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/common/test/thread_test.cc
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/common/test && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/thread_test.dir/thread_test.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/common/test/thread_test.cc
 
 lib/src/common/test/CMakeFiles/thread_test.dir/thread_test.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/thread_test.dir/thread_test.cc.i"

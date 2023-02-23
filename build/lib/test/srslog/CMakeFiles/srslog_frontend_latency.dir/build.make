@@ -60,7 +60,7 @@ include lib/test/srslog/CMakeFiles/srslog_frontend_latency.dir/flags.make
 lib/test/srslog/CMakeFiles/srslog_frontend_latency.dir/benchmarks/frontend_latency.cpp.o: lib/test/srslog/CMakeFiles/srslog_frontend_latency.dir/flags.make
 lib/test/srslog/CMakeFiles/srslog_frontend_latency.dir/benchmarks/frontend_latency.cpp.o: ../lib/test/srslog/benchmarks/frontend_latency.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lib/test/srslog/CMakeFiles/srslog_frontend_latency.dir/benchmarks/frontend_latency.cpp.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/test/srslog && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srslog_frontend_latency.dir/benchmarks/frontend_latency.cpp.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/test/srslog/benchmarks/frontend_latency.cpp
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/test/srslog && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srslog_frontend_latency.dir/benchmarks/frontend_latency.cpp.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/test/srslog/benchmarks/frontend_latency.cpp
 
 lib/test/srslog/CMakeFiles/srslog_frontend_latency.dir/benchmarks/frontend_latency.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srslog_frontend_latency.dir/benchmarks/frontend_latency.cpp.i"

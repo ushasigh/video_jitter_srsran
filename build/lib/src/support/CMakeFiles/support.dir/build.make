@@ -60,7 +60,7 @@ include lib/src/support/CMakeFiles/support.dir/flags.make
 lib/src/support/CMakeFiles/support.dir/emergency_handlers.cc.o: lib/src/support/CMakeFiles/support.dir/flags.make
 lib/src/support/CMakeFiles/support.dir/emergency_handlers.cc.o: ../lib/src/support/emergency_handlers.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lib/src/support/CMakeFiles/support.dir/emergency_handlers.cc.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/support && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/support.dir/emergency_handlers.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/support/emergency_handlers.cc
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/support && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/support.dir/emergency_handlers.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/support/emergency_handlers.cc
 
 lib/src/support/CMakeFiles/support.dir/emergency_handlers.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/support.dir/emergency_handlers.cc.i"
@@ -73,7 +73,7 @@ lib/src/support/CMakeFiles/support.dir/emergency_handlers.cc.s: cmake_force
 lib/src/support/CMakeFiles/support.dir/signal_handler.cc.o: lib/src/support/CMakeFiles/support.dir/flags.make
 lib/src/support/CMakeFiles/support.dir/signal_handler.cc.o: ../lib/src/support/signal_handler.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object lib/src/support/CMakeFiles/support.dir/signal_handler.cc.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/support && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/support.dir/signal_handler.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/support/signal_handler.cc
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/support && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/support.dir/signal_handler.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/support/signal_handler.cc
 
 lib/src/support/CMakeFiles/support.dir/signal_handler.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/support.dir/signal_handler.cc.i"

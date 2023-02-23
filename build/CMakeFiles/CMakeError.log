@@ -1,21 +1,21 @@
 Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
 Change Dir: /home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_6b79d/fast && /usr/bin/make -f CMakeFiles/cmTC_6b79d.dir/build.make CMakeFiles/cmTC_6b79d.dir/build
+Run Build Command(s):/usr/bin/make cmTC_cf721/fast && /usr/bin/make -f CMakeFiles/cmTC_cf721.dir/build.make CMakeFiles/cmTC_cf721.dir/build
 make[1]: Entering directory '/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_6b79d.dir/src.c.o
-/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_6b79d.dir/src.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_6b79d
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6b79d.dir/link.txt --verbose=1
-/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    CMakeFiles/cmTC_6b79d.dir/src.c.o  -o cmTC_6b79d 
-/usr/bin/ld: CMakeFiles/cmTC_6b79d.dir/src.c.o: in function `main':
+Building C object CMakeFiles/cmTC_cf721.dir/src.c.o
+/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_cf721.dir/src.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_cf721
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cf721.dir/link.txt --verbose=1
+/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    CMakeFiles/cmTC_cf721.dir/src.c.o  -o cmTC_cf721 
+/usr/bin/ld: CMakeFiles/cmTC_cf721.dir/src.c.o: in function `main':
 src.c:(.text+0x46): undefined reference to `pthread_create'
 /usr/bin/ld: src.c:(.text+0x52): undefined reference to `pthread_detach'
 /usr/bin/ld: src.c:(.text+0x63): undefined reference to `pthread_join'
 collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_6b79d.dir/build.make:87: cmTC_6b79d] Error 1
+make[1]: *** [CMakeFiles/cmTC_cf721.dir/build.make:87: cmTC_cf721] Error 1
 make[1]: Leaving directory '/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles/CMakeTmp'
-make: *** [Makefile:121: cmTC_6b79d/fast] Error 2
+make: *** [Makefile:121: cmTC_cf721/fast] Error 2
 
 
 Source file was:
@@ -41,37 +41,37 @@ int main(void)
 Determining if the function pthread_create exists in the pthreads failed with the following output:
 Change Dir: /home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_eceec/fast && /usr/bin/make -f CMakeFiles/cmTC_eceec.dir/build.make CMakeFiles/cmTC_eceec.dir/build
+Run Build Command(s):/usr/bin/make cmTC_c0321/fast && /usr/bin/make -f CMakeFiles/cmTC_c0321.dir/build.make CMakeFiles/cmTC_c0321.dir/build
 make[1]: Entering directory '/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_eceec.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_eceec.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
-Linking C executable cmTC_eceec
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eceec.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_eceec.dir/CheckFunctionExists.c.o  -o cmTC_eceec  -lpthreads 
+Building C object CMakeFiles/cmTC_c0321.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_c0321.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_c0321
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c0321.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_c0321.dir/CheckFunctionExists.c.o  -o cmTC_c0321  -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_eceec.dir/build.make:87: cmTC_eceec] Error 1
+make[1]: *** [CMakeFiles/cmTC_c0321.dir/build.make:87: cmTC_c0321] Error 1
 make[1]: Leaving directory '/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles/CMakeTmp'
-make: *** [Makefile:121: cmTC_eceec/fast] Error 2
+make: *** [Makefile:121: cmTC_c0321/fast] Error 2
 
 
 
 Performing C++ SOURCE FILE Test UHD_ENABLE_X300_FW_RESET failed with the following output:
 Change Dir: /home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_78f26/fast && /usr/bin/make -f CMakeFiles/cmTC_78f26.dir/build.make CMakeFiles/cmTC_78f26.dir/build
+Run Build Command(s):/usr/bin/make cmTC_4c383/fast && /usr/bin/make -f CMakeFiles/cmTC_4c383.dir/build.make CMakeFiles/cmTC_4c383.dir/build
 make[1]: Entering directory '/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_78f26.dir/src.cxx.o
-/usr/bin/c++    -DUHD_ENABLE_X300_FW_RESET  -L/usr/lib/x86_64-linux-gnu   -o CMakeFiles/cmTC_78f26.dir/src.cxx.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_78f26
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_78f26.dir/link.txt --verbose=1
-/usr/bin/c++   -DUHD_ENABLE_X300_FW_RESET  -L/usr/lib/x86_64-linux-gnu    CMakeFiles/cmTC_78f26.dir/src.cxx.o  -o cmTC_78f26  -luhd -lboost_program_options -lboost_system 
-/usr/bin/ld: CMakeFiles/cmTC_78f26.dir/src.cxx.o: in function `try_usrp_x300_reset()':
-src.cxx:(.text+0xf8): undefined reference to `x300_make_ctrl_iface_enet(boost::shared_ptr<uhd::transport::udp_simple>, bool)'
+Building CXX object CMakeFiles/cmTC_4c383.dir/src.cxx.o
+/usr/bin/c++    -DUHD_ENABLE_X300_FW_RESET  -L/usr/local/lib   -o CMakeFiles/cmTC_4c383.dir/src.cxx.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_4c383
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4c383.dir/link.txt --verbose=1
+/usr/bin/c++   -DUHD_ENABLE_X300_FW_RESET  -L/usr/local/lib    CMakeFiles/cmTC_4c383.dir/src.cxx.o  -o cmTC_4c383  -luhd -lboost_program_options -lboost_system 
+/usr/bin/ld: CMakeFiles/cmTC_4c383.dir/src.cxx.o: in function `try_usrp_x300_reset()':
+src.cxx:(.text+0xf8): undefined reference to `x300_make_ctrl_iface_enet(std::shared_ptr<uhd::transport::udp_simple>, bool)'
 collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_78f26.dir/build.make:87: cmTC_78f26] Error 1
+make[1]: *** [CMakeFiles/cmTC_4c383.dir/build.make:87: cmTC_4c383] Error 1
 make[1]: Leaving directory '/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles/CMakeTmp'
-make: *** [Makefile:121: cmTC_78f26/fast] Error 2
+make: *** [Makefile:121: cmTC_4c383/fast] Error 2
 
 
 Source file was:
@@ -94,20 +94,340 @@ Source file was:
       try_usrp_x300_reset();
       return 0;
     }
+Performing C++ SOURCE FILE Test UHD_ENABLE_RFNOC failed with the following output:
+Change Dir: /home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ffcb3/fast && /usr/bin/make -f CMakeFiles/cmTC_ffcb3.dir/build.make CMakeFiles/cmTC_ffcb3.dir/build
+make[1]: Entering directory '/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ffcb3.dir/src.cxx.o
+/usr/bin/c++    -DUHD_ENABLE_RFNOC  -L/usr/local/lib   -o CMakeFiles/cmTC_ffcb3.dir/src.cxx.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles/CMakeTmp/src.cxx
+In file included from /usr/include/uhd/rfnoc/block_ctrl_base.hpp:15,
+                 from /usr/include/uhd/device3.hpp:13,
+                 from /home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles/CMakeTmp/src.cxx:2:
+/usr/include/uhd/rfnoc/node_ctrl_base.hpp:36:21: error: aggregate ‘uhd::rfnoc::UHD_RFNOC_API uhd::rfnoc::node_ctrl_base’ has incomplete type and cannot be defined
+   36 | class UHD_RFNOC_API node_ctrl_base;
+      |                     ^~~~~~~~~~~~~~
+In file included from /usr/include/uhd/rfnoc/node_ctrl_base.hpp:307,
+                 from /usr/include/uhd/rfnoc/block_ctrl_base.hpp:15,
+                 from /usr/include/uhd/device3.hpp:13,
+                 from /home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles/CMakeTmp/src.cxx:2:
+/usr/include/uhd/rfnoc/node_ctrl_base.ipp:22:41: error: ‘node_ctrl_base’ is not a class, namespace, or enumeration
+   22 |     std::vector< boost::shared_ptr<T> > node_ctrl_base::_find_child_node(bool active_only)
+      |                                         ^~~~~~~~~~~~~~
+/usr/include/uhd/rfnoc/node_ctrl_base.ipp: In function ‘std::vector<boost::shared_ptr<X> > uhd::rfnoc::_find_child_node(bool)’:
+/usr/include/uhd/rfnoc/node_ctrl_base.ipp:30:20: error: ‘sptr’ was not declared in this scope; did you mean ‘T_sptr’?
+   30 |         std::set < sptr > explored;
+      |                    ^~~~
+      |                    T_sptr
+/usr/include/uhd/rfnoc/node_ctrl_base.ipp:30:25: error: template argument 1 is invalid
+   30 |         std::set < sptr > explored;
+      |                         ^
+/usr/include/uhd/rfnoc/node_ctrl_base.ipp:30:25: error: template argument 2 is invalid
+/usr/include/uhd/rfnoc/node_ctrl_base.ipp:30:25: error: template argument 3 is invalid
+/usr/include/uhd/rfnoc/node_ctrl_base.ipp:32:20: error: ‘node_map_pair_t’ was not declared in this scope
+   32 |         std::set < node_map_pair_t > search_q;
+      |                    ^~~~~~~~~~~~~~~
+/usr/include/uhd/rfnoc/node_ctrl_base.ipp:32:36: error: template argument 1 is invalid
+   32 |         std::set < node_map_pair_t > search_q;
+      |                                    ^
+/usr/include/uhd/rfnoc/node_ctrl_base.ipp:32:36: error: template argument 2 is invalid
+/usr/include/uhd/rfnoc/node_ctrl_base.ipp:32:36: error: template argument 3 is invalid
+/usr/include/uhd/rfnoc/node_ctrl_base.ipp:35:18: error: request for member ‘insert’ in ‘search_q’, which is of non-class type ‘int’
+   35 |         search_q.insert(node_map_pair_t(ANY_PORT, shared_from_this()));
+      |                  ^~~~~~
+/usr/include/uhd/rfnoc/node_ctrl_base.ipp:35:41: error: ‘ANY_PORT’ was not declared in this scope
+   35 |         search_q.insert(node_map_pair_t(ANY_PORT, shared_from_this()));
+      |                                         ^~~~~~~~
+/usr/include/uhd/rfnoc/node_ctrl_base.ipp:35:51: error: there are no arguments to ‘shared_from_this’ that depend on a template parameter, so a declaration of ‘shared_from_this’ must be available [-fpermissive]
+   35 |         search_q.insert(node_map_pair_t(ANY_PORT, shared_from_this()));
+      |                                                   ^~~~~~~~~~~~~~~~
+/usr/include/uhd/rfnoc/node_ctrl_base.ipp:35:51: note: (if you use ‘-fpermissive’, G++ will accept your code, but allowing the use of an undeclared name is deprecated)
+/usr/include/uhd/rfnoc/node_ctrl_base.ipp:36:36: error: template argument 2 is invalid
+   36 |         std::set < node_map_pair_t > next_q;
+      |                                    ^
+/usr/include/uhd/rfnoc/node_ctrl_base.ipp:36:36: error: template argument 3 is invalid
+/usr/include/uhd/rfnoc/node_ctrl_base.ipp:39:20: error: request for member ‘clear’ in ‘next_q’, which is of non-class type ‘int’
+   39 |             next_q.clear();
+      |                    ^~~~~
+/usr/include/uhd/rfnoc/node_ctrl_base.ipp:40:27: error: expected primary-expression before ‘const’
+   40 |             BOOST_FOREACH(const node_map_pair_t node_pair, search_q) {
+      |                           ^~~~~
+/usr/include/uhd/rfnoc/node_ctrl_base.ipp:40:13: error: there are no arguments to ‘BOOST_FOREACH’ that depend on a template parameter, so a declaration of ‘BOOST_FOREACH’ must be available [-fpermissive]
+   40 |             BOOST_FOREACH(const node_map_pair_t node_pair, search_q) {
+      |             ^~~~~~~~~~~~~
+/usr/include/uhd/rfnoc/node_ctrl_base.ipp:40:69: error: expected ‘;’ before ‘{’ token
+   40 |             BOOST_FOREACH(const node_map_pair_t node_pair, search_q) {
+      |                                                                     ^~
+      |                                                                     ;
+/usr/include/uhd/rfnoc/node_ctrl_base.ipp:104:24: error: request for member ‘empty’ in ‘next_q’, which is of non-class type ‘int’
+  104 |             if (next_q.empty()) {
+      |                        ^~~~~
+/usr/include/uhd/rfnoc/node_ctrl_base.ipp: At global scope:
+/usr/include/uhd/rfnoc/node_ctrl_base.ipp:116:16: error: ‘node_ctrl_base’ is not a class, namespace, or enumeration
+  116 |     value_type node_ctrl_base::_find_unique_property(
+      |                ^~~~~~~~~~~~~~
+/usr/include/uhd/rfnoc/node_ctrl_base.ipp: In function ‘value_type uhd::rfnoc::_find_unique_property(boost::function<value_type(boost::shared_ptr<X>, long unsigned int)>, value_type, const std::set<boost::shared_ptr<X> >&)’:
+/usr/include/uhd/rfnoc/node_ctrl_base.ipp:124:23: error: expected primary-expression before ‘const’
+  124 |         BOOST_FOREACH(const boost::shared_ptr<T> &node, descendant_rate_nodes) {
+      |                       ^~~~~
+/usr/include/uhd/rfnoc/node_ctrl_base.ipp:124:79: error: expected ‘;’ before ‘{’ token
+  124 |         BOOST_FOREACH(const boost::shared_ptr<T> &node, descendant_rate_nodes) {
+      |                                                                               ^~
+      |                                                                               ;
+In file included from /usr/include/uhd/rfnoc/block_ctrl_base.hpp:16,
+                 from /usr/include/uhd/device3.hpp:13,
+                 from /home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles/CMakeTmp/src.cxx:2:
+/usr/include/uhd/rfnoc/stream_sig.hpp: At global scope:
+/usr/include/uhd/rfnoc/stream_sig.hpp:23:21: error: variable ‘uhd::rfnoc::UHD_RFNOC_API uhd::rfnoc::stream_sig_t’ has initializer but incomplete type
+   23 | class UHD_RFNOC_API stream_sig_t
+      |                     ^~~~~~~~~~~~
+/usr/include/uhd/rfnoc/stream_sig.hpp:25:1: error: expected primary-expression before ‘public’
+   25 | public:
+      | ^~~~~~
+/usr/include/uhd/rfnoc/stream_sig.hpp:25:1: error: expected ‘}’ before ‘public’
+/usr/include/uhd/rfnoc/stream_sig.hpp:24:1: note: to match this ‘{’
+   24 | {
+      | ^
+/usr/include/uhd/rfnoc/stream_sig.hpp:25:1: error: expected ‘,’ or ‘;’ before ‘public’
+   25 | public:
+      | ^~~~~~
+/usr/include/uhd/rfnoc/stream_sig.hpp:60:33: error: non-member function ‘size_t uhd::rfnoc::get_bytes_per_item()’ cannot have cv-qualifier
+   60 |     size_t get_bytes_per_item() const;
+      |                                 ^~~~~
+/usr/include/uhd/rfnoc/stream_sig.hpp:68:15: error: ‘stream_sig_t’ does not name a type; did you mean ‘stream_args_t’?
+   68 |         const stream_sig_t& output_sig, const stream_sig_t& input_sig);
+      |               ^~~~~~~~~~~~
+      |               stream_args_t
+/usr/include/uhd/rfnoc/stream_sig.hpp:68:47: error: ‘stream_sig_t’ does not name a type; did you mean ‘stream_args_t’?
+   68 |         const stream_sig_t& output_sig, const stream_sig_t& input_sig);
+      |                                               ^~~~~~~~~~~~
+      |                                               stream_args_t
+/usr/include/uhd/rfnoc/stream_sig.hpp:72:56: error: ‘stream_sig_t’ has not been declared
+   72 | UHD_INLINE std::ostream& operator<<(std::ostream& out, stream_sig_t stream_sig)
+      |                                                        ^~~~~~~~~~~~
+/usr/include/uhd/rfnoc/stream_sig.hpp: In function ‘std::ostream& uhd::operator<<(std::ostream&, int)’:
+/usr/include/uhd/rfnoc/stream_sig.hpp:74:23: error: request for member ‘to_string’ in ‘stream_sig’, which is of non-class type ‘int’
+   74 |     out << stream_sig.to_string().c_str();
+      |                       ^~~~~~~~~
+/usr/include/uhd/rfnoc/stream_sig.hpp: At global scope:
+/usr/include/uhd/rfnoc/stream_sig.hpp:78:2: error: expected declaration before ‘}’ token
+   78 | }} /* namespace uhd::rfnoc */
+      |  ^
+In file included from /usr/include/uhd/device3.hpp:13,
+                 from /home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles/CMakeTmp/src.cxx:2:
+/usr/include/uhd/rfnoc/block_ctrl_base.hpp:86:21: error: aggregate ‘uhd::rfnoc::UHD_RFNOC_API uhd::rfnoc::block_ctrl_base’ has incomplete type and cannot be defined
+   86 | class UHD_RFNOC_API block_ctrl_base;
+      |                     ^~~~~~~~~~~~~~~
+/usr/include/uhd/rfnoc/block_ctrl_base.hpp:88:1: error: expected class-name before ‘{’ token
+   88 | {
+      | ^
+In file included from /home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles/CMakeTmp/src.cxx:2:
+/usr/include/uhd/device3.hpp:74:12: error: ‘block_ctrl_base’ in namespace ‘uhd::rfnoc’ does not name a type
+   74 |     rfnoc::block_ctrl_base::sptr get_block_ctrl(const rfnoc::block_id_t& block_id) const;
+      |            ^~~~~~~~~~~~~~~
+In file included from /usr/include/uhd/device3.hpp:13,
+                 from /home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles/CMakeTmp/src.cxx:2:
+/usr/include/uhd/rfnoc/block_ctrl_base.hpp:86:21: note: ‘uhd::rfnoc::block_ctrl_base’ declared here
+   86 | class UHD_RFNOC_API block_ctrl_base;
+      |                     ^~~~~~~~~~~~~~~
+In file included from /home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles/CMakeTmp/src.cxx:2:
+/usr/include/uhd/device3.hpp:149:45: error: template argument 2 is invalid
+  149 |     std::vector<rfnoc::block_ctrl_base::sptr> _rfnoc_block_ctrl;
+      |                                             ^
+/usr/include/uhd/device3.hpp: In member function ‘bool uhd::device3::has_block(const uhd::rfnoc::block_id_t&) const’:
+/usr/include/uhd/device3.hpp:60:79: error: no matching function for call to ‘uhd::device3::get_block_ctrl(const uhd::rfnoc::block_id_t&) const’
+   60 |             return bool(boost::dynamic_pointer_cast<T>(get_block_ctrl(block_id)));
+      |                                                                               ^
+/usr/include/uhd/device3.hpp:92:26: note: candidate: ‘template<class T> boost::shared_ptr<X> uhd::device3::get_block_ctrl(const uhd::rfnoc::block_id_t&) const’
+   92 |     boost::shared_ptr<T> get_block_ctrl(const rfnoc::block_id_t& block_id) const
+      |                          ^~~~~~~~~~~~~~
+/usr/include/uhd/device3.hpp:92:26: note:   template argument deduction/substitution failed:
+/usr/include/uhd/device3.hpp:60:79: note:   couldn’t deduce template parameter ‘T’
+   60 |             return bool(boost::dynamic_pointer_cast<T>(get_block_ctrl(block_id)));
+      |                                                                               ^
+/usr/include/uhd/device3.hpp: In member function ‘boost::shared_ptr<X> uhd::device3::get_block_ctrl(const uhd::rfnoc::block_id_t&) const’:
+/usr/include/uhd/device3.hpp:95:67: error: no matching function for call to ‘uhd::device3::get_block_ctrl(const uhd::rfnoc::block_id_t&) const’
+   95 |             boost::dynamic_pointer_cast<T>(get_block_ctrl(block_id));
+      |                                                                   ^
+/usr/include/uhd/device3.hpp:92:26: note: candidate: ‘template<class T> boost::shared_ptr<X> uhd::device3::get_block_ctrl(const uhd::rfnoc::block_id_t&) const’
+   92 |     boost::shared_ptr<T> get_block_ctrl(const rfnoc::block_id_t& block_id) const
+      |                          ^~~~~~~~~~~~~~
+/usr/include/uhd/device3.hpp:92:26: note:   template argument deduction/substitution failed:
+/usr/include/uhd/device3.hpp:95:67: note:   couldn’t deduce template parameter ‘T’
+   95 |             boost::dynamic_pointer_cast<T>(get_block_ctrl(block_id));
+      |                                                                   ^
+In file included from /usr/include/uhd/rfnoc/ddc_block_ctrl.hpp:11,
+                 from /home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles/CMakeTmp/src.cxx:3:
+/usr/include/uhd/rfnoc/rate_node_ctrl.hpp: At global scope:
+/usr/include/uhd/rfnoc/rate_node_ctrl.hpp:26:21: error: aggregate ‘uhd::rfnoc::UHD_RFNOC_API uhd::rfnoc::rate_node_ctrl’ has incomplete type and cannot be defined
+   26 | class UHD_RFNOC_API rate_node_ctrl;
+      |                     ^~~~~~~~~~~~~~
+/usr/include/uhd/rfnoc/rate_node_ctrl.hpp:28:1: error: expected class-name before ‘{’ token
+   28 | {
+      | ^
+In file included from /usr/include/uhd/rfnoc/ddc_block_ctrl.hpp:12,
+                 from /home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles/CMakeTmp/src.cxx:3:
+/usr/include/uhd/rfnoc/scalar_node_ctrl.hpp:26:21: error: aggregate ‘uhd::rfnoc::UHD_RFNOC_API uhd::rfnoc::scalar_node_ctrl’ has incomplete type and cannot be defined
+   26 | class UHD_RFNOC_API scalar_node_ctrl;
+      |                     ^~~~~~~~~~~~~~~~
+/usr/include/uhd/rfnoc/scalar_node_ctrl.hpp:28:1: error: expected class-name before ‘{’ token
+   28 | {
+      | ^
+In file included from /usr/include/uhd/rfnoc/sink_block_ctrl_base.hpp:12,
+                 from /usr/include/uhd/rfnoc/ddc_block_ctrl.hpp:13,
+                 from /home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles/CMakeTmp/src.cxx:3:
+/usr/include/uhd/rfnoc/sink_node_ctrl.hpp:22:21: error: aggregate ‘uhd::rfnoc::UHD_RFNOC_API uhd::rfnoc::sink_node_ctrl’ has incomplete type and cannot be defined
+   22 | class UHD_RFNOC_API sink_node_ctrl;
+      |                     ^~~~~~~~~~~~~~
+/usr/include/uhd/rfnoc/sink_node_ctrl.hpp:24:1: error: expected class-name before ‘{’ token
+   24 | {
+      | ^
+In file included from /usr/include/uhd/rfnoc/ddc_block_ctrl.hpp:13,
+                 from /home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles/CMakeTmp/src.cxx:3:
+/usr/include/uhd/rfnoc/sink_block_ctrl_base.hpp:24:21: error: aggregate ‘uhd::rfnoc::UHD_RFNOC_API uhd::rfnoc::sink_block_ctrl_base’ has incomplete type and cannot be defined
+   24 | class UHD_RFNOC_API sink_block_ctrl_base;
+      |                     ^~~~~~~~~~~~~~~~~~~~
+/usr/include/uhd/rfnoc/sink_block_ctrl_base.hpp:25:60: error: expected class-name before ‘,’ token
+   25 | class sink_block_ctrl_base : virtual public block_ctrl_base, virtual public sink_node_ctrl
+      |                                                            ^
+/usr/include/uhd/rfnoc/sink_block_ctrl_base.hpp:26:1: error: expected class-name before ‘{’ token
+   26 | {
+      | ^
+In file included from /usr/include/uhd/rfnoc/source_block_ctrl_base.hpp:12,
+                 from /usr/include/uhd/rfnoc/ddc_block_ctrl.hpp:14,
+                 from /home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles/CMakeTmp/src.cxx:3:
+/usr/include/uhd/rfnoc/source_node_ctrl.hpp:22:21: error: aggregate ‘uhd::rfnoc::UHD_RFNOC_API uhd::rfnoc::source_node_ctrl’ has incomplete type and cannot be defined
+   22 | class UHD_RFNOC_API source_node_ctrl;
+      |                     ^~~~~~~~~~~~~~~~
+/usr/include/uhd/rfnoc/source_node_ctrl.hpp:24:1: error: expected class-name before ‘{’ token
+   24 | {
+      | ^
+In file included from /usr/include/uhd/rfnoc/ddc_block_ctrl.hpp:14,
+                 from /home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles/CMakeTmp/src.cxx:3:
+/usr/include/uhd/rfnoc/source_block_ctrl_base.hpp:23:21: error: aggregate ‘uhd::rfnoc::UHD_RFNOC_API uhd::rfnoc::source_block_ctrl_base’ has incomplete type and cannot be defined
+   23 | class UHD_RFNOC_API source_block_ctrl_base;
+      |                     ^~~~~~~~~~~~~~~~~~~~~~
+/usr/include/uhd/rfnoc/source_block_ctrl_base.hpp:24:62: error: expected class-name before ‘,’ token
+   24 | class source_block_ctrl_base : virtual public block_ctrl_base,
+      |                                                              ^
+/usr/include/uhd/rfnoc/source_block_ctrl_base.hpp:26:1: error: expected class-name before ‘{’ token
+   26 | {
+      | ^
+In file included from /home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles/CMakeTmp/src.cxx:3:
+/usr/include/uhd/rfnoc/ddc_block_ctrl.hpp:26:36: error: expected initializer before ‘:’ token
+   26 | class UHD_RFNOC_API ddc_block_ctrl : public source_block_ctrl_base,
+      |                                    ^
+In file included from /usr/include/uhd/rfnoc/radio_ctrl.hpp:15,
+                 from /home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles/CMakeTmp/src.cxx:4:
+/usr/include/uhd/rfnoc/terminator_node_ctrl.hpp:28:21: error: aggregate ‘uhd::rfnoc::UHD_RFNOC_API uhd::rfnoc::terminator_node_ctrl’ has incomplete type and cannot be defined
+   28 | class UHD_RFNOC_API terminator_node_ctrl;
+      |                     ^~~~~~~~~~~~~~~~~~~~
+/usr/include/uhd/rfnoc/terminator_node_ctrl.hpp:30:1: error: expected class-name before ‘{’ token
+   30 | {
+      | ^
+In file included from /usr/include/uhd/rfnoc/radio_ctrl.hpp:16,
+                 from /home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles/CMakeTmp/src.cxx:4:
+/usr/include/uhd/rfnoc/tick_node_ctrl.hpp:23:21: error: aggregate ‘uhd::rfnoc::UHD_RFNOC_API uhd::rfnoc::tick_node_ctrl’ has incomplete type and cannot be defined
+   23 | class UHD_RFNOC_API tick_node_ctrl;
+      |                     ^~~~~~~~~~~~~~
+/usr/include/uhd/rfnoc/tick_node_ctrl.hpp:25:1: error: expected class-name before ‘{’ token
+   25 | {
+      | ^
+In file included from /home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles/CMakeTmp/src.cxx:4:
+/usr/include/uhd/rfnoc/radio_ctrl.hpp:24:32: error: expected initializer before ‘:’ token
+   24 | class UHD_RFNOC_API radio_ctrl : public source_block_ctrl_base,
+      |                                ^
+/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles/CMakeTmp/src.cxx:7:24: error: ‘ddc_block_ctrl’ in namespace ‘uhd::rfnoc’ does not name a type
+    7 |     static uhd::rfnoc::ddc_block_ctrl::sptr ddc_ctrl;
+      |                        ^~~~~~~~~~~~~~
+/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles/CMakeTmp/src.cxx:8:24: error: ‘radio_ctrl’ in namespace ‘uhd::rfnoc’ does not name a type
+    8 |     static uhd::rfnoc::radio_ctrl::sptr radio_ctrl;
+      |                        ^~~~~~~~~~
+/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles/CMakeTmp/src.cxx: In function ‘uhd_error try_device3_ddc_ctrl()’:
+/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles/CMakeTmp/src.cxx:12:7: error: ‘ddc_ctrl’ was not declared in this scope
+   12 |       ddc_ctrl = device3->get_block_ctrl<uhd::rfnoc::ddc_block_ctrl>(uhd::rfnoc::block_id_t("DDC_0"));
+      |       ^~~~~~~~
+/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles/CMakeTmp/src.cxx:12:54: error: ‘ddc_block_ctrl’ is not a member of ‘uhd::rfnoc’
+   12 |       ddc_ctrl = device3->get_block_ctrl<uhd::rfnoc::ddc_block_ctrl>(uhd::rfnoc::block_id_t("DDC_0"));
+      |                                                      ^~~~~~~~~~~~~~
+/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles/CMakeTmp/src.cxx:12:54: error: ‘ddc_block_ctrl’ is not a member of ‘uhd::rfnoc’
+/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles/CMakeTmp/src.cxx:12:101: error: no matching function for call to ‘uhd::device3::get_block_ctrl<<expression error> >(uhd::rfnoc::block_id_t)’
+   12 |       ddc_ctrl = device3->get_block_ctrl<uhd::rfnoc::ddc_block_ctrl>(uhd::rfnoc::block_id_t("DDC_0"));
+      |                                                                                                     ^
+In file included from /home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles/CMakeTmp/src.cxx:2:
+/usr/include/uhd/device3.hpp:92:26: note: candidate: ‘template<class T> boost::shared_ptr<X> uhd::device3::get_block_ctrl(const uhd::rfnoc::block_id_t&) const’
+   92 |     boost::shared_ptr<T> get_block_ctrl(const rfnoc::block_id_t& block_id) const
+      |                          ^~~~~~~~~~~~~~
+/usr/include/uhd/device3.hpp:92:26: note:   template argument deduction/substitution failed:
+/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles/CMakeTmp/src.cxx:12:101: error: template argument 1 is invalid
+   12 |       ddc_ctrl = device3->get_block_ctrl<uhd::rfnoc::ddc_block_ctrl>(uhd::rfnoc::block_id_t("DDC_0"));
+      |                                                                                                     ^
+/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles/CMakeTmp/src.cxx: In function ‘uhd_error try_device3_radio_ctrl()’:
+/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles/CMakeTmp/src.cxx:18:7: error: ‘radio_ctrl’ was not declared in this scope
+   18 |       radio_ctrl = device3->get_block_ctrl<uhd::rfnoc::radio_ctrl>(uhd::rfnoc::block_id_t("Radio_0"));
+      |       ^~~~~~~~~~
+/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles/CMakeTmp/src.cxx:18:56: error: ‘radio_ctrl’ is not a member of ‘uhd::rfnoc’
+   18 |       radio_ctrl = device3->get_block_ctrl<uhd::rfnoc::radio_ctrl>(uhd::rfnoc::block_id_t("Radio_0"));
+      |                                                        ^~~~~~~~~~
+/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles/CMakeTmp/src.cxx:18:56: error: ‘radio_ctrl’ is not a member of ‘uhd::rfnoc’
+/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles/CMakeTmp/src.cxx:18:101: error: no matching function for call to ‘uhd::device3::get_block_ctrl<<expression error> >(uhd::rfnoc::block_id_t)’
+   18 |       radio_ctrl = device3->get_block_ctrl<uhd::rfnoc::radio_ctrl>(uhd::rfnoc::block_id_t("Radio_0"));
+      |                                                                                                     ^
+In file included from /home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles/CMakeTmp/src.cxx:2:
+/usr/include/uhd/device3.hpp:92:26: note: candidate: ‘template<class T> boost::shared_ptr<X> uhd::device3::get_block_ctrl(const uhd::rfnoc::block_id_t&) const’
+   92 |     boost::shared_ptr<T> get_block_ctrl(const rfnoc::block_id_t& block_id) const
+      |                          ^~~~~~~~~~~~~~
+/usr/include/uhd/device3.hpp:92:26: note:   template argument deduction/substitution failed:
+/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles/CMakeTmp/src.cxx:18:101: error: template argument 1 is invalid
+   18 |       radio_ctrl = device3->get_block_ctrl<uhd::rfnoc::radio_ctrl>(uhd::rfnoc::block_id_t("Radio_0"));
+      |                                                                                                     ^
+make[1]: *** [CMakeFiles/cmTC_ffcb3.dir/build.make:66: CMakeFiles/cmTC_ffcb3.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_ffcb3/fast] Error 2
+
+
+Source file was:
+#include <uhd.h>
+    #include <uhd/device3.hpp>
+    #include <uhd/rfnoc/ddc_block_ctrl.hpp>
+    #include <uhd/rfnoc/radio_ctrl.hpp>
+
+    static uhd::device3::sptr device3;
+    static uhd::rfnoc::ddc_block_ctrl::sptr ddc_ctrl;
+    static uhd::rfnoc::radio_ctrl::sptr radio_ctrl;
+
+    uhd_error try_device3_ddc_ctrl()
+    {
+      ddc_ctrl = device3->get_block_ctrl<uhd::rfnoc::ddc_block_ctrl>(uhd::rfnoc::block_id_t("DDC_0"));
+      return UHD_ERROR_NONE;
+    }
+
+    uhd_error try_device3_radio_ctrl()
+    {
+      radio_ctrl = device3->get_block_ctrl<uhd::rfnoc::radio_ctrl>(uhd::rfnoc::block_id_t("Radio_0"));
+      return UHD_ERROR_NONE;
+    }
+
+    int main(int argc, char** argv)
+    {
+      try_device3_ddc_ctrl();
+      try_device3_radio_ctrl();
+      return 0;
+    }
 Performing C++ SOURCE FILE Test UHD_ENABLE_CUSTOM_RFNOC failed with the following output:
 Change Dir: /home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_feca3/fast && /usr/bin/make -f CMakeFiles/cmTC_feca3.dir/build.make CMakeFiles/cmTC_feca3.dir/build
+Run Build Command(s):/usr/bin/make cmTC_d981b/fast && /usr/bin/make -f CMakeFiles/cmTC_d981b.dir/build.make CMakeFiles/cmTC_d981b.dir/build
 make[1]: Entering directory '/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_feca3.dir/src.cxx.o
-/usr/bin/c++    -DUHD_ENABLE_CUSTOM_RFNOC  -L/usr/lib/x86_64-linux-gnu   -o CMakeFiles/cmTC_feca3.dir/src.cxx.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles/CMakeTmp/src.cxx
+Building CXX object CMakeFiles/cmTC_d981b.dir/src.cxx.o
+/usr/bin/c++    -DUHD_ENABLE_CUSTOM_RFNOC  -L/usr/local/lib   -o CMakeFiles/cmTC_d981b.dir/src.cxx.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles/CMakeTmp/src.cxx
 /home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles/CMakeTmp/src.cxx:3:14: fatal error: uhd/rfnoc/ddc_ch2_block_ctrl.hpp: No such file or directory
     3 |     #include <uhd/rfnoc/ddc_ch2_block_ctrl.hpp>
       |              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 compilation terminated.
-make[1]: *** [CMakeFiles/cmTC_feca3.dir/build.make:66: CMakeFiles/cmTC_feca3.dir/src.cxx.o] Error 1
+make[1]: *** [CMakeFiles/cmTC_d981b.dir/build.make:66: CMakeFiles/cmTC_d981b.dir/src.cxx.o] Error 1
 make[1]: Leaving directory '/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles/CMakeTmp'
-make: *** [Makefile:121: cmTC_feca3/fast] Error 2
+make: *** [Makefile:121: cmTC_d981b/fast] Error 2
 
 
 Source file was:

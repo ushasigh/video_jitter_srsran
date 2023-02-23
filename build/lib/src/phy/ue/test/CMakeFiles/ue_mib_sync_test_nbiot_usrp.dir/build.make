@@ -60,7 +60,7 @@ include lib/src/phy/ue/test/CMakeFiles/ue_mib_sync_test_nbiot_usrp.dir/flags.mak
 lib/src/phy/ue/test/CMakeFiles/ue_mib_sync_test_nbiot_usrp.dir/ue_mib_sync_test_nbiot_usrp.c.o: lib/src/phy/ue/test/CMakeFiles/ue_mib_sync_test_nbiot_usrp.dir/flags.make
 lib/src/phy/ue/test/CMakeFiles/ue_mib_sync_test_nbiot_usrp.dir/ue_mib_sync_test_nbiot_usrp.c.o: ../lib/src/phy/ue/test/ue_mib_sync_test_nbiot_usrp.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object lib/src/phy/ue/test/CMakeFiles/ue_mib_sync_test_nbiot_usrp.dir/ue_mib_sync_test_nbiot_usrp.c.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/phy/ue/test && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ue_mib_sync_test_nbiot_usrp.dir/ue_mib_sync_test_nbiot_usrp.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/phy/ue/test/ue_mib_sync_test_nbiot_usrp.c
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/phy/ue/test && /usr/bin/ccache /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ue_mib_sync_test_nbiot_usrp.dir/ue_mib_sync_test_nbiot_usrp.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/phy/ue/test/ue_mib_sync_test_nbiot_usrp.c
 
 lib/src/phy/ue/test/CMakeFiles/ue_mib_sync_test_nbiot_usrp.dir/ue_mib_sync_test_nbiot_usrp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ue_mib_sync_test_nbiot_usrp.dir/ue_mib_sync_test_nbiot_usrp.c.i"

@@ -60,7 +60,7 @@ include lib/src/phy/io/CMakeFiles/srsran_io.dir/flags.make
 lib/src/phy/io/CMakeFiles/srsran_io.dir/binsource.c.o: lib/src/phy/io/CMakeFiles/srsran_io.dir/flags.make
 lib/src/phy/io/CMakeFiles/srsran_io.dir/binsource.c.o: ../lib/src/phy/io/binsource.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object lib/src/phy/io/CMakeFiles/srsran_io.dir/binsource.c.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/phy/io && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srsran_io.dir/binsource.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/phy/io/binsource.c
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/phy/io && /usr/bin/ccache /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srsran_io.dir/binsource.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/phy/io/binsource.c
 
 lib/src/phy/io/CMakeFiles/srsran_io.dir/binsource.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/srsran_io.dir/binsource.c.i"
@@ -73,7 +73,7 @@ lib/src/phy/io/CMakeFiles/srsran_io.dir/binsource.c.s: cmake_force
 lib/src/phy/io/CMakeFiles/srsran_io.dir/filesink.c.o: lib/src/phy/io/CMakeFiles/srsran_io.dir/flags.make
 lib/src/phy/io/CMakeFiles/srsran_io.dir/filesink.c.o: ../lib/src/phy/io/filesink.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object lib/src/phy/io/CMakeFiles/srsran_io.dir/filesink.c.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/phy/io && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srsran_io.dir/filesink.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/phy/io/filesink.c
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/phy/io && /usr/bin/ccache /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srsran_io.dir/filesink.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/phy/io/filesink.c
 
 lib/src/phy/io/CMakeFiles/srsran_io.dir/filesink.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/srsran_io.dir/filesink.c.i"
@@ -86,7 +86,7 @@ lib/src/phy/io/CMakeFiles/srsran_io.dir/filesink.c.s: cmake_force
 lib/src/phy/io/CMakeFiles/srsran_io.dir/filesource.c.o: lib/src/phy/io/CMakeFiles/srsran_io.dir/flags.make
 lib/src/phy/io/CMakeFiles/srsran_io.dir/filesource.c.o: ../lib/src/phy/io/filesource.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object lib/src/phy/io/CMakeFiles/srsran_io.dir/filesource.c.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/phy/io && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srsran_io.dir/filesource.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/phy/io/filesource.c
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/phy/io && /usr/bin/ccache /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srsran_io.dir/filesource.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/phy/io/filesource.c
 
 lib/src/phy/io/CMakeFiles/srsran_io.dir/filesource.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/srsran_io.dir/filesource.c.i"
@@ -99,7 +99,7 @@ lib/src/phy/io/CMakeFiles/srsran_io.dir/filesource.c.s: cmake_force
 lib/src/phy/io/CMakeFiles/srsran_io.dir/netsink.c.o: lib/src/phy/io/CMakeFiles/srsran_io.dir/flags.make
 lib/src/phy/io/CMakeFiles/srsran_io.dir/netsink.c.o: ../lib/src/phy/io/netsink.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object lib/src/phy/io/CMakeFiles/srsran_io.dir/netsink.c.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/phy/io && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srsran_io.dir/netsink.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/phy/io/netsink.c
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/phy/io && /usr/bin/ccache /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srsran_io.dir/netsink.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/phy/io/netsink.c
 
 lib/src/phy/io/CMakeFiles/srsran_io.dir/netsink.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/srsran_io.dir/netsink.c.i"
@@ -112,7 +112,7 @@ lib/src/phy/io/CMakeFiles/srsran_io.dir/netsink.c.s: cmake_force
 lib/src/phy/io/CMakeFiles/srsran_io.dir/netsource.c.o: lib/src/phy/io/CMakeFiles/srsran_io.dir/flags.make
 lib/src/phy/io/CMakeFiles/srsran_io.dir/netsource.c.o: ../lib/src/phy/io/netsource.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object lib/src/phy/io/CMakeFiles/srsran_io.dir/netsource.c.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/phy/io && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srsran_io.dir/netsource.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/phy/io/netsource.c
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/phy/io && /usr/bin/ccache /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srsran_io.dir/netsource.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/phy/io/netsource.c
 
 lib/src/phy/io/CMakeFiles/srsran_io.dir/netsource.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/srsran_io.dir/netsource.c.i"

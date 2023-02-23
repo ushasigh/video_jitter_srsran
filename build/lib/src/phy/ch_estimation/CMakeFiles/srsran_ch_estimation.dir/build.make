@@ -60,7 +60,7 @@ include lib/src/phy/ch_estimation/CMakeFiles/srsran_ch_estimation.dir/flags.make
 lib/src/phy/ch_estimation/CMakeFiles/srsran_ch_estimation.dir/chest_common.c.o: lib/src/phy/ch_estimation/CMakeFiles/srsran_ch_estimation.dir/flags.make
 lib/src/phy/ch_estimation/CMakeFiles/srsran_ch_estimation.dir/chest_common.c.o: ../lib/src/phy/ch_estimation/chest_common.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object lib/src/phy/ch_estimation/CMakeFiles/srsran_ch_estimation.dir/chest_common.c.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/phy/ch_estimation && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srsran_ch_estimation.dir/chest_common.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/phy/ch_estimation/chest_common.c
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/phy/ch_estimation && /usr/bin/ccache /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srsran_ch_estimation.dir/chest_common.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/phy/ch_estimation/chest_common.c
 
 lib/src/phy/ch_estimation/CMakeFiles/srsran_ch_estimation.dir/chest_common.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/srsran_ch_estimation.dir/chest_common.c.i"
@@ -73,7 +73,7 @@ lib/src/phy/ch_estimation/CMakeFiles/srsran_ch_estimation.dir/chest_common.c.s: 
 lib/src/phy/ch_estimation/CMakeFiles/srsran_ch_estimation.dir/chest_dl.c.o: lib/src/phy/ch_estimation/CMakeFiles/srsran_ch_estimation.dir/flags.make
 lib/src/phy/ch_estimation/CMakeFiles/srsran_ch_estimation.dir/chest_dl.c.o: ../lib/src/phy/ch_estimation/chest_dl.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object lib/src/phy/ch_estimation/CMakeFiles/srsran_ch_estimation.dir/chest_dl.c.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/phy/ch_estimation && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srsran_ch_estimation.dir/chest_dl.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/phy/ch_estimation/chest_dl.c
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/phy/ch_estimation && /usr/bin/ccache /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srsran_ch_estimation.dir/chest_dl.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/phy/ch_estimation/chest_dl.c
 
 lib/src/phy/ch_estimation/CMakeFiles/srsran_ch_estimation.dir/chest_dl.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/srsran_ch_estimation.dir/chest_dl.c.i"
@@ -86,7 +86,7 @@ lib/src/phy/ch_estimation/CMakeFiles/srsran_ch_estimation.dir/chest_dl.c.s: cmak
 lib/src/phy/ch_estimation/CMakeFiles/srsran_ch_estimation.dir/chest_dl_nbiot.c.o: lib/src/phy/ch_estimation/CMakeFiles/srsran_ch_estimation.dir/flags.make
 lib/src/phy/ch_estimation/CMakeFiles/srsran_ch_estimation.dir/chest_dl_nbiot.c.o: ../lib/src/phy/ch_estimation/chest_dl_nbiot.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object lib/src/phy/ch_estimation/CMakeFiles/srsran_ch_estimation.dir/chest_dl_nbiot.c.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/phy/ch_estimation && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srsran_ch_estimation.dir/chest_dl_nbiot.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/phy/ch_estimation/chest_dl_nbiot.c
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/phy/ch_estimation && /usr/bin/ccache /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srsran_ch_estimation.dir/chest_dl_nbiot.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/phy/ch_estimation/chest_dl_nbiot.c
 
 lib/src/phy/ch_estimation/CMakeFiles/srsran_ch_estimation.dir/chest_dl_nbiot.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/srsran_ch_estimation.dir/chest_dl_nbiot.c.i"
@@ -99,7 +99,7 @@ lib/src/phy/ch_estimation/CMakeFiles/srsran_ch_estimation.dir/chest_dl_nbiot.c.s
 lib/src/phy/ch_estimation/CMakeFiles/srsran_ch_estimation.dir/chest_sl.c.o: lib/src/phy/ch_estimation/CMakeFiles/srsran_ch_estimation.dir/flags.make
 lib/src/phy/ch_estimation/CMakeFiles/srsran_ch_estimation.dir/chest_sl.c.o: ../lib/src/phy/ch_estimation/chest_sl.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object lib/src/phy/ch_estimation/CMakeFiles/srsran_ch_estimation.dir/chest_sl.c.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/phy/ch_estimation && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srsran_ch_estimation.dir/chest_sl.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/phy/ch_estimation/chest_sl.c
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/phy/ch_estimation && /usr/bin/ccache /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srsran_ch_estimation.dir/chest_sl.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/phy/ch_estimation/chest_sl.c
 
 lib/src/phy/ch_estimation/CMakeFiles/srsran_ch_estimation.dir/chest_sl.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/srsran_ch_estimation.dir/chest_sl.c.i"
@@ -112,7 +112,7 @@ lib/src/phy/ch_estimation/CMakeFiles/srsran_ch_estimation.dir/chest_sl.c.s: cmak
 lib/src/phy/ch_estimation/CMakeFiles/srsran_ch_estimation.dir/chest_ul.c.o: lib/src/phy/ch_estimation/CMakeFiles/srsran_ch_estimation.dir/flags.make
 lib/src/phy/ch_estimation/CMakeFiles/srsran_ch_estimation.dir/chest_ul.c.o: ../lib/src/phy/ch_estimation/chest_ul.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object lib/src/phy/ch_estimation/CMakeFiles/srsran_ch_estimation.dir/chest_ul.c.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/phy/ch_estimation && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srsran_ch_estimation.dir/chest_ul.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/phy/ch_estimation/chest_ul.c
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/phy/ch_estimation && /usr/bin/ccache /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srsran_ch_estimation.dir/chest_ul.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/phy/ch_estimation/chest_ul.c
 
 lib/src/phy/ch_estimation/CMakeFiles/srsran_ch_estimation.dir/chest_ul.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/srsran_ch_estimation.dir/chest_ul.c.i"
@@ -125,7 +125,7 @@ lib/src/phy/ch_estimation/CMakeFiles/srsran_ch_estimation.dir/chest_ul.c.s: cmak
 lib/src/phy/ch_estimation/CMakeFiles/srsran_ch_estimation.dir/csi_rs.c.o: lib/src/phy/ch_estimation/CMakeFiles/srsran_ch_estimation.dir/flags.make
 lib/src/phy/ch_estimation/CMakeFiles/srsran_ch_estimation.dir/csi_rs.c.o: ../lib/src/phy/ch_estimation/csi_rs.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object lib/src/phy/ch_estimation/CMakeFiles/srsran_ch_estimation.dir/csi_rs.c.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/phy/ch_estimation && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srsran_ch_estimation.dir/csi_rs.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/phy/ch_estimation/csi_rs.c
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/phy/ch_estimation && /usr/bin/ccache /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srsran_ch_estimation.dir/csi_rs.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/phy/ch_estimation/csi_rs.c
 
 lib/src/phy/ch_estimation/CMakeFiles/srsran_ch_estimation.dir/csi_rs.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/srsran_ch_estimation.dir/csi_rs.c.i"
@@ -138,7 +138,7 @@ lib/src/phy/ch_estimation/CMakeFiles/srsran_ch_estimation.dir/csi_rs.c.s: cmake_
 lib/src/phy/ch_estimation/CMakeFiles/srsran_ch_estimation.dir/dmrs_pbch.c.o: lib/src/phy/ch_estimation/CMakeFiles/srsran_ch_estimation.dir/flags.make
 lib/src/phy/ch_estimation/CMakeFiles/srsran_ch_estimation.dir/dmrs_pbch.c.o: ../lib/src/phy/ch_estimation/dmrs_pbch.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object lib/src/phy/ch_estimation/CMakeFiles/srsran_ch_estimation.dir/dmrs_pbch.c.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/phy/ch_estimation && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srsran_ch_estimation.dir/dmrs_pbch.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/phy/ch_estimation/dmrs_pbch.c
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/phy/ch_estimation && /usr/bin/ccache /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srsran_ch_estimation.dir/dmrs_pbch.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/phy/ch_estimation/dmrs_pbch.c
 
 lib/src/phy/ch_estimation/CMakeFiles/srsran_ch_estimation.dir/dmrs_pbch.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/srsran_ch_estimation.dir/dmrs_pbch.c.i"
@@ -151,7 +151,7 @@ lib/src/phy/ch_estimation/CMakeFiles/srsran_ch_estimation.dir/dmrs_pbch.c.s: cma
 lib/src/phy/ch_estimation/CMakeFiles/srsran_ch_estimation.dir/dmrs_pdcch.c.o: lib/src/phy/ch_estimation/CMakeFiles/srsran_ch_estimation.dir/flags.make
 lib/src/phy/ch_estimation/CMakeFiles/srsran_ch_estimation.dir/dmrs_pdcch.c.o: ../lib/src/phy/ch_estimation/dmrs_pdcch.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object lib/src/phy/ch_estimation/CMakeFiles/srsran_ch_estimation.dir/dmrs_pdcch.c.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/phy/ch_estimation && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srsran_ch_estimation.dir/dmrs_pdcch.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/phy/ch_estimation/dmrs_pdcch.c
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/phy/ch_estimation && /usr/bin/ccache /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srsran_ch_estimation.dir/dmrs_pdcch.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/phy/ch_estimation/dmrs_pdcch.c
 
 lib/src/phy/ch_estimation/CMakeFiles/srsran_ch_estimation.dir/dmrs_pdcch.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/srsran_ch_estimation.dir/dmrs_pdcch.c.i"
@@ -164,7 +164,7 @@ lib/src/phy/ch_estimation/CMakeFiles/srsran_ch_estimation.dir/dmrs_pdcch.c.s: cm
 lib/src/phy/ch_estimation/CMakeFiles/srsran_ch_estimation.dir/dmrs_pucch.c.o: lib/src/phy/ch_estimation/CMakeFiles/srsran_ch_estimation.dir/flags.make
 lib/src/phy/ch_estimation/CMakeFiles/srsran_ch_estimation.dir/dmrs_pucch.c.o: ../lib/src/phy/ch_estimation/dmrs_pucch.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object lib/src/phy/ch_estimation/CMakeFiles/srsran_ch_estimation.dir/dmrs_pucch.c.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/phy/ch_estimation && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srsran_ch_estimation.dir/dmrs_pucch.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/phy/ch_estimation/dmrs_pucch.c
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/phy/ch_estimation && /usr/bin/ccache /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srsran_ch_estimation.dir/dmrs_pucch.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/phy/ch_estimation/dmrs_pucch.c
 
 lib/src/phy/ch_estimation/CMakeFiles/srsran_ch_estimation.dir/dmrs_pucch.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/srsran_ch_estimation.dir/dmrs_pucch.c.i"
@@ -177,7 +177,7 @@ lib/src/phy/ch_estimation/CMakeFiles/srsran_ch_estimation.dir/dmrs_pucch.c.s: cm
 lib/src/phy/ch_estimation/CMakeFiles/srsran_ch_estimation.dir/dmrs_sch.c.o: lib/src/phy/ch_estimation/CMakeFiles/srsran_ch_estimation.dir/flags.make
 lib/src/phy/ch_estimation/CMakeFiles/srsran_ch_estimation.dir/dmrs_sch.c.o: ../lib/src/phy/ch_estimation/dmrs_sch.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object lib/src/phy/ch_estimation/CMakeFiles/srsran_ch_estimation.dir/dmrs_sch.c.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/phy/ch_estimation && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srsran_ch_estimation.dir/dmrs_sch.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/phy/ch_estimation/dmrs_sch.c
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/phy/ch_estimation && /usr/bin/ccache /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srsran_ch_estimation.dir/dmrs_sch.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/phy/ch_estimation/dmrs_sch.c
 
 lib/src/phy/ch_estimation/CMakeFiles/srsran_ch_estimation.dir/dmrs_sch.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/srsran_ch_estimation.dir/dmrs_sch.c.i"
@@ -190,7 +190,7 @@ lib/src/phy/ch_estimation/CMakeFiles/srsran_ch_estimation.dir/dmrs_sch.c.s: cmak
 lib/src/phy/ch_estimation/CMakeFiles/srsran_ch_estimation.dir/refsignal_dl.c.o: lib/src/phy/ch_estimation/CMakeFiles/srsran_ch_estimation.dir/flags.make
 lib/src/phy/ch_estimation/CMakeFiles/srsran_ch_estimation.dir/refsignal_dl.c.o: ../lib/src/phy/ch_estimation/refsignal_dl.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object lib/src/phy/ch_estimation/CMakeFiles/srsran_ch_estimation.dir/refsignal_dl.c.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/phy/ch_estimation && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srsran_ch_estimation.dir/refsignal_dl.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/phy/ch_estimation/refsignal_dl.c
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/phy/ch_estimation && /usr/bin/ccache /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srsran_ch_estimation.dir/refsignal_dl.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/phy/ch_estimation/refsignal_dl.c
 
 lib/src/phy/ch_estimation/CMakeFiles/srsran_ch_estimation.dir/refsignal_dl.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/srsran_ch_estimation.dir/refsignal_dl.c.i"
@@ -203,7 +203,7 @@ lib/src/phy/ch_estimation/CMakeFiles/srsran_ch_estimation.dir/refsignal_dl.c.s: 
 lib/src/phy/ch_estimation/CMakeFiles/srsran_ch_estimation.dir/refsignal_dl_nbiot.c.o: lib/src/phy/ch_estimation/CMakeFiles/srsran_ch_estimation.dir/flags.make
 lib/src/phy/ch_estimation/CMakeFiles/srsran_ch_estimation.dir/refsignal_dl_nbiot.c.o: ../lib/src/phy/ch_estimation/refsignal_dl_nbiot.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object lib/src/phy/ch_estimation/CMakeFiles/srsran_ch_estimation.dir/refsignal_dl_nbiot.c.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/phy/ch_estimation && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srsran_ch_estimation.dir/refsignal_dl_nbiot.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/phy/ch_estimation/refsignal_dl_nbiot.c
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/phy/ch_estimation && /usr/bin/ccache /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srsran_ch_estimation.dir/refsignal_dl_nbiot.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/phy/ch_estimation/refsignal_dl_nbiot.c
 
 lib/src/phy/ch_estimation/CMakeFiles/srsran_ch_estimation.dir/refsignal_dl_nbiot.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/srsran_ch_estimation.dir/refsignal_dl_nbiot.c.i"
@@ -216,7 +216,7 @@ lib/src/phy/ch_estimation/CMakeFiles/srsran_ch_estimation.dir/refsignal_dl_nbiot
 lib/src/phy/ch_estimation/CMakeFiles/srsran_ch_estimation.dir/refsignal_ul.c.o: lib/src/phy/ch_estimation/CMakeFiles/srsran_ch_estimation.dir/flags.make
 lib/src/phy/ch_estimation/CMakeFiles/srsran_ch_estimation.dir/refsignal_ul.c.o: ../lib/src/phy/ch_estimation/refsignal_ul.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object lib/src/phy/ch_estimation/CMakeFiles/srsran_ch_estimation.dir/refsignal_ul.c.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/phy/ch_estimation && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srsran_ch_estimation.dir/refsignal_ul.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/phy/ch_estimation/refsignal_ul.c
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/phy/ch_estimation && /usr/bin/ccache /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srsran_ch_estimation.dir/refsignal_ul.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/phy/ch_estimation/refsignal_ul.c
 
 lib/src/phy/ch_estimation/CMakeFiles/srsran_ch_estimation.dir/refsignal_ul.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/srsran_ch_estimation.dir/refsignal_ul.c.i"
@@ -229,7 +229,7 @@ lib/src/phy/ch_estimation/CMakeFiles/srsran_ch_estimation.dir/refsignal_ul.c.s: 
 lib/src/phy/ch_estimation/CMakeFiles/srsran_ch_estimation.dir/wiener_dl.c.o: lib/src/phy/ch_estimation/CMakeFiles/srsran_ch_estimation.dir/flags.make
 lib/src/phy/ch_estimation/CMakeFiles/srsran_ch_estimation.dir/wiener_dl.c.o: ../lib/src/phy/ch_estimation/wiener_dl.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object lib/src/phy/ch_estimation/CMakeFiles/srsran_ch_estimation.dir/wiener_dl.c.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/phy/ch_estimation && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srsran_ch_estimation.dir/wiener_dl.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/phy/ch_estimation/wiener_dl.c
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/phy/ch_estimation && /usr/bin/ccache /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srsran_ch_estimation.dir/wiener_dl.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/phy/ch_estimation/wiener_dl.c
 
 lib/src/phy/ch_estimation/CMakeFiles/srsran_ch_estimation.dir/wiener_dl.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/srsran_ch_estimation.dir/wiener_dl.c.i"

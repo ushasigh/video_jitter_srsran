@@ -60,7 +60,7 @@ include lib/src/phy/rf/CMakeFiles/srsran_rf_uhd.dir/flags.make
 lib/src/phy/rf/CMakeFiles/srsran_rf_uhd.dir/rf_uhd_imp.cc.o: lib/src/phy/rf/CMakeFiles/srsran_rf_uhd.dir/flags.make
 lib/src/phy/rf/CMakeFiles/srsran_rf_uhd.dir/rf_uhd_imp.cc.o: ../lib/src/phy/rf/rf_uhd_imp.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lib/src/phy/rf/CMakeFiles/srsran_rf_uhd.dir/rf_uhd_imp.cc.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/phy/rf && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsran_rf_uhd.dir/rf_uhd_imp.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/phy/rf/rf_uhd_imp.cc
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/phy/rf && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsran_rf_uhd.dir/rf_uhd_imp.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/phy/rf/rf_uhd_imp.cc
 
 lib/src/phy/rf/CMakeFiles/srsran_rf_uhd.dir/rf_uhd_imp.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srsran_rf_uhd.dir/rf_uhd_imp.cc.i"
@@ -81,7 +81,7 @@ lib/src/phy/rf/libsrsran_rf_uhd.so.22.10.0: lib/src/phy/rf/CMakeFiles/srsran_rf_
 lib/src/phy/rf/libsrsran_rf_uhd.so.22.10.0: lib/src/phy/rf/CMakeFiles/srsran_rf_uhd.dir/build.make
 lib/src/phy/rf/libsrsran_rf_uhd.so.22.10.0: lib/src/phy/rf/libsrsran_rf_utils.a
 lib/src/phy/rf/libsrsran_rf_uhd.so.22.10.0: lib/src/phy/libsrsran_phy.a
-lib/src/phy/rf/libsrsran_rf_uhd.so.22.10.0: /usr/lib/x86_64-linux-gnu/libuhd.so
+lib/src/phy/rf/libsrsran_rf_uhd.so.22.10.0: /usr/local/lib/libuhd.so
 lib/src/phy/rf/libsrsran_rf_uhd.so.22.10.0: /usr/lib/x86_64-linux-gnu/libboost_program_options.so.1.71.0
 lib/src/phy/rf/libsrsran_rf_uhd.so.22.10.0: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0
 lib/src/phy/rf/libsrsran_rf_uhd.so.22.10.0: /usr/lib/x86_64-linux-gnu/libfftw3f.so

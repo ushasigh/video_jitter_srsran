@@ -60,7 +60,7 @@ include lib/examples/CMakeFiles/pdsch_ue.dir/flags.make
 lib/examples/CMakeFiles/pdsch_ue.dir/pdsch_ue.c.o: lib/examples/CMakeFiles/pdsch_ue.dir/flags.make
 lib/examples/CMakeFiles/pdsch_ue.dir/pdsch_ue.c.o: ../lib/examples/pdsch_ue.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object lib/examples/CMakeFiles/pdsch_ue.dir/pdsch_ue.c.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/examples && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pdsch_ue.dir/pdsch_ue.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/examples/pdsch_ue.c
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/examples && /usr/bin/ccache /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pdsch_ue.dir/pdsch_ue.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/examples/pdsch_ue.c
 
 lib/examples/CMakeFiles/pdsch_ue.dir/pdsch_ue.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pdsch_ue.dir/pdsch_ue.c.i"

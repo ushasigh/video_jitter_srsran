@@ -60,7 +60,7 @@ include srsue/src/phy/test/CMakeFiles/nr_sa_cell_search_test.dir/flags.make
 srsue/src/phy/test/CMakeFiles/nr_sa_cell_search_test.dir/nr_sa_cell_search_test.cc.o: srsue/src/phy/test/CMakeFiles/nr_sa_cell_search_test.dir/flags.make
 srsue/src/phy/test/CMakeFiles/nr_sa_cell_search_test.dir/nr_sa_cell_search_test.cc.o: ../srsue/src/phy/test/nr_sa_cell_search_test.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object srsue/src/phy/test/CMakeFiles/nr_sa_cell_search_test.dir/nr_sa_cell_search_test.cc.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsue/src/phy/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nr_sa_cell_search_test.dir/nr_sa_cell_search_test.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsue/src/phy/test/nr_sa_cell_search_test.cc
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsue/src/phy/test && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nr_sa_cell_search_test.dir/nr_sa_cell_search_test.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsue/src/phy/test/nr_sa_cell_search_test.cc
 
 srsue/src/phy/test/CMakeFiles/nr_sa_cell_search_test.dir/nr_sa_cell_search_test.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nr_sa_cell_search_test.dir/nr_sa_cell_search_test.cc.i"

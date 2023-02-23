@@ -9,11 +9,11 @@ mean_var = []
 median_mean = []
 median_stddev = []
 median_var = []
-output_folder = "irtt_5gsa_ul_dummy_022123"
+output_folder = "irtt_4g_ul_022323"
 
 # Define the arrays to store the data for plotting
-l_values = [150, 300]
-i_values = ["40ms", "30ms"]
+l_values = [150, 300, 600, 900, 1200, 1500]
+i_values = ["40ms", "30ms", "15ms"]
 
 mean_data = {i: [] for i in i_values}
 median_data = {i: [] for i in i_values}

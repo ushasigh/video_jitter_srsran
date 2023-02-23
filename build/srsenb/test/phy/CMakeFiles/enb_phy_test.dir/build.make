@@ -60,7 +60,7 @@ include srsenb/test/phy/CMakeFiles/enb_phy_test.dir/flags.make
 srsenb/test/phy/CMakeFiles/enb_phy_test.dir/enb_phy_test.cc.o: srsenb/test/phy/CMakeFiles/enb_phy_test.dir/flags.make
 srsenb/test/phy/CMakeFiles/enb_phy_test.dir/enb_phy_test.cc.o: ../srsenb/test/phy/enb_phy_test.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object srsenb/test/phy/CMakeFiles/enb_phy_test.dir/enb_phy_test.cc.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsenb/test/phy && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/enb_phy_test.dir/enb_phy_test.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsenb/test/phy/enb_phy_test.cc
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsenb/test/phy && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/enb_phy_test.dir/enb_phy_test.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsenb/test/phy/enb_phy_test.cc
 
 srsenb/test/phy/CMakeFiles/enb_phy_test.dir/enb_phy_test.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/enb_phy_test.dir/enb_phy_test.cc.i"

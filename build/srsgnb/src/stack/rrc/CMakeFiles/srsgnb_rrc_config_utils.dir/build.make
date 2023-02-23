@@ -60,7 +60,7 @@ include srsgnb/src/stack/rrc/CMakeFiles/srsgnb_rrc_config_utils.dir/flags.make
 srsgnb/src/stack/rrc/CMakeFiles/srsgnb_rrc_config_utils.dir/rrc_nr_config_utils.cc.o: srsgnb/src/stack/rrc/CMakeFiles/srsgnb_rrc_config_utils.dir/flags.make
 srsgnb/src/stack/rrc/CMakeFiles/srsgnb_rrc_config_utils.dir/rrc_nr_config_utils.cc.o: ../srsgnb/src/stack/rrc/rrc_nr_config_utils.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object srsgnb/src/stack/rrc/CMakeFiles/srsgnb_rrc_config_utils.dir/rrc_nr_config_utils.cc.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsgnb/src/stack/rrc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsgnb_rrc_config_utils.dir/rrc_nr_config_utils.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsgnb/src/stack/rrc/rrc_nr_config_utils.cc
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsgnb/src/stack/rrc && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsgnb_rrc_config_utils.dir/rrc_nr_config_utils.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsgnb/src/stack/rrc/rrc_nr_config_utils.cc
 
 srsgnb/src/stack/rrc/CMakeFiles/srsgnb_rrc_config_utils.dir/rrc_nr_config_utils.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srsgnb_rrc_config_utils.dir/rrc_nr_config_utils.cc.i"

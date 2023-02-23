@@ -60,7 +60,7 @@ include srsenb/test/mac/CMakeFiles/sched_cqi_test.dir/flags.make
 srsenb/test/mac/CMakeFiles/sched_cqi_test.dir/sched_cqi_test.cc.o: srsenb/test/mac/CMakeFiles/sched_cqi_test.dir/flags.make
 srsenb/test/mac/CMakeFiles/sched_cqi_test.dir/sched_cqi_test.cc.o: ../srsenb/test/mac/sched_cqi_test.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object srsenb/test/mac/CMakeFiles/sched_cqi_test.dir/sched_cqi_test.cc.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsenb/test/mac && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sched_cqi_test.dir/sched_cqi_test.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsenb/test/mac/sched_cqi_test.cc
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/srsenb/test/mac && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sched_cqi_test.dir/sched_cqi_test.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/srsenb/test/mac/sched_cqi_test.cc
 
 srsenb/test/mac/CMakeFiles/sched_cqi_test.dir/sched_cqi_test.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sched_cqi_test.dir/sched_cqi_test.cc.i"

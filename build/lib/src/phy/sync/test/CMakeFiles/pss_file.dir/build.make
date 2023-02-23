@@ -60,7 +60,7 @@ include lib/src/phy/sync/test/CMakeFiles/pss_file.dir/flags.make
 lib/src/phy/sync/test/CMakeFiles/pss_file.dir/pss_file.c.o: lib/src/phy/sync/test/CMakeFiles/pss_file.dir/flags.make
 lib/src/phy/sync/test/CMakeFiles/pss_file.dir/pss_file.c.o: ../lib/src/phy/sync/test/pss_file.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object lib/src/phy/sync/test/CMakeFiles/pss_file.dir/pss_file.c.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/phy/sync/test && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pss_file.dir/pss_file.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/phy/sync/test/pss_file.c
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/phy/sync/test && /usr/bin/ccache /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pss_file.dir/pss_file.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/phy/sync/test/pss_file.c
 
 lib/src/phy/sync/test/CMakeFiles/pss_file.dir/pss_file.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pss_file.dir/pss_file.c.i"

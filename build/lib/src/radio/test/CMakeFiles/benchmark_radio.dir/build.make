@@ -60,7 +60,7 @@ include lib/src/radio/test/CMakeFiles/benchmark_radio.dir/flags.make
 lib/src/radio/test/CMakeFiles/benchmark_radio.dir/benchmark_radio.cc.o: lib/src/radio/test/CMakeFiles/benchmark_radio.dir/flags.make
 lib/src/radio/test/CMakeFiles/benchmark_radio.dir/benchmark_radio.cc.o: ../lib/src/radio/test/benchmark_radio.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lib/src/radio/test/CMakeFiles/benchmark_radio.dir/benchmark_radio.cc.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/radio/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/benchmark_radio.dir/benchmark_radio.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/radio/test/benchmark_radio.cc
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/radio/test && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/benchmark_radio.dir/benchmark_radio.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/radio/test/benchmark_radio.cc
 
 lib/src/radio/test/CMakeFiles/benchmark_radio.dir/benchmark_radio.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/benchmark_radio.dir/benchmark_radio.cc.i"

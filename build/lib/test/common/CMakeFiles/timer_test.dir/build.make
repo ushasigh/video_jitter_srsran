@@ -60,7 +60,7 @@ include lib/test/common/CMakeFiles/timer_test.dir/flags.make
 lib/test/common/CMakeFiles/timer_test.dir/timer_test.cc.o: lib/test/common/CMakeFiles/timer_test.dir/flags.make
 lib/test/common/CMakeFiles/timer_test.dir/timer_test.cc.o: ../lib/test/common/timer_test.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lib/test/common/CMakeFiles/timer_test.dir/timer_test.cc.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/test/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/timer_test.dir/timer_test.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/test/common/timer_test.cc
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/test/common && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/timer_test.dir/timer_test.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/test/common/timer_test.cc
 
 lib/test/common/CMakeFiles/timer_test.dir/timer_test.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/timer_test.dir/timer_test.cc.i"

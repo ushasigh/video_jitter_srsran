@@ -60,7 +60,7 @@ include lib/src/common/CMakeFiles/srsran_common.dir/flags.make
 lib/src/common/CMakeFiles/srsran_common.dir/arch_select.cc.o: lib/src/common/CMakeFiles/srsran_common.dir/flags.make
 lib/src/common/CMakeFiles/srsran_common.dir/arch_select.cc.o: ../lib/src/common/arch_select.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lib/src/common/CMakeFiles/srsran_common.dir/arch_select.cc.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsran_common.dir/arch_select.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/common/arch_select.cc
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/common && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsran_common.dir/arch_select.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/common/arch_select.cc
 
 lib/src/common/CMakeFiles/srsran_common.dir/arch_select.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srsran_common.dir/arch_select.cc.i"
@@ -73,7 +73,7 @@ lib/src/common/CMakeFiles/srsran_common.dir/arch_select.cc.s: cmake_force
 lib/src/common/CMakeFiles/srsran_common.dir/enb_events.cc.o: lib/src/common/CMakeFiles/srsran_common.dir/flags.make
 lib/src/common/CMakeFiles/srsran_common.dir/enb_events.cc.o: ../lib/src/common/enb_events.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object lib/src/common/CMakeFiles/srsran_common.dir/enb_events.cc.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsran_common.dir/enb_events.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/common/enb_events.cc
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/common && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsran_common.dir/enb_events.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/common/enb_events.cc
 
 lib/src/common/CMakeFiles/srsran_common.dir/enb_events.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srsran_common.dir/enb_events.cc.i"
@@ -86,7 +86,7 @@ lib/src/common/CMakeFiles/srsran_common.dir/enb_events.cc.s: cmake_force
 lib/src/common/CMakeFiles/srsran_common.dir/backtrace.c.o: lib/src/common/CMakeFiles/srsran_common.dir/flags.make
 lib/src/common/CMakeFiles/srsran_common.dir/backtrace.c.o: ../lib/src/common/backtrace.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object lib/src/common/CMakeFiles/srsran_common.dir/backtrace.c.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/common && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srsran_common.dir/backtrace.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/common/backtrace.c
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/common && /usr/bin/ccache /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srsran_common.dir/backtrace.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/common/backtrace.c
 
 lib/src/common/CMakeFiles/srsran_common.dir/backtrace.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/srsran_common.dir/backtrace.c.i"
@@ -99,7 +99,7 @@ lib/src/common/CMakeFiles/srsran_common.dir/backtrace.c.s: cmake_force
 lib/src/common/CMakeFiles/srsran_common.dir/byte_buffer.cc.o: lib/src/common/CMakeFiles/srsran_common.dir/flags.make
 lib/src/common/CMakeFiles/srsran_common.dir/byte_buffer.cc.o: ../lib/src/common/byte_buffer.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object lib/src/common/CMakeFiles/srsran_common.dir/byte_buffer.cc.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsran_common.dir/byte_buffer.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/common/byte_buffer.cc
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/common && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsran_common.dir/byte_buffer.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/common/byte_buffer.cc
 
 lib/src/common/CMakeFiles/srsran_common.dir/byte_buffer.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srsran_common.dir/byte_buffer.cc.i"
@@ -112,7 +112,7 @@ lib/src/common/CMakeFiles/srsran_common.dir/byte_buffer.cc.s: cmake_force
 lib/src/common/CMakeFiles/srsran_common.dir/band_helper.cc.o: lib/src/common/CMakeFiles/srsran_common.dir/flags.make
 lib/src/common/CMakeFiles/srsran_common.dir/band_helper.cc.o: ../lib/src/common/band_helper.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object lib/src/common/CMakeFiles/srsran_common.dir/band_helper.cc.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsran_common.dir/band_helper.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/common/band_helper.cc
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/common && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsran_common.dir/band_helper.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/common/band_helper.cc
 
 lib/src/common/CMakeFiles/srsran_common.dir/band_helper.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srsran_common.dir/band_helper.cc.i"
@@ -125,7 +125,7 @@ lib/src/common/CMakeFiles/srsran_common.dir/band_helper.cc.s: cmake_force
 lib/src/common/CMakeFiles/srsran_common.dir/bearer_manager.cc.o: lib/src/common/CMakeFiles/srsran_common.dir/flags.make
 lib/src/common/CMakeFiles/srsran_common.dir/bearer_manager.cc.o: ../lib/src/common/bearer_manager.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object lib/src/common/CMakeFiles/srsran_common.dir/bearer_manager.cc.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsran_common.dir/bearer_manager.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/common/bearer_manager.cc
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/common && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsran_common.dir/bearer_manager.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/common/bearer_manager.cc
 
 lib/src/common/CMakeFiles/srsran_common.dir/bearer_manager.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srsran_common.dir/bearer_manager.cc.i"
@@ -138,7 +138,7 @@ lib/src/common/CMakeFiles/srsran_common.dir/bearer_manager.cc.s: cmake_force
 lib/src/common/CMakeFiles/srsran_common.dir/buffer_pool.cc.o: lib/src/common/CMakeFiles/srsran_common.dir/flags.make
 lib/src/common/CMakeFiles/srsran_common.dir/buffer_pool.cc.o: ../lib/src/common/buffer_pool.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object lib/src/common/CMakeFiles/srsran_common.dir/buffer_pool.cc.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsran_common.dir/buffer_pool.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/common/buffer_pool.cc
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/common && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsran_common.dir/buffer_pool.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/common/buffer_pool.cc
 
 lib/src/common/CMakeFiles/srsran_common.dir/buffer_pool.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srsran_common.dir/buffer_pool.cc.i"
@@ -151,7 +151,7 @@ lib/src/common/CMakeFiles/srsran_common.dir/buffer_pool.cc.s: cmake_force
 lib/src/common/CMakeFiles/srsran_common.dir/crash_handler.cc.o: lib/src/common/CMakeFiles/srsran_common.dir/flags.make
 lib/src/common/CMakeFiles/srsran_common.dir/crash_handler.cc.o: ../lib/src/common/crash_handler.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object lib/src/common/CMakeFiles/srsran_common.dir/crash_handler.cc.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsran_common.dir/crash_handler.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/common/crash_handler.cc
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/common && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsran_common.dir/crash_handler.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/common/crash_handler.cc
 
 lib/src/common/CMakeFiles/srsran_common.dir/crash_handler.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srsran_common.dir/crash_handler.cc.i"
@@ -164,7 +164,7 @@ lib/src/common/CMakeFiles/srsran_common.dir/crash_handler.cc.s: cmake_force
 lib/src/common/CMakeFiles/srsran_common.dir/gen_mch_tables.c.o: lib/src/common/CMakeFiles/srsran_common.dir/flags.make
 lib/src/common/CMakeFiles/srsran_common.dir/gen_mch_tables.c.o: ../lib/src/common/gen_mch_tables.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object lib/src/common/CMakeFiles/srsran_common.dir/gen_mch_tables.c.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/common && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srsran_common.dir/gen_mch_tables.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/common/gen_mch_tables.c
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/common && /usr/bin/ccache /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srsran_common.dir/gen_mch_tables.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/common/gen_mch_tables.c
 
 lib/src/common/CMakeFiles/srsran_common.dir/gen_mch_tables.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/srsran_common.dir/gen_mch_tables.c.i"
@@ -177,7 +177,7 @@ lib/src/common/CMakeFiles/srsran_common.dir/gen_mch_tables.c.s: cmake_force
 lib/src/common/CMakeFiles/srsran_common.dir/liblte_security.cc.o: lib/src/common/CMakeFiles/srsran_common.dir/flags.make
 lib/src/common/CMakeFiles/srsran_common.dir/liblte_security.cc.o: ../lib/src/common/liblte_security.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object lib/src/common/CMakeFiles/srsran_common.dir/liblte_security.cc.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsran_common.dir/liblte_security.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/common/liblte_security.cc
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/common && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsran_common.dir/liblte_security.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/common/liblte_security.cc
 
 lib/src/common/CMakeFiles/srsran_common.dir/liblte_security.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srsran_common.dir/liblte_security.cc.i"
@@ -190,7 +190,7 @@ lib/src/common/CMakeFiles/srsran_common.dir/liblte_security.cc.s: cmake_force
 lib/src/common/CMakeFiles/srsran_common.dir/mac_pcap.cc.o: lib/src/common/CMakeFiles/srsran_common.dir/flags.make
 lib/src/common/CMakeFiles/srsran_common.dir/mac_pcap.cc.o: ../lib/src/common/mac_pcap.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object lib/src/common/CMakeFiles/srsran_common.dir/mac_pcap.cc.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsran_common.dir/mac_pcap.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/common/mac_pcap.cc
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/common && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsran_common.dir/mac_pcap.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/common/mac_pcap.cc
 
 lib/src/common/CMakeFiles/srsran_common.dir/mac_pcap.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srsran_common.dir/mac_pcap.cc.i"
@@ -203,7 +203,7 @@ lib/src/common/CMakeFiles/srsran_common.dir/mac_pcap.cc.s: cmake_force
 lib/src/common/CMakeFiles/srsran_common.dir/mac_pcap_base.cc.o: lib/src/common/CMakeFiles/srsran_common.dir/flags.make
 lib/src/common/CMakeFiles/srsran_common.dir/mac_pcap_base.cc.o: ../lib/src/common/mac_pcap_base.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object lib/src/common/CMakeFiles/srsran_common.dir/mac_pcap_base.cc.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsran_common.dir/mac_pcap_base.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/common/mac_pcap_base.cc
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/common && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsran_common.dir/mac_pcap_base.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/common/mac_pcap_base.cc
 
 lib/src/common/CMakeFiles/srsran_common.dir/mac_pcap_base.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srsran_common.dir/mac_pcap_base.cc.i"
@@ -216,7 +216,7 @@ lib/src/common/CMakeFiles/srsran_common.dir/mac_pcap_base.cc.s: cmake_force
 lib/src/common/CMakeFiles/srsran_common.dir/nas_pcap.cc.o: lib/src/common/CMakeFiles/srsran_common.dir/flags.make
 lib/src/common/CMakeFiles/srsran_common.dir/nas_pcap.cc.o: ../lib/src/common/nas_pcap.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object lib/src/common/CMakeFiles/srsran_common.dir/nas_pcap.cc.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsran_common.dir/nas_pcap.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/common/nas_pcap.cc
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/common && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsran_common.dir/nas_pcap.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/common/nas_pcap.cc
 
 lib/src/common/CMakeFiles/srsran_common.dir/nas_pcap.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srsran_common.dir/nas_pcap.cc.i"
@@ -229,7 +229,7 @@ lib/src/common/CMakeFiles/srsran_common.dir/nas_pcap.cc.s: cmake_force
 lib/src/common/CMakeFiles/srsran_common.dir/network_utils.cc.o: lib/src/common/CMakeFiles/srsran_common.dir/flags.make
 lib/src/common/CMakeFiles/srsran_common.dir/network_utils.cc.o: ../lib/src/common/network_utils.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object lib/src/common/CMakeFiles/srsran_common.dir/network_utils.cc.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsran_common.dir/network_utils.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/common/network_utils.cc
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/common && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsran_common.dir/network_utils.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/common/network_utils.cc
 
 lib/src/common/CMakeFiles/srsran_common.dir/network_utils.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srsran_common.dir/network_utils.cc.i"
@@ -242,7 +242,7 @@ lib/src/common/CMakeFiles/srsran_common.dir/network_utils.cc.s: cmake_force
 lib/src/common/CMakeFiles/srsran_common.dir/mac_pcap_net.cc.o: lib/src/common/CMakeFiles/srsran_common.dir/flags.make
 lib/src/common/CMakeFiles/srsran_common.dir/mac_pcap_net.cc.o: ../lib/src/common/mac_pcap_net.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object lib/src/common/CMakeFiles/srsran_common.dir/mac_pcap_net.cc.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsran_common.dir/mac_pcap_net.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/common/mac_pcap_net.cc
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/common && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsran_common.dir/mac_pcap_net.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/common/mac_pcap_net.cc
 
 lib/src/common/CMakeFiles/srsran_common.dir/mac_pcap_net.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srsran_common.dir/mac_pcap_net.cc.i"
@@ -255,7 +255,7 @@ lib/src/common/CMakeFiles/srsran_common.dir/mac_pcap_net.cc.s: cmake_force
 lib/src/common/CMakeFiles/srsran_common.dir/pcap.c.o: lib/src/common/CMakeFiles/srsran_common.dir/flags.make
 lib/src/common/CMakeFiles/srsran_common.dir/pcap.c.o: ../lib/src/common/pcap.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object lib/src/common/CMakeFiles/srsran_common.dir/pcap.c.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/common && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srsran_common.dir/pcap.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/common/pcap.c
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/common && /usr/bin/ccache /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srsran_common.dir/pcap.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/common/pcap.c
 
 lib/src/common/CMakeFiles/srsran_common.dir/pcap.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/srsran_common.dir/pcap.c.i"
@@ -268,7 +268,7 @@ lib/src/common/CMakeFiles/srsran_common.dir/pcap.c.s: cmake_force
 lib/src/common/CMakeFiles/srsran_common.dir/phy_cfg_nr.cc.o: lib/src/common/CMakeFiles/srsran_common.dir/flags.make
 lib/src/common/CMakeFiles/srsran_common.dir/phy_cfg_nr.cc.o: ../lib/src/common/phy_cfg_nr.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object lib/src/common/CMakeFiles/srsran_common.dir/phy_cfg_nr.cc.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsran_common.dir/phy_cfg_nr.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/common/phy_cfg_nr.cc
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/common && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsran_common.dir/phy_cfg_nr.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/common/phy_cfg_nr.cc
 
 lib/src/common/CMakeFiles/srsran_common.dir/phy_cfg_nr.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srsran_common.dir/phy_cfg_nr.cc.i"
@@ -281,7 +281,7 @@ lib/src/common/CMakeFiles/srsran_common.dir/phy_cfg_nr.cc.s: cmake_force
 lib/src/common/CMakeFiles/srsran_common.dir/phy_cfg_nr_default.cc.o: lib/src/common/CMakeFiles/srsran_common.dir/flags.make
 lib/src/common/CMakeFiles/srsran_common.dir/phy_cfg_nr_default.cc.o: ../lib/src/common/phy_cfg_nr_default.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object lib/src/common/CMakeFiles/srsran_common.dir/phy_cfg_nr_default.cc.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsran_common.dir/phy_cfg_nr_default.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/common/phy_cfg_nr_default.cc
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/common && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsran_common.dir/phy_cfg_nr_default.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/common/phy_cfg_nr_default.cc
 
 lib/src/common/CMakeFiles/srsran_common.dir/phy_cfg_nr_default.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srsran_common.dir/phy_cfg_nr_default.cc.i"
@@ -294,7 +294,7 @@ lib/src/common/CMakeFiles/srsran_common.dir/phy_cfg_nr_default.cc.s: cmake_force
 lib/src/common/CMakeFiles/srsran_common.dir/rrc_common.cc.o: lib/src/common/CMakeFiles/srsran_common.dir/flags.make
 lib/src/common/CMakeFiles/srsran_common.dir/rrc_common.cc.o: ../lib/src/common/rrc_common.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object lib/src/common/CMakeFiles/srsran_common.dir/rrc_common.cc.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsran_common.dir/rrc_common.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/common/rrc_common.cc
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/common && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsran_common.dir/rrc_common.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/common/rrc_common.cc
 
 lib/src/common/CMakeFiles/srsran_common.dir/rrc_common.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srsran_common.dir/rrc_common.cc.i"
@@ -307,7 +307,7 @@ lib/src/common/CMakeFiles/srsran_common.dir/rrc_common.cc.s: cmake_force
 lib/src/common/CMakeFiles/srsran_common.dir/rlc_pcap.cc.o: lib/src/common/CMakeFiles/srsran_common.dir/flags.make
 lib/src/common/CMakeFiles/srsran_common.dir/rlc_pcap.cc.o: ../lib/src/common/rlc_pcap.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object lib/src/common/CMakeFiles/srsran_common.dir/rlc_pcap.cc.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsran_common.dir/rlc_pcap.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/common/rlc_pcap.cc
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/common && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsran_common.dir/rlc_pcap.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/common/rlc_pcap.cc
 
 lib/src/common/CMakeFiles/srsran_common.dir/rlc_pcap.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srsran_common.dir/rlc_pcap.cc.i"
@@ -320,7 +320,7 @@ lib/src/common/CMakeFiles/srsran_common.dir/rlc_pcap.cc.s: cmake_force
 lib/src/common/CMakeFiles/srsran_common.dir/s1ap_pcap.cc.o: lib/src/common/CMakeFiles/srsran_common.dir/flags.make
 lib/src/common/CMakeFiles/srsran_common.dir/s1ap_pcap.cc.o: ../lib/src/common/s1ap_pcap.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object lib/src/common/CMakeFiles/srsran_common.dir/s1ap_pcap.cc.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsran_common.dir/s1ap_pcap.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/common/s1ap_pcap.cc
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/common && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsran_common.dir/s1ap_pcap.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/common/s1ap_pcap.cc
 
 lib/src/common/CMakeFiles/srsran_common.dir/s1ap_pcap.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srsran_common.dir/s1ap_pcap.cc.i"
@@ -333,7 +333,7 @@ lib/src/common/CMakeFiles/srsran_common.dir/s1ap_pcap.cc.s: cmake_force
 lib/src/common/CMakeFiles/srsran_common.dir/ngap_pcap.cc.o: lib/src/common/CMakeFiles/srsran_common.dir/flags.make
 lib/src/common/CMakeFiles/srsran_common.dir/ngap_pcap.cc.o: ../lib/src/common/ngap_pcap.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object lib/src/common/CMakeFiles/srsran_common.dir/ngap_pcap.cc.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsran_common.dir/ngap_pcap.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/common/ngap_pcap.cc
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/common && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsran_common.dir/ngap_pcap.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/common/ngap_pcap.cc
 
 lib/src/common/CMakeFiles/srsran_common.dir/ngap_pcap.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srsran_common.dir/ngap_pcap.cc.i"
@@ -346,7 +346,7 @@ lib/src/common/CMakeFiles/srsran_common.dir/ngap_pcap.cc.s: cmake_force
 lib/src/common/CMakeFiles/srsran_common.dir/security.cc.o: lib/src/common/CMakeFiles/srsran_common.dir/flags.make
 lib/src/common/CMakeFiles/srsran_common.dir/security.cc.o: ../lib/src/common/security.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object lib/src/common/CMakeFiles/srsran_common.dir/security.cc.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Wno-deprecated-declarations -o CMakeFiles/srsran_common.dir/security.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/common/security.cc
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/common && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Wno-deprecated-declarations -o CMakeFiles/srsran_common.dir/security.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/common/security.cc
 
 lib/src/common/CMakeFiles/srsran_common.dir/security.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srsran_common.dir/security.cc.i"
@@ -359,7 +359,7 @@ lib/src/common/CMakeFiles/srsran_common.dir/security.cc.s: cmake_force
 lib/src/common/CMakeFiles/srsran_common.dir/standard_streams.cc.o: lib/src/common/CMakeFiles/srsran_common.dir/flags.make
 lib/src/common/CMakeFiles/srsran_common.dir/standard_streams.cc.o: ../lib/src/common/standard_streams.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object lib/src/common/CMakeFiles/srsran_common.dir/standard_streams.cc.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsran_common.dir/standard_streams.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/common/standard_streams.cc
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/common && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsran_common.dir/standard_streams.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/common/standard_streams.cc
 
 lib/src/common/CMakeFiles/srsran_common.dir/standard_streams.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srsran_common.dir/standard_streams.cc.i"
@@ -372,7 +372,7 @@ lib/src/common/CMakeFiles/srsran_common.dir/standard_streams.cc.s: cmake_force
 lib/src/common/CMakeFiles/srsran_common.dir/thread_pool.cc.o: lib/src/common/CMakeFiles/srsran_common.dir/flags.make
 lib/src/common/CMakeFiles/srsran_common.dir/thread_pool.cc.o: ../lib/src/common/thread_pool.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object lib/src/common/CMakeFiles/srsran_common.dir/thread_pool.cc.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsran_common.dir/thread_pool.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/common/thread_pool.cc
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/common && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsran_common.dir/thread_pool.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/common/thread_pool.cc
 
 lib/src/common/CMakeFiles/srsran_common.dir/thread_pool.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srsran_common.dir/thread_pool.cc.i"
@@ -385,7 +385,7 @@ lib/src/common/CMakeFiles/srsran_common.dir/thread_pool.cc.s: cmake_force
 lib/src/common/CMakeFiles/srsran_common.dir/threads.c.o: lib/src/common/CMakeFiles/srsran_common.dir/flags.make
 lib/src/common/CMakeFiles/srsran_common.dir/threads.c.o: ../lib/src/common/threads.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object lib/src/common/CMakeFiles/srsran_common.dir/threads.c.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/common && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srsran_common.dir/threads.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/common/threads.c
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/common && /usr/bin/ccache /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srsran_common.dir/threads.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/common/threads.c
 
 lib/src/common/CMakeFiles/srsran_common.dir/threads.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/srsran_common.dir/threads.c.i"
@@ -398,7 +398,7 @@ lib/src/common/CMakeFiles/srsran_common.dir/threads.c.s: cmake_force
 lib/src/common/CMakeFiles/srsran_common.dir/tti_sync_cv.cc.o: lib/src/common/CMakeFiles/srsran_common.dir/flags.make
 lib/src/common/CMakeFiles/srsran_common.dir/tti_sync_cv.cc.o: ../lib/src/common/tti_sync_cv.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object lib/src/common/CMakeFiles/srsran_common.dir/tti_sync_cv.cc.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsran_common.dir/tti_sync_cv.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/common/tti_sync_cv.cc
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/common && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsran_common.dir/tti_sync_cv.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/common/tti_sync_cv.cc
 
 lib/src/common/CMakeFiles/srsran_common.dir/tti_sync_cv.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srsran_common.dir/tti_sync_cv.cc.i"
@@ -411,7 +411,7 @@ lib/src/common/CMakeFiles/srsran_common.dir/tti_sync_cv.cc.s: cmake_force
 lib/src/common/CMakeFiles/srsran_common.dir/time_prof.cc.o: lib/src/common/CMakeFiles/srsran_common.dir/flags.make
 lib/src/common/CMakeFiles/srsran_common.dir/time_prof.cc.o: ../lib/src/common/time_prof.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object lib/src/common/CMakeFiles/srsran_common.dir/time_prof.cc.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsran_common.dir/time_prof.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/common/time_prof.cc
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/common && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsran_common.dir/time_prof.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/common/time_prof.cc
 
 lib/src/common/CMakeFiles/srsran_common.dir/time_prof.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srsran_common.dir/time_prof.cc.i"
@@ -424,7 +424,7 @@ lib/src/common/CMakeFiles/srsran_common.dir/time_prof.cc.s: cmake_force
 lib/src/common/CMakeFiles/srsran_common.dir/version.c.o: lib/src/common/CMakeFiles/srsran_common.dir/flags.make
 lib/src/common/CMakeFiles/srsran_common.dir/version.c.o: ../lib/src/common/version.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object lib/src/common/CMakeFiles/srsran_common.dir/version.c.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/common && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srsran_common.dir/version.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/common/version.c
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/common && /usr/bin/ccache /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srsran_common.dir/version.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/common/version.c
 
 lib/src/common/CMakeFiles/srsran_common.dir/version.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/srsran_common.dir/version.c.i"
@@ -437,7 +437,7 @@ lib/src/common/CMakeFiles/srsran_common.dir/version.c.s: cmake_force
 lib/src/common/CMakeFiles/srsran_common.dir/zuc.cc.o: lib/src/common/CMakeFiles/srsran_common.dir/flags.make
 lib/src/common/CMakeFiles/srsran_common.dir/zuc.cc.o: ../lib/src/common/zuc.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object lib/src/common/CMakeFiles/srsran_common.dir/zuc.cc.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsran_common.dir/zuc.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/common/zuc.cc
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/common && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsran_common.dir/zuc.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/common/zuc.cc
 
 lib/src/common/CMakeFiles/srsran_common.dir/zuc.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srsran_common.dir/zuc.cc.i"
@@ -450,7 +450,7 @@ lib/src/common/CMakeFiles/srsran_common.dir/zuc.cc.s: cmake_force
 lib/src/common/CMakeFiles/srsran_common.dir/s3g.cc.o: lib/src/common/CMakeFiles/srsran_common.dir/flags.make
 lib/src/common/CMakeFiles/srsran_common.dir/s3g.cc.o: ../lib/src/common/s3g.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object lib/src/common/CMakeFiles/srsran_common.dir/s3g.cc.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsran_common.dir/s3g.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/common/s3g.cc
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/common && /usr/bin/ccache /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srsran_common.dir/s3g.cc.o -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/common/s3g.cc
 
 lib/src/common/CMakeFiles/srsran_common.dir/s3g.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srsran_common.dir/s3g.cc.i"

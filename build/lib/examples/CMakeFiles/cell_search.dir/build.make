@@ -60,7 +60,7 @@ include lib/examples/CMakeFiles/cell_search.dir/flags.make
 lib/examples/CMakeFiles/cell_search.dir/cell_search.c.o: lib/examples/CMakeFiles/cell_search.dir/flags.make
 lib/examples/CMakeFiles/cell_search.dir/cell_search.c.o: ../lib/examples/cell_search.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object lib/examples/CMakeFiles/cell_search.dir/cell_search.c.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/examples && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/cell_search.dir/cell_search.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/examples/cell_search.c
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/examples && /usr/bin/ccache /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/cell_search.dir/cell_search.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/examples/cell_search.c
 
 lib/examples/CMakeFiles/cell_search.dir/cell_search.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cell_search.dir/cell_search.c.i"

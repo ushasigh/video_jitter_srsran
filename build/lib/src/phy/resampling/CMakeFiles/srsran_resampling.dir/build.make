@@ -60,7 +60,7 @@ include lib/src/phy/resampling/CMakeFiles/srsran_resampling.dir/flags.make
 lib/src/phy/resampling/CMakeFiles/srsran_resampling.dir/decim.c.o: lib/src/phy/resampling/CMakeFiles/srsran_resampling.dir/flags.make
 lib/src/phy/resampling/CMakeFiles/srsran_resampling.dir/decim.c.o: ../lib/src/phy/resampling/decim.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object lib/src/phy/resampling/CMakeFiles/srsran_resampling.dir/decim.c.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/phy/resampling && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srsran_resampling.dir/decim.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/phy/resampling/decim.c
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/phy/resampling && /usr/bin/ccache /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srsran_resampling.dir/decim.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/phy/resampling/decim.c
 
 lib/src/phy/resampling/CMakeFiles/srsran_resampling.dir/decim.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/srsran_resampling.dir/decim.c.i"
@@ -73,7 +73,7 @@ lib/src/phy/resampling/CMakeFiles/srsran_resampling.dir/decim.c.s: cmake_force
 lib/src/phy/resampling/CMakeFiles/srsran_resampling.dir/interp.c.o: lib/src/phy/resampling/CMakeFiles/srsran_resampling.dir/flags.make
 lib/src/phy/resampling/CMakeFiles/srsran_resampling.dir/interp.c.o: ../lib/src/phy/resampling/interp.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object lib/src/phy/resampling/CMakeFiles/srsran_resampling.dir/interp.c.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/phy/resampling && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srsran_resampling.dir/interp.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/phy/resampling/interp.c
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/phy/resampling && /usr/bin/ccache /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srsran_resampling.dir/interp.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/phy/resampling/interp.c
 
 lib/src/phy/resampling/CMakeFiles/srsran_resampling.dir/interp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/srsran_resampling.dir/interp.c.i"
@@ -86,7 +86,7 @@ lib/src/phy/resampling/CMakeFiles/srsran_resampling.dir/interp.c.s: cmake_force
 lib/src/phy/resampling/CMakeFiles/srsran_resampling.dir/resample_arb.c.o: lib/src/phy/resampling/CMakeFiles/srsran_resampling.dir/flags.make
 lib/src/phy/resampling/CMakeFiles/srsran_resampling.dir/resample_arb.c.o: ../lib/src/phy/resampling/resample_arb.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object lib/src/phy/resampling/CMakeFiles/srsran_resampling.dir/resample_arb.c.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/phy/resampling && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srsran_resampling.dir/resample_arb.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/phy/resampling/resample_arb.c
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/phy/resampling && /usr/bin/ccache /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srsran_resampling.dir/resample_arb.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/phy/resampling/resample_arb.c
 
 lib/src/phy/resampling/CMakeFiles/srsran_resampling.dir/resample_arb.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/srsran_resampling.dir/resample_arb.c.i"
@@ -99,7 +99,7 @@ lib/src/phy/resampling/CMakeFiles/srsran_resampling.dir/resample_arb.c.s: cmake_
 lib/src/phy/resampling/CMakeFiles/srsran_resampling.dir/resampler.c.o: lib/src/phy/resampling/CMakeFiles/srsran_resampling.dir/flags.make
 lib/src/phy/resampling/CMakeFiles/srsran_resampling.dir/resampler.c.o: ../lib/src/phy/resampling/resampler.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wcsng-24/gitrepos/srsRAN_ushasi/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object lib/src/phy/resampling/CMakeFiles/srsran_resampling.dir/resampler.c.o"
-	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/phy/resampling && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srsran_resampling.dir/resampler.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/phy/resampling/resampler.c
+	cd /home/wcsng-24/gitrepos/srsRAN_ushasi/build/lib/src/phy/resampling && /usr/bin/ccache /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/srsran_resampling.dir/resampler.c.o   -c /home/wcsng-24/gitrepos/srsRAN_ushasi/lib/src/phy/resampling/resampler.c
 
 lib/src/phy/resampling/CMakeFiles/srsran_resampling.dir/resampler.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/srsran_resampling.dir/resampler.c.i"
